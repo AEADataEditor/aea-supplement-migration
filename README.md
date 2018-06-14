@@ -39,3 +39,9 @@ There are a few links that CrossRef allows the journal to incorporate (see https
 CrossRef says
 
   When DOIs are used a bidirectional relation is automatically created when a relation is created in the deposit of one item in a pair. The DOI deposited with metadata creating the relation is said to be the claimant, the other item does not need to have its metadata directly contain the relationship.
+
+# Implementation
+- Scripts (Python?) to populate the BagIt format? Who?
+- Timeframe?
+- Setup of a "AEA Portal"
+- Setup of a future deposit and sharing facility?
