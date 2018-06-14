@@ -12,6 +12,7 @@ The receiving repository should have several attributes/facilities.
 - metadata-driven link to original article (using CrossRef/DataCite facility) [[1](https://support.crossref.org/hc/en-us/articles/214357426)]
 - metadata-driven link to any other article that uses or references the data
 - AEA branding
+- attach article keywords to the data?
 
 ### Administrative
 - ability to use the AEA DOI namespace
