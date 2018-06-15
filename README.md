@@ -10,6 +10,9 @@ The receiving repository should have several attributes/facilities.
 
 ### User-facing
 - metadata-driven link to original article (using CrossRef/DataCite facility) [[1](https://support.crossref.org/hc/en-us/articles/214357426)]
+  - on ICPSR, showing both link, relationship, and citation(s) of article
+     relationship comes 
+  - on AEA, showing both link 
 - metadata-driven link to any other article that uses or references the data
 - AEA branding
 - attach article keywords to the data?
@@ -20,7 +23,11 @@ The receiving repository should have several attributes/facilities.
 - track usage
 
 ## Challenges
-- ICPSR uses DataCite for DOI, AEA uses CrossRef for DOI
+- ICPSR uses DataCite for DOI, AEA uses CrossRef for DOI - use of semantics in DOI? 
+  - AEA prefix on DataCite? 
+  - Registering data on CrossRef?
+  - ICPSR prefix with AEA-style suffix
+  - ICPSR works through DARA with DataCite
 - Sign-in for download?
 - Licenses? Copyright?
 - Link to Github/Gitlab/etc. for code deposit
