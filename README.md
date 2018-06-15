@@ -27,6 +27,11 @@ The receiving repository should have several attributes/facilities.
   - do JEL codes exist as XML or JSON? See linked XML here: https://www.aeaweb.org/econlit/jelCodes.php
   - TODO: can they be integrated as a separate metadata field? With or without validation? With specific searchability? [JARED]
 
+## Cost of Portal
+  - Branded portal costs: https://www.openicpsr.org/openicpsr/repository/
+  - Historic ingest: [JARED] will figure out
+  - Converting into BagIt or other: [LARS]
+  
 ### Administrative
 - track usage 
   - https://www.openicpsr.org/openicpsr/repository/
@@ -54,9 +59,20 @@ The receiving repository should have several attributes/facilities.
 - Link to Github/Gitlab/etc. for code deposit
 - Link to Dropbox, Box, OSF, etc. for deposit
   - OSF is staging for active research, then archive it from there
-- Generically, API for programmatic, rather than manual, deposit (SWORD2?)
-- What about user-initiated openICPSR deposits that are subsequently related to AEA? "Virtual" portal/ reassignment? Manual? Automatic, based on DOI or prov link of related article?
+- Generically, API for programmatic, rather than manual, deposit (SWORD2?) - still looking for funding...
 
+- What about user-initiated openICPSR deposits that are subsequently related to AEA? "Virtual" portal/ reassignment? Manual? Automatic, based on DOI or prov link of related article?
+  - fields and licenses?
+  - download statistics OK
+  - customized metadata OK
+  - harvesting metadata (DataPass style) on the openICPSR AEA portal? [JARED]
+
+## Historical Ingest
+- BagIt format https://en.wikipedia.org/wiki/BagIt (confirmed? JARED)
+- Needs metadata (provided by Lars, shell/template provided by Jared)
+  - date of first publication
+  - title (conversion from article)
+  - other elements?
 
 ## Relationships
 There are a few links that CrossRef allows the journal to incorporate (see https://support.crossref.org/hc/en-us/articles/214357426) 
