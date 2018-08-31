@@ -1,0 +1,24 @@
+Label,Ontology,Term,Remarks
+,icpsr,publishStatus,
+,icpsr,objectType,
+,citeproc,json,dynamically generated
+,icpsr,chdate,
+,icpsr,containerType,
+,icpsr,credate,
+,icpsr,enclaveData,
+,icpsr,idars,
+,icpsr,resourceUUID,
+,icpsr,restGroupId,
+,icpsr,restPermit,
+,icpsr,restTermsId,
+,icpsr,restrictedData,
+,icpsr,useAgreement,
+,icpsr,vde,
+,icpsr,wellBundled,
+,imeta,archive,
+,imeta,classifications,
+,imeta,freeData,
+,imeta,memservPi,flattens dcterms:creator
+,imeta,nonStandardData,
+,imeta,owner,
+,imeta,tag,duplicates dcat:keyword
