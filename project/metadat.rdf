@@ -1,0 +1,86 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:disco="http://rdf-vocabulary.ddialliance.org/discovery#"
+    xmlns:schema="http://schema.org/"
+    xmlns:icpsr="http://icpsr.umich.edu/study#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:imeta="http://icpsr.umich.edu/imeta#"
+    xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:premis="http://www.loc.gov/premis/rdf/v1#"
+    xmlns:citeproc="https://github.com/citation-style-language/schema/blob/master/csl-data#"
+    xmlns:ore="http://www.openarchives.org/ore/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:cito="http://purl.org/spar/cito#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="file://root/project/timeperiod/0">
+    <schema:endDate>2018-12-31</schema:endDate>
+    <schema:startDate>2015-01-01</schema:startDate>
+    <dcterms:description>Between year 2015 and 2018</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project/inner-folder">
+    <dcterms:description>This is an inner folder with more data files</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project#timeperiods">
+    <rdf:_1>file://root/project/timeperiod/0</rdf:_1>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project">
+    <imeta:timeperiods>file://root/project#timeperiods</imeta:timeperiods>
+    <imeta:fundingSources>file://root/project#fundingSources</imeta:fundingSources>
+    <imeta:publications>file://root/project#publications</imeta:publications>
+    <imeta:distributor>file://root/project#distributor</imeta:distributor>
+    <dcterms:description>&lt;p&gt;This may contain hhtml content describing the resources&lt;/p&gt;</dcterms:description>
+    <dcterms:creator>file://root/project#creator</dcterms:creator>
+    <dcterms:agent>file://root/project/people/0</dcterms:agent>
+    <dcterms:alternative>This is an alternative title</dcterms:alternative>
+    <dcterms:title>This is a sample title</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project#distributor">
+    <rdf:_2>University of State</rdf:_2>
+    <rdf:_1>ICPSR</rdf:_1>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project#publications">
+    <rdf:_2>file://root/project/citations/citation_94551.ris</rdf:_2>
+    <rdf:_1>file://root/project/citations/citation_94550.ris</rdf:_1>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project#fundingSources">
+    <rdf:_1>file://root/project/fundingSource/0</rdf:_1>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project/people/1">
+    <foaf:member>University of County</foaf:member>
+    <foaf:mbox>test@email.com</foaf:mbox>
+    <foaf:lastName>Spade</foaf:lastName>
+    <foaf:firstName>Kate</foaf:firstName>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project/organization/0">
+    <icpsr:orgName>University of Example</icpsr:orgName>
+    <icpsr:orgId>23233</icpsr:orgId>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project/people/0">
+    <foaf:member>University of State</foaf:member>
+    <foaf:mbox>test@email.com</foaf:mbox>
+    <foaf:lastName>Doe</foaf:lastName>
+    <foaf:firstName>John</foaf:firstName>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project#creator">
+    <rdf:_3>file://root/project/people/1</rdf:_3>
+    <rdf:_2>file://root/project/people/0</rdf:_2>
+    <rdf:_1>file://root/project/organizations/0</rdf:_1>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project/inner-folder/codebook.pdf">
+    <icpsr:MD5>5a4eb3dcf78648dbf3ab0070e6d82718</icpsr:MD5>
+    <icpsr:fileContentType>application/pdf</icpsr:fileContentType>
+    <dcterms:description>This is code book PDF document within inner-folder</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="file://root/project/fundingSource/0">
+    <dcterms:title>Grant Number 232323</dcterms:title>
+    <foaf:organization>Federal Agency NA</foaf:organization>
+  </rdf:Description>
+</rdf:RDF>
