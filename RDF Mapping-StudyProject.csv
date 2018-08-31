@@ -34,6 +34,7 @@ Version History,imeta,collectionChanges,Seq/complex,???,Currently implemented as
 Original ICPSR Release,dcterms,created,Date,???,
 Date Updated,dcterms,modified,Date,???,
 Related Publications,cito,isCitedBy,Seq/URI,,
+JEL classification,dcterms,subject,String,,Might need to reference JEL XML explicitly
 ,,,,,
 People,,,,,
 First Name,foaf,givenName,,,

@@ -14,7 +14,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:dcat="http://www.w3.org/ns/dcat#"
     xmlns:cito="http://purl.org/spar/cito#"
-    xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:datacite="https://schema.datacite.org/meta/kernel-4.1/metadata.xsd"
+    > 
   <rdf:Description rdf:about="file://root/project/data">
     <dcterms:description>This is a folder with data files</dcterms:description>
   </rdf:Description>
@@ -34,7 +36,9 @@
   <rdf:Description rdf:about="file://root/project#publications">
     <rdf:_1>file://root/project/citations/APP_8_2_123_53.ris</rdf:_1>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <datacite:relationType>IsSupplementTo</datacite:relationType>
   </rdf:Description>
+  <datacite:relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo">10.1257/app.20140362</datacite:relatedIdentifier>
   <rdf:Description rdf:about="file://root/project/people/1">
     <foaf:lastName>Zylberberg</foaf:lastName>
     <foaf:firstName>Yanos</foaf:firstName>
