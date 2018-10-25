@@ -11,24 +11,29 @@ The receiving repository should have several attributes/facilities.
 ### User-facing
 - metadata-driven link to original article (using CrossRef/DataCite facility) [[1](https://support.crossref.org/hc/en-us/articles/214357426)]
   - on ICPSR, showing both link, relationship, and citation(s) of article
-     - [TODO] relationship comes from the "IsSupplement" link in DataCite Metadata
-     - [TODO] citation comes from Scholix/etc. and could be other articles, not just the original article
+     - relationship comes from the "IsSupplement" link in DataCite Metadata
+     - citation comes from Scholix/etc. and could be other articles, not just the original article
      - currently: citations come from ICPSR-curated bibliography or openICPSR manual entry; relationship (currently) comes from marking a publication as "primary" manually
-  - on AEA, showing both link
+     - TODO: clarify what is feasible/when
+  - on AEA, showing both link 
      - relationship comes from "HasSupplement" (?), see https://aeadataeditor.github.io/aea-supplementary-demo/better.html for an example
      - cites would come only if the article actually cites the supplement, and is driven by the regular references (needs new AEA style guide)
      - TODO: update CrossRef registration with linked supplements
 - metadata-driven link to any other article that uses or references the data
 - AEA branding
 - attach article keywords to the data
-  - JEL taxonomy - can  be entered, but cannot yet be validated upon entry
+  - JEL taxonomy - can it be entered and separately can it be validated? Does it need to be validated (ingest from Manuscript Central submission?)
   - JEL guide: https://www.aeaweb.org/jel/guide/jel.php
-- Size
-  - Technically a 2GB limit (configurable) is placed on individual file size
-  - Currently no limit on "project" or "deposits"
+  - do JEL codes exist as XML or JSON? See linked XML here: https://www.aeaweb.org/econlit/jelCodes.php
+  - TODO: can they be integrated as a separate metadata field? With or without validation? With specific searchability? [JARED]
 
+## Cost of Portal
+  - Branded portal costs: https://www.openicpsr.org/openicpsr/repository/
+  - Historic ingest: [JARED] will figure out
+  - Converting into BagIt or other: [LARS]
+  
 ### Administrative
-- track usage
+- track usage 
   - https://www.openicpsr.org/openicpsr/repository/
   - per-portal
   - per-object
@@ -36,19 +41,21 @@ The receiving repository should have several attributes/facilities.
   - programmatic access coming, human-viewable coming first
 
 ## Challenges
-- DOI prefix will change from AEA to ICPSR.
-  - Sign-in for download? is this an issue? [LARS]
-- Copyright
-  - AEA holds the copyright to article, supplements, supplementary materials (including code) for historical materials
-  - AEA will NOT hold the copyright on either data or code on future deposits in either the AEA Code and Data Repository or in third-party repositories
-- Licenses
-  - Historic ingest: Currently, the AER currently does NOT assign any automatic license to supplements
-  - Relicensing under CC-BY 4.0? [LARS]
+- ICPSR uses DataCite for DOI, AEA uses CrossRef for DOI - use of semantics in DOI? 
+  - AEA prefix on DataCite? 
+  - Registering data on CrossRef?
+  - ICPSR prefix with AEA-style suffix <- [JARED]
+  - ICPSR works through DARA with DataCite
+- Sign-in for download?
+  - is this an issue? [LARS]
+- Licenses? Copyright?
+  - Historic ingest: What license does AER currently assign to supplements (implicitly or explicitly)? Relicensing under CC-BY 4.0?
+ [LARS]
   - What license can the user choose on openICPSR, if any (currently: CC-BY 4.0 only)? [JARED]
   - Going forward, what are the licensing options? [JARED]
   - Going forward, restricted access: https://www.icpsr.umich.edu/icpsrweb/content/ICPSR/access/restricted/index.html
 
-## Desirable Workflow improvements
+## Workflow improvements
 - Link to Github/Gitlab/etc. for code deposit
 - Link to Dropbox, Box, OSF, etc. for deposit
   - OSF is staging for active research, then archive it from there
@@ -67,10 +74,19 @@ The receiving repository should have several attributes/facilities.
   - title (conversion from article)
   - other elements?
 
-# Implementation of the migration
-- Scripts (Python?) to populate the custom ICPSR format:
-  - specs provided by ICPSR [as XLSX](RDF Mapping.xlsx) and as [derived CSV](RDF Mapping-StudyProject.csv)
-- Timeframe
-  - opening up of AEA portal on Jan 1, 2019 [tentative]
-  - migration of historic content by Feb 28, 2019 [tentative]
-  - announcement in "Report by the Data Editor" and blog posts when it actually happens.
+## Relationships
+There are a few links that CrossRef allows the journal to incorporate (see https://support.crossref.org/hc/en-us/articles/214357426) 
+
+- Dataset generated as part of research results 	"isSupplementedBy"
+- Dataset produced by a different set of researchers or previously published 	"references"
+- Preprint 	"hasPreprint"
+
+CrossRef says
+
+  When DOIs are used a bidirectional relation is automatically created when a relation is created in the deposit of one item in a pair. The DOI deposited with metadata creating the relation is said to be the claimant, the other item does not need to have its metadata directly contain the relationship.
+
+# Implementation
+- Scripts (Python?) to populate the BagIt format? Who?
+- Timeframe?
+- Setup of a "AEA Portal"
+- Setup of a future deposit and sharing facility?
