@@ -15,7 +15,7 @@
     xmlns:dcat="http://www.w3.org/ns/dcat#"
     xmlns:cito="http://purl.org/spar/cito#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
-  <rdf:Description rdf:about="file://root/project/timeperiod/0">
+  <rdf:Description rdf:about="file://root/project/timePeriod/0">
     <schema:endDate>2018-12-31</schema:endDate>
     <schema:startDate>2015-01-01</schema:startDate>
     <dcterms:description>Between year 2015 and 2018</dcterms:description>
@@ -23,12 +23,12 @@
   <rdf:Description rdf:about="file://root/project/inner-folder">
     <dcterms:description>This is an inner folder with more data files</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="file://root/project#timeperiods">
-    <rdf:_1>file://root/project/timeperiod/0</rdf:_1>
+  <rdf:Description rdf:about="file://root/project#timePeriods">
+    <rdf:_1>file://root/project/timePeriod/0</rdf:_1>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
   </rdf:Description>
   <rdf:Description rdf:about="file://root/project">
-    <imeta:timeperiods>file://root/project#timeperiods</imeta:timeperiods>
+    <imeta:timePeriods>file://root/project#timePeriods</imeta:timePeriods>
     <imeta:fundingSources>file://root/project#fundingSources</imeta:fundingSources>
     <imeta:publications>file://root/project#publications</imeta:publications>
     <imeta:distributor>file://root/project#distributor</imeta:distributor>
