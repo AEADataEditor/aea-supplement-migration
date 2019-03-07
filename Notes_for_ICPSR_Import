@@ -1,0 +1,30 @@
+1. agent, as specified in the specs is just one person and not a seq of persons. agent requires an email Id(foaf:mbox) for the person. 
+3. In other terms agent is the owner and creator(s) are the primary investigator(s). The agent can be a creator but not all creators are agent. One agent per project/study and multiple creators can exist, for the study.
+2. person has required fields : First Name, Last Name
+Note : if using the same person for agent and creator, make sure the person has email Id (foaf:mbox)
+3. This may be trivial but the nodes which describe the file in the data folder should have url as "file://root/project/data/P2016_1014_data/RRT_GlobalCycles.do" instead of "file://root/project/P2016_1014_data/RRT_GlobalCycles.do". 
+4. In ICPSR we map subject terms to dcat:keyword and jelClassification to imeta:jelClassification. So in order to avoid confusion you can map subject terms (if any) at "file://root/project#keyword" and the jel classification codes at "file://root/project#jelClassification". This way we could totally avoid using the term "subject" in the metadata file. which would look something like this : 
+<rdf:Description rdf:about="file://root/project">
+        ....
+       <dcat:keyword>file://root/project#keyword</dcat:keyword>
+       <imeta:jelClassification>file://root/project#jelClassification</imeta:jelClassification>
+</rdf:Description>
+<rdf:Description rdf:about="file://root/project#keyword">
+        <rdf:_1>J61 Geographic Labor Mobility; Immigrant Workers</rdf:_1>
+        <rdf:_2>O15 Economic Development: Human Resources; Human Development; Income Distribution; Migration</rdf:_2>
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+</rdf:Description>
+<rdf:Description rdf:about="file://root/project#jelClassification">
+       <rdf:_1>J61</rdf:_1>
+       <rdf:_2>O15</rdf:_2>
+       <rdf:_3>P25</rdf:_3>
+       <rdf:_4>P36</rdf:_4>
+       <rdf:_5>Q54</rdf:_5>
+       <rdf:_6>R23</rdf:_6>
+       <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+</rdf:Description>
+<rdf:Description rdf:about="file://root/project/data/20140404_dofiles/BaselineResults.do">
+       <icpsr:fileContentType>text/plain</icpsr:fileContentType>
+       <dcterms:description>BaselineResults.do</dcterms:description>
+       <icpsr:MD5>f992da949d9131b18271fed326e3908c</icpsr:MD5>
+</rdf:Description>
