@@ -28,3 +28,4 @@ Note : if using the same person for agent and creator, make sure the person has 
        <dcterms:description>BaselineResults.do</dcterms:description>
        <icpsr:MD5>f992da949d9131b18271fed326e3908c</icpsr:MD5>
 </rdf:Description>
+5. I found 1 or 2 of the projects did not have a <dcterms:description> under the <rdf:Description rdf:about="file://root/project">, this is a required field
