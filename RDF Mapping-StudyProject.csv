@@ -7,6 +7,7 @@ Alternative Title,dcterms,alternative,String,,
 Principal Investigators,dcterms,creator,Seq/complex,Yes,
 Distributor,imeta,distributor,Seq/String,,
 Publisher,imeta,publisher,Seq/String,,
+Copyright Holder,dcterms,rightsHolder,Seq/String,,
 Bibliographic Citation,imeta,citation,String,,auto-generated
 Summary,dcterms ,description,String,Yes,
 Series,dcterms,isPartOf,URI,,
