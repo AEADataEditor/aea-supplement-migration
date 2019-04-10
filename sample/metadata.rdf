@@ -1,4 +1,4 @@
-<rdf:RDF
+n <rdf:RDF
 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 		xmlns:disco="http://rdf-vocabulary.ddialliance.org/discovery#"
 		xmlns:schema="http://schema.org/"
@@ -35,7 +35,7 @@
 			
 			<dcterms:creator>file://root/project#creator</dcterms:creator>
 			<imeta:distributor>file://root/project#distributor</imeta:distributor>
-			<imeta:publisher>file://root/project#publisher</imeta:publisher>
+			<imeta:publisher>American Economic Association</imeta:publisher>
 			<dcterms:fundingSources>file://root/project#fundingSources</dcterms:fundingSources>
 			<dcat:keyword>file://root/project#keyword</dcat:keyword>
 			<dcterms:location>file://root/project#location</dcterms:location>
@@ -46,7 +46,7 @@
 			<disco:analysisUnit>file://root/project#analysisUnit</disco:analysisUnit>
 			<imeta:jelClassification>file://root/project#jelClassification</imeta:jelClassification>
 			<imeta:publications>file://root/project#publications</imeta:publications>
-			<dcterms:agent>file://root/project#agent</dcterms:agent>
+			<dcterms:agent>file://root/project/people/2</dcterms:agent>
 			<dcterms:rightsHolder>file://root/project#rightsHolder</dcterms:rightsHolder>
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#creator">
@@ -74,10 +74,6 @@
 	<rdf:Description rdf:about="file://root/project#distributor">
 			<rdf:_2>AEA Data and Code Repository</rdf:_2>
 			<rdf:_1>ICPSR</rdf:_1>
-			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
-	</rdf:Description>
-	<rdf:Description rdf:about="file://root/project#publisher">
-			<rdf:_1>AEA Data and Code Repository</rdf:_1>
 			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#fundingSources">
@@ -139,10 +135,6 @@
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#publications">
 			<rdf:_1>file://root/project/citations/APP_8_2_123_53.ris</rdf:_1>
-			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
-	</rdf:Description>
-	<rdf:Description rdf:about="file://root/project#agent">
-			<rdf:_1>file://root/project/people/2</rdf:_1>
 			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project/people/2">
