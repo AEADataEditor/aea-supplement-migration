@@ -35,6 +35,7 @@
 			
 			<dcterms:creator>file://root/project#creator</dcterms:creator>
 			<imeta:distributor>file://root/project#distributor</imeta:distributor>
+			<imeta:publisher>file://root/project#publisher</imeta:publisher>
 			<dcterms:fundingSources>file://root/project#fundingSources</dcterms:fundingSources>
 			<dcat:keyword>file://root/project#keyword</dcat:keyword>
 			<dcterms:location>file://root/project#location</dcterms:location>
@@ -46,6 +47,7 @@
 			<imeta:jelClassification>file://root/project#jelClassification</imeta:jelClassification>
 			<imeta:publications>file://root/project#publications</imeta:publications>
 			<dcterms:agent>file://root/project#agent</dcterms:agent>
+			<dcterms:rightsHolder>file://root/project#rightsHolder</dcterms:rightsHolder>
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#creator">
 			<rdf:_3>file://root/project/organization/0</rdf:_3>
@@ -72,6 +74,10 @@
 	<rdf:Description rdf:about="file://root/project#distributor">
 			<rdf:_2>AEA Data and Code Repository</rdf:_2>
 			<rdf:_1>ICPSR</rdf:_1>
+			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="file://root/project#publisher">
+			<rdf:_1>AEA Data and Code Repository</rdf:_1>
 			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#fundingSources">
@@ -144,6 +150,14 @@
 			<foaf:givenName>Ansdsree</foaf:givenName>
 			<foaf:member>ssaUniversity of State Michigan</foaf:member>
 			<foaf:mbox>test11@email.com</foaf:mbox>
+	</rdf:Description>
+	<rdf:Description rdf:about="file://root/project#rightsHolder">
+			<rdf:_1>file://root/project/organization/1</rdf:_1>
+			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="file://root/project/organization/1">
+			<icpsr:orgName>AEA</icpsr:orgName>
+			<icpsr:orgId>23233</icpsr:orgId><!--optional-->
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#jelClassification">
 			<rdf:_1>J61</rdf:_1>
