@@ -26,11 +26,12 @@
 			
 			<dcterms:creator>file://root/project#creator</dcterms:creator>
 			<imeta:distributor>file://root/project#distributor</imeta:distributor>
-			<imeta:publisher>file://root/project#publisher</imeta:publisher>
+			<imeta:publisher>American Economic Association</imeta:publisher>
 			<dcat:keyword>file://root/project#keyword</dcat:keyword>
 			<imeta:jelClassification>file://root/project#jelClassification</imeta:jelClassification>
 			<imeta:publications>file://root/project#publications</imeta:publications>
-			<dcterms:agent>file://root/project#agent</dcterms:agent>
+			<dcterms:agent>file://root/project/people/2</dcterms:agent>
+			<dcterms:rightsHolder>file://root/project#rightsHolder</dcterms:rightsHolder>
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#creator">
 			<rdf:_3>file://root/project/organization/0</rdf:_3>
@@ -80,15 +81,19 @@
 			<rdf:_1>file://root/project/citations/APP_8_2_123_53.ris</rdf:_1>
 			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
 	</rdf:Description>
-	<rdf:Description rdf:about="file://root/project#agent">
-			<rdf:_1>file://root/project/people/2</rdf:_1>
-			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
-	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project/people/2">
 			<foaf:familyName>Data Editor</foaf:familyName>
 			<foaf:givenName>AEA</foaf:givenName>
 			<foaf:member>American Economic Association</foaf:member>
 			<foaf:mbox>dataeditor@aeaweb.org</foaf:mbox>
+	</rdf:Description>
+	<rdf:Description rdf:about="file://root/project#rightsHolder">
+			<rdf:_1>file://root/project/organization/1</rdf:_1>
+			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="file://root/project/organization/1">
+			<icpsr:orgName>AEA</icpsr:orgName>
+			<icpsr:orgId>23233</icpsr:orgId><!--optional-->
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#jelClassification">
 			<rdf:_1>J61</rdf:_1>

@@ -1,12 +1,13 @@
 Label,Ontology,Term,Type,Required,Remarks
 Study/Project,,,,,
 Author/Owner,dcterms,agent,People,,
+Actual rights holder,dcterms,rightsHolder,People/Organization,,
 ID,dcterms,identifier,Integer,Yes,auto-generated
 Title,dcterms,title,String,Yes,
 Alternative Title,dcterms,alternative,String,,
 Principal Investigators,dcterms,creator,Seq/complex,Yes,
 Distributor,imeta,distributor,Seq/String,,
-Publisher,imeta,publisher,Seq/String,,
+Publisher,imeta,publisher,String,,
 Copyright Holder,dcterms,rightsHolder,Seq/String,,
 Bibliographic Citation,imeta,citation,String,,auto-generated
 Summary,dcterms ,description,String,Yes,
@@ -33,7 +34,7 @@ Time Method,imeta,timeMeth,Seq/String,,
 Description of Variables,imeta,variableDescription,String,,
 Restrictions,dcterms,accessRights,String,,
 Version History,imeta,collectionChanges,Seq/complex,???,Currently implemented as Seq/String
-Original ICPSR Release,dcterms,created,Date,???,
+Date project was created,dcterms,created,Date,???,
 Date Updated,dcterms,modified,Date,???,
 Related Publications,cito,isCitedBy,Seq/URI,,
 JEL classification,imeta,jelClassification,Seq/String,,Might need to reference JEL XML explicitly
