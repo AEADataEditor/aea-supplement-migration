@@ -60,14 +60,6 @@
 			<rdf:_1>ICPSR</rdf:_1>
 			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
 	</rdf:Description>
-	<rdf:Description rdf:about="file://root/project#publisher">
-			<rdf:_1>American Economic Association</rdf:_1>
-			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
-	</rdf:Description>
-	<rdf:Description rdf:about="file://root/project#rightsHolder">
-			<rdf:_1>American Economic Association</rdf:_1>
-			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
-	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#keyword">
 			<rdf:_1>J61 Geographic Labor Mobility; Immigrant Workers</rdf:_1>
 			<rdf:_2>O15 Economic Development: Human Resources; Human Development; Income Distribution; Migration</rdf:_2>
@@ -92,7 +84,7 @@
 			<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project/organization/1">
-			<icpsr:orgName>AEA</icpsr:orgName>
+			<icpsr:orgName>American Economic Association</icpsr:orgName>
 			<icpsr:orgId>23233</icpsr:orgId><!--optional-->
 	</rdf:Description>
 	<rdf:Description rdf:about="file://root/project#jelClassification">
