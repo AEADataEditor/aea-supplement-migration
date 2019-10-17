@@ -1,0 +1,140 @@
+---
+output: 
+  html_document: 
+    keep_md: yes
+    theme: journal
+---
+# Migrating historical AEA supplements - DRAFT
+
+![](https://www.aeaweb.org/assets/8e0b7bf8/images/logo.svg)
+![](https://www.icpsr.umich.edu/icpsrweb/ICPSR/images/open-icpsr-400.png)
+
+```{r setup,echo=FALSE,message=FALSE,warning=FALSE}
+knitr::opts_chunk$set(echo = FALSE,message=FALSE,warning = FALSE)
+source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"pathconfig.R"),echo=FALSE)
+source(file.path(programs,"config.R"), echo=FALSE)
+source(file.path(programs,"global-libraries.R"), echo=FALSE)
+
+
+```
+
+```{r readin1,echo=FALSE,message=FALSE,warning=FALSE}
+
+# load data
+fread.exist <- function(file) 
+{
+
+if ( file.exists(file) ) { fread(file) }
+	
+}
+
+aea.icpsr <- fread.exist(file.path(acquired,"aea_icpsr_all_files.csv.gz")) %>%
+	filter(!file_path %in% c("metadata.rdf","LICENSE.txt","citations")) %>%
+	filter(!dirname(file_path) %in% c("citations"))
+aea.article <- fread.exist(file.path(acquired,"aea_article_data.csv.gz"))
+aea.issue <- fread.exist(file.path(acquired,"aea_issue_data.csv.gz"))
+aea.jel <- fread.exist(file.path(acquired,"aea_jel_data.csv.gz"))
+aea.big <- fread(file.path(acquired,"1000plus_file_count.txt"),sep = " ",col.names = c("filecount","pkgsize","compressed"))
+
+# this computes ex-post the status of openICPSR at certain dates
+# On Oct 16, openICPSR reported:
+#   - 3461 deposits
+#   - 2570 added "this week"
+#   - 2594 added "this month" -> interpreted to mean in October
+n.openicpsr.16oct2019 <- 3461
+n.openicpsr.oct.added <- 2594
+n.openicpsr.sept2019 <- n.openicpsr.16oct2019 - n.openicpsr.oct.added # end of september number
+n.datalumos.sept2019 <- 94
+n.psid.sept2019 <- 13
+n.aera.sept2019 <- 46
+n.aea.oct2019 <- 2645 # from private interface
+n.aea.sept2019 <- n.aea.oct2019 - nrow(aea.article)
+n.aea.sept2019.public <- 5
+
+```
+
+Since July 16, 2019, the American Economic Association has used the **[AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea)** at **[openICPSR](https://www.openicpsr.org/openicpsr/)** as the default archive for its supplements. This archive serves a dual purpose: to share data with the AEA Data Editor prior to being published, and as a publication outlet for supplements to articles in AEA journals.
+
+At the time, the AEA also announced that it would  migrate the historical supplements, hitherto stored as ZIP files on the [AEA website](https://www.aeaweb.org/journals), into the AEA Data and Code Repository. 
+
+On Oct 1, 2019, openICPSR had `r format(n.openicpsr.sept2019,big.mark=",")` deposits, which covered `r n.datalumos.sept2019` deposits in the [DataLumos](https://www.datalumos.org/datalumos/search/studies) archive, `r n.aera.sept2019` in the [AERA archive](https://www.openicpsr.org/openicpsr/search/aerajournals/studies), and `r n.psid.sept2019` in the [PSID](https://www.openicpsr.org/openicpsr/search/psid/studies) archive. The **AEA Data and Code Repository** contained at the time `r n.aea.sept2019` deposits, of which `r n.aea.sept2019.public` were public, the others awaiting publication of the associated article. 
+
+Between Oct 11 and Oct 13, 2019, the staff at openICPSR ingested `r format(nrow(aea.article),big.mark=",")` historical supplements, increasing the size of the openICPSR repository **by a factor of `r round(nrow(aea.article) / (n.openicpsr.sept2019),0.1)`**, to `r format(n.openicpsr.16oct2019,big.mark=",")`. This was only the first part of the migration, as there are about 1,000 more archives that need to be migrated.
+
+## Characteristics of AEA supplement data
+We can describe this subset of the historical supplements in a variety of ways. 
+
+### Number of files per supplement
+```{r table_files,echo=FALSE,message=FALSE,warning=FALSE}
+aea.icpsr %>% group_by(doi) %>%
+	summarize(size=sum(as.numeric(file_size)),count=n()) %>% 
+	arrange(desc(size)) -> table.aea.filecount
+max.aea.filecount <- head(table.aea.filecount,1)
+max.aea.filecount.bib <- RefManageR::ReadCrossRef(query = paste("doi=",max.aea.filecount$doi))
+table.aea.filecount %>% head(10) %>% kable() %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+```
+
+The `r format(nrow(aea.article),big.mark=",")` supplements contain a total of `r format(nrow(aea.icpsr),big.mark=",")` files - programs, documents, datasets. The largest supplement within this group in terms of file count has `r format(max.aea.filecount$count,big.mark=",")` files, summing to `r utils:::format.object_size(max.aea.filecount$size,"auto")` [`r Citep(max.aea.filecount.bib)`](https://doi.org/`r max.aea.filecount$doi`). Note however that among the remaining non-migrated supplements are very large packages: the largest we have identified has `r format(max(aea.big$filecount),big.mark=",")` files. 
+
+
+
+### Distribution by journal
+First, we can look at the size of the supplements globally by journal. The following table shows cumulative and median size and number of files.
+
+```{r table_journal,echo=FALSE,message=FALSE,warning=FALSE,cache=TRUE}
+aea.icpsr %>% left_join(select(aea.article,doi,issue_id),by=c("doi")) %>%
+	left_join(aea.issue,by=c("issue_id")) -> aea.tmp
+aea.tmp %>% filter(is.na(issue_id)) %>% select(doi) %>% distinct(doi) -> aea.not_complete
+aea.complete.B <- rcrossref::cr_works(dois=aea.not_complete$doi)
+aea.complete <- left_join(aea.tmp,select(aea.complete.B$data,doi,container.title),by=c("doi")) %>%
+	mutate(journal=if_else(is.na(journal),container.title,journal))
+
+# create a distribution of package counts by journal
+
+table.aea.count_by_journal <- group_by(aea.complete,doi) %>%
+	summarize(size=sum(as.numeric(file_size)),count=n(),journal=first(journal)) %>% 
+	ungroup() %>%
+	group_by(journal) %>%
+	summarize(median_size=median(as.numeric(size)),median_count=median(count),size=sum(as.numeric(size)),count=sum(count)) %>%
+	arrange(desc(size)) %>%
+	mutate(`Cumulative Size (Mb)`=round(size/1024^2,1),`Median Size (Mb)`=round(median_size/1024^2,1))
+	
+table.aea.count_by_journal %>% 
+	rename(Journal = journal, `Total files` = count,`Median files` = median_count) %>%
+	select(Journal,`Median Size (Mb)`,`Cumulative Size (Mb)`,`Median files` ,`Total files`) %>%
+	kable(format.args=list(big.mark = ",")) %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F,position = "float_right") 
+```
+### Distribution across JEL codes
+
+The top 10 JEL codes associated with supplements are:
+
+```{r table_jel,echo=FALSE,message=FALSE,warning=FALSE}
+aea.jel %>% group_by(jel_code) %>% 
+	summarize(count=n(),jel_description=first(jel_description))  %>% 
+	arrange(desc(count)) %>% 
+	mutate(Pct = round(count/nrow(aea.article)*100,2)) %>% 
+	select(count,Pct,everything()) %>%
+	rename(`Number of packages` = count, JEL = jel_code, Description = jel_description) -> table.aea.jel
+table.aea.jel %>% 
+	head(10) %>% kable() %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F,position = "float_right") %>%
+	footnote(general="*A supplement can be associated with multiple JEL codes.*")
+
+```
+
+
+
+ 
+ 
+
+## Metadata 
+When planning the migration, the preservation of existing metadata - the information about the data and code - was important. The AEA Data Editor worked with the openICPSR staff to enhance the data infrastructure, adding the capability to store and display JEL codes in addition to subject terms.  Going forward, in addition to adding the JEL codes that also describe the linked article, authors can add metadata such as *geographic coverage*, *funding sources*, *time periods*, *geographic units* as well as *units of observation*, greatly enhancing the ability of researchers to find data through the openICPSR search interface. 
+
+Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface does not currently expose the ability to search by those fields. An enhancement is planned for implementation before the end of 2019.
+
+## References
+
+`r RefManageR::PrintBibliography(max.aea.filecount.bib)`
+
