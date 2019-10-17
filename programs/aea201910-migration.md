@@ -164,6 +164,7 @@ First, we can look at the size of the supplements globally by journal. The follo
   </tr>
 </tbody>
 </table>
+
 ### Distribution across JEL codes
 
 The top 10 JEL codes associated with supplements are:
