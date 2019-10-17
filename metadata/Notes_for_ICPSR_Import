@@ -29,3 +29,9 @@ Note : if using the same person for agent and creator, make sure the person has 
        <icpsr:MD5>f992da949d9131b18271fed326e3908c</icpsr:MD5>
 </rdf:Description>
 5. I found 1 or 2 of the projects did not have a <dcterms:description> under the <rdf:Description rdf:about="file://root/project">, this is a required field
+Notes from 4/10/19
+------------------
+1. dcterms:created to capture the actual creation date of the project
+2. imeta:publisher will capture the actual publisher of the project (ICPSR being the distributor)
+3. dcterms:rightsHolder will capture the organization/person who holds the copyright to the data
+4. LICENSE.txt added to the root project folder
