@@ -15,6 +15,9 @@ On Oct 1, 2019, openICPSR had 867 deposits, which covered 94 deposits in the [Da
 
 Between Oct 11 and Oct 13, 2019, the staff at openICPSR ingested 2,552 historical supplements, increasing the size of the openICPSR repository **by a factor of 3**, to 3,461. This was only the first part of the migration, as there are about 1,000 more archives that need to be migrated.
 
+## Increased findability
+The migrated archives are now available through the [openICPSR search interface](https://www.openicpsr.org/openicpsr/search/aea/studies), the [general ICPSR search interface](https://www.icpsr.umich.edu/icpsrweb/ICPSR/search/studies), as well as through a variety of federated search interfaces such as [Google Dataset Search](https://toolbox.google.com/datasetsearch/search) 
+
 ## Characteristics of AEA supplement data
 We can describe this subset of the historical supplements in a variety of ways. 
 
