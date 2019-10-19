@@ -3,6 +3,8 @@ output:
   html_document: 
     keep_md: yes
     theme: journal
+bibliography: max.aea.filecount.bib
+nocite: '@*'
 ---
 # Migrating historical AEA supplements - DRAFT
 
@@ -10,7 +12,7 @@ output:
 ![](https://www.icpsr.umich.edu/icpsrweb/ICPSR/images/open-icpsr-400.png)
 
 ```{r setup,echo=FALSE,message=FALSE,warning=FALSE}
-knitr::opts_chunk$set(echo = FALSE,message=FALSE,warning = FALSE)
+knitr::opts_chunk$set(echo = FALSE,message=FALSE,warning = FALSE,cache=TRUE)
 source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"pathconfig.R"),echo=FALSE)
 source(file.path(programs,"config.R"), echo=FALSE)
 source(file.path(programs,"global-libraries.R"), echo=FALSE)
@@ -35,6 +37,18 @@ aea.article <- fread.exist(file.path(acquired,"aea_article_data.csv.gz"))
 aea.issue <- fread.exist(file.path(acquired,"aea_issue_data.csv.gz"))
 aea.jel <- fread.exist(file.path(acquired,"aea_jel_data.csv.gz"))
 aea.big <- fread(file.path(acquired,"1000plus_file_count.txt"),sep = " ",col.names = c("filecount","pkgsize","compressed"))
+file.ext.map <- fread(file.path(basepath,"data","original",file.ext.map.file)) %>% 
+	mutate(file.ext = tolower(Extension))
+# do some manipulation
+
+aea.icpsr %>% left_join(select(aea.article,doi,issue_id),by=c("doi")) %>%
+	left_join(aea.issue,by=c("issue_id")) -> aea.tmp
+aea.tmp %>% filter(is.na(issue_id)) %>% select(doi) %>% distinct(doi) -> aea.not_complete
+aea.complete.B <- rcrossref::cr_works(dois=aea.not_complete$doi)
+aea.complete <- left_join(aea.tmp,select(aea.complete.B$data,doi,container.title),by=c("doi")) %>%
+	mutate(journal=if_else(is.na(journal),container.title,journal),file.ext = tolower(file_ext(file_path))) %>%
+	left_join(file.ext.map,by=c("file.ext")) %>%
+	mutate(Software=if_else(is.na(Software),"Unknown",Software),Type=if_else(is.na(Type),"Unknown",Type))
 
 # this computes ex-post the status of openICPSR at certain dates
 # On Oct 16, openICPSR reported:
@@ -67,31 +81,53 @@ The migrated archives are now available through the [openICPSR search interface]
 ## Characteristics of AEA supplement data
 We can describe this subset of the historical supplements in a variety of ways. 
 
-### Number of files per supplement
+### Number of files per supplement and size of supplement
 ```{r table_files,echo=FALSE,message=FALSE,warning=FALSE}
 aea.icpsr %>% group_by(doi) %>%
 	summarize(size=sum(as.numeric(file_size)),count=n()) %>% 
 	arrange(desc(size)) -> table.aea.filecount
 max.aea.filecount <- head(table.aea.filecount,1)
 max.aea.filecount.bib <- RefManageR::ReadCrossRef(query = paste("doi=",max.aea.filecount$doi))
+RefManageR::WriteBib(max.aea.filecount.bib,"max.aea.filecount.bib")
 table.aea.filecount %>% head(10) %>% kable() %>% 
 	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
 ```
 
+
+
 The `r format(nrow(aea.article),big.mark=",")` supplements contain a total of `r format(nrow(aea.icpsr),big.mark=",")` files - programs, documents, datasets. The largest supplement within this group in terms of file count has `r format(max.aea.filecount$count,big.mark=",")` files, summing to `r utils:::format.object_size(max.aea.filecount$size,"auto")` [`r Citep(max.aea.filecount.bib)`](https://doi.org/`r max.aea.filecount$doi`). Note however that among the remaining non-migrated supplements are very large packages: the largest we have identified has `r format(max(aea.big$filecount),big.mark=",")` files. 
 
+### Distribution overall
+```{r figure_files}
+table.aea.filecount %>% 
+	mutate(logsize=log(size)) %>%
+	ggplot(aes(logsize)) + 
+	  geom_histogram(aes(y=..density..),bins=50,fill="grey") + 
+	  geom_density(alpha=.2) +
+	  ylab(element_blank())+ 
+	  xlab("Log(size) in bytes") +
+	  theme_classic() + 
+	  theme(axis.line = element_line(size=0)) -> fig.size
+table.aea.filecount %>% 
+	mutate(logcount=log(count)) %>%
+	ggplot(aes(logcount)) + 
+	  geom_histogram(aes(y=..density..),bins=50,fill="grey") + 
+	  geom_density(alpha=.2)  +
+	  ylab(element_blank())+ 
+	  xlab("Log(count of files)") +
+	  theme_classic() + 
+	  theme(axis.line = element_line(size=0)) -> fig.count
+ggarrange(fig.size,fig.count) 
+	  
+```
 
 
-### Distribution by journal
-First, we can look at the size of the supplements globally by journal. The following table shows cumulative and median size and number of files.
+
+### Stats by journal
+We can look at the size of the supplements globally by journal. The following table shows cumulative and median size and number of files.
 
 ```{r table_journal,echo=FALSE,message=FALSE,warning=FALSE,cache=TRUE}
-aea.icpsr %>% left_join(select(aea.article,doi,issue_id),by=c("doi")) %>%
-	left_join(aea.issue,by=c("issue_id")) -> aea.tmp
-aea.tmp %>% filter(is.na(issue_id)) %>% select(doi) %>% distinct(doi) -> aea.not_complete
-aea.complete.B <- rcrossref::cr_works(dois=aea.not_complete$doi)
-aea.complete <- left_join(aea.tmp,select(aea.complete.B$data,doi,container.title),by=c("doi")) %>%
-	mutate(journal=if_else(is.na(journal),container.title,journal))
+
 
 # create a distribution of package counts by journal
 
@@ -107,7 +143,8 @@ table.aea.count_by_journal %>%
 	rename(Journal = journal, `Total files` = count,`Median files` = median_count) %>%
 	select(Journal,`Median Size (Mb)`,`Cumulative Size (Mb)`,`Median files` ,`Total files`) %>%
 	kable(format.args=list(big.mark = ",")) %>% 
-	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F,position = "float_right") 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+
 ```
 
 ### Distribution across JEL codes
@@ -123,15 +160,98 @@ aea.jel %>% group_by(jel_code) %>%
 	rename(`Number of packages` = count, JEL = jel_code, Description = jel_description) -> table.aea.jel
 table.aea.jel %>% 
 	head(10) %>% kable() %>% 
-	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F,position = "float_right") %>%
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) %>%
 	footnote(general="*A supplement can be associated with multiple JEL codes.*")
 
 ```
 
+### Software used
+To identify software usage and data formats, we (manually) [mapped file extensions](../data/original/`r file.ext.map.file`)  into known software packages, and classified the file type into a set of categories:
 
+```{r file.ext.map}
+file.ext.map %>% group_by(Type) %>%
+	summarize(count=n()) %>% arrange(desc(count)) %>%
+	kable(col.names=c("File type","Number of extensions")) %>%
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F)
+```
 
+The table below shows the top ten software, by frequency of program files:
+```{r software_files}
+aea.complete %>% filter(Type=="Program")  -> aea.complete.programs
+# patching since not all DOI have programs!
+distinct(aea.complete,doi) %>% 
+	select(doi) %>% 
+	left_join(aea.complete.programs,by=c("doi"))  %>%
+	mutate(Software=if_else(is.na(Software),"None",Software)) -> aea.complete.programs
+
+aea.complete.programs %>%
+	group_by(Software) %>% 
+	summarize(count=n())  %>% 
+	arrange(desc(count)) %>% 
+	mutate(Pct = round(count/nrow(aea.complete.programs)*100,2)) %>% 
+	select(count,Pct,everything())  -> table.aea.file.ext
+table.aea.file.ext %>% 
+	head(10) %>% kable(col.names = c("Number of files","Pct","Software")) %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+```
+The top software with respect to number of files is **`r head(table.aea.file.ext,1)$Software`**. Note that there are `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
+
+More interesting is how many supplements use one or more software:
+
+```{r software_packages}
+min_mentions <- 10
+aea.complete.programs %>%
+	group_by(doi,Software) %>% 
+	summarize(count=n())  %>% 
+	mutate(presence=count>0) -> aea.complete.programs.bydoi
+aea.complete.programs.bydoi %>% group_by(doi) %>%
+	summarize(n_software=n())  %>% 
+	arrange(desc(n_software)) -> table.aea.software_by_doi # this needs to be tabulated by frequency
+table.aea.software_by_doi  %>% 
+	mutate(c_software=factor(pmin(n_software,3),levels=c(0,1,2,3),labels=c("0","1","2","3+"))) %>%
+	group_by(c_software) %>%
+	summarize(count=n()) %>%
+	mutate(Percent = round(count/nrow(table.aea.software_by_doi) *100,2)) %>%
+	kable(col.names = c("Number of Software","N","Percent")) %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+```
+with a maximum of `r max(table.aea.software_by_doi$n_software)` different software packages used in any one of the supplements. 
+In turn, the number of supplements in which software is used at least once is reflected in the next table (restricted to at least `r min_mentions` mentions):
+
+```{r software_packages2}
+aea.complete.programs.bydoi %>% group_by(Software) %>%
+	summarize(n_packages=n())  %>% 
+	arrange(desc(n_packages)) %>%
+	filter(n_packages >= min_mentions ) %>%
+	mutate(Percent = round(n_packages/nrow(table.aea.software_by_doi) *100,2)) -> table.aea.doi_by_software # this needs to be tabulated by Software
+table.aea.doi_by_software  %>% 
+	kable(col.names = c("Name of Software","Usages","Percent")) %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) %>%
+	footnote(general="*Percentage sum to more than 100 percent, since a supplement can use multiple software packages.*")
+```
+Clearly, **`r head(table.aea.doi_by_software$Software,1)`** is the most popular statistical software in the journals of the AEA, followed by **`r table.aea.doi_by_software[2,"Software"]`**. Note again the `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
  
- 
+### Data formats 
+It is somewhat more ambiguous identifying data files, as they come in a large variety of formats. Furthermore, data might be compressed. In following table, we tabulate data files and archives, by the software package associated with their extension. We restrict ourselves to the number of supplements which contain files with such extensions.
+
+```{r data_formats}
+aea.complete %>% filter(Type=="Data" | Type=="Archive") %>%
+	mutate(Software=if_else(Type=="Archive",Type,Software)) -> aea.complete.data
+aea.complete.data %>%
+	group_by(doi,Software) %>% 
+	summarize(count=n())  %>% 
+	mutate(presence=count>0) -> aea.complete.data.bydoi
+aea.complete.data.bydoi %>% group_by(Software) %>%
+	summarize(n_packages=n())  %>% 
+	arrange(desc(n_packages)) %>%
+	mutate(Percent = round(n_packages/nrow(aea.complete.data.bydoi) *100,2)) -> table.aea.doi_by_data # this needs to be tabulated by Software
+table.aea.doi_by_data  %>% 
+	kable(col.names = c("Name of Software","Usages","Percent")) %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) %>%
+	footnote(general="*Percentage sum to more than 100 percent, since a supplement can use multiple software packages.*")
+	
+```
+
 
 ## Metadata 
 When planning the migration, the preservation of existing metadata - the information about the data and code - was important. The AEA Data Editor worked with the openICPSR staff to enhance the data infrastructure, adding the capability to store and display JEL codes in addition to subject terms.  Going forward, in addition to adding the JEL codes that also describe the linked article, authors can add metadata such as *geographic coverage*, *funding sources*, *time periods*, *geographic units* as well as *units of observation*, greatly enhancing the ability of researchers to find data through the openICPSR search interface. 
@@ -140,5 +260,6 @@ Two important caveats apply, however. First, none of the additional metadata exi
 
 ## References
 
-`r RefManageR::PrintBibliography(max.aea.filecount.bib)`
-
+```{r refs,cache=FALSE,eval=FALSE}
+RefManageR::PrintBibliography(max.aea.filecount.bib)
+```
