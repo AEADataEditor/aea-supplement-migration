@@ -81,6 +81,33 @@ The migrated archives are now available through the [openICPSR search interface]
 ## Characteristics of AEA supplement data
 We can describe this subset of the historical supplements in a variety of ways. 
 
+### Time coverage
+This is only a subset of all supplements, so what years are covered?
+```{r figure_years}
+aea.complete %>% group_by(year) %>% summarise(count=n()) -> table.by_year
+table.by_year %>% kable() %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+
+aea.complete %>%  ggplot(aes(year)) + 
+	  geom_histogram(fill="grey",breaks=seq(min(aea.complete$year,na.rm=TRUE),max(aea.complete$year,na.rm=TRUE),1)) + 
+	  ylab(element_blank())+ 
+	  xlab("Number of files, by year") +
+	  theme_classic() + 
+	  theme(axis.line = element_line(size=0)) -> fig.count_by_year
+aea.complete %>% group_by(doi) %>%
+	summarize(count=n(),year=first(year)) %>%
+	ggplot(aes(year)) + 
+	  geom_histogram(fill="grey",breaks=seq(min(aea.complete$year,na.rm=TRUE),max(aea.complete$year,na.rm=TRUE),1)) + 
+	  ylab(element_blank())+ 
+	  xlab("Number of supplements, by year") +
+	  theme_classic() + 
+	  theme(axis.line = element_line(size=0)) -> fig.doi_count_by_year
+g <- ggarrange(fig.count_by_year,fig.doi_count_by_year) 
+ggsave("figure_years.png",g)
+```
+![Distribution across years](figure_years.png)
+
+
 ### Number of files per supplement and size of supplement
 ```{r table_files,echo=FALSE,message=FALSE,warning=FALSE}
 aea.icpsr %>% group_by(doi) %>%
@@ -98,7 +125,7 @@ table.aea.filecount %>% head(10) %>% kable() %>%
 The `r format(nrow(aea.article),big.mark=",")` supplements contain a total of `r format(nrow(aea.icpsr),big.mark=",")` files - programs, documents, datasets. The largest supplement within this group in terms of file count has `r format(max.aea.filecount$count,big.mark=",")` files, summing to `r utils:::format.object_size(max.aea.filecount$size,"auto")` [`r Citep(max.aea.filecount.bib)`](https://doi.org/`r max.aea.filecount$doi`). Note however that among the remaining non-migrated supplements are very large packages: the largest we have identified has `r format(max(aea.big$filecount),big.mark=",")` files. 
 
 ### Distribution overall
-```{r figure_files}
+```{r figure_files,cache=FALSE}
 table.aea.filecount %>% 
 	mutate(logsize=log(size)) %>%
 	ggplot(aes(logsize)) + 
@@ -120,7 +147,7 @@ table.aea.filecount %>%
 g <- ggarrange(fig.size,fig.count) 
 ggsave("figure_files.png",g)
 ```
-![Distribution of filesizes and filecounts](aea201910-migration_files/figure-html/figure_files-1.png)
+![Distribution of filesizes and filecounts](figure_files.png)
 
 
 

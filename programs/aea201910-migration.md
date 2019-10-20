@@ -21,6 +21,97 @@ The migrated archives are now available through the [openICPSR search interface]
 ## Characteristics of AEA supplement data
 We can describe this subset of the historical supplements in a variety of ways. 
 
+### Time coverage
+This is only a subset of all supplements, so what years are covered?
+<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:right;"> year </th>
+   <th style="text-align:right;"> count </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1999 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2000 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2004 </td>
+   <td style="text-align:right;"> 24 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2005 </td>
+   <td style="text-align:right;"> 280 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2006 </td>
+   <td style="text-align:right;"> 7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2007 </td>
+   <td style="text-align:right;"> 625 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2008 </td>
+   <td style="text-align:right;"> 1010 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2009 </td>
+   <td style="text-align:right;"> 3918 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2010 </td>
+   <td style="text-align:right;"> 6063 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2011 </td>
+   <td style="text-align:right;"> 6198 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2012 </td>
+   <td style="text-align:right;"> 7394 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2013 </td>
+   <td style="text-align:right;"> 6923 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2014 </td>
+   <td style="text-align:right;"> 11813 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2015 </td>
+   <td style="text-align:right;"> 7511 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2016 </td>
+   <td style="text-align:right;"> 10037 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2017 </td>
+   <td style="text-align:right;"> 11323 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 13574 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 6147 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 1865 </td>
+  </tr>
+</tbody>
+</table>
+![Distribution across years](figure_years.png)
+
+
 ### Number of files per supplement and size of supplement
 <table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
  <thead>
@@ -90,7 +181,7 @@ The 2,552 supplements contain a total of 94,465 files - programs, documents, dat
 
 ### Distribution overall
 
-![Distribution of filesizes and filecounts](aea201910-migration_files/figure-html/figure_files-1.png)
+![Distribution of filesizes and filecounts](figure_files.png)
 
 
 
