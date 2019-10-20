@@ -563,5 +563,3 @@ When planning the migration, the preservation of existing metadata - the informa
 Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface does not currently expose the ability to search by those fields. An enhancement is planned for implementation before the end of 2019.
 
 ## References
-
-
