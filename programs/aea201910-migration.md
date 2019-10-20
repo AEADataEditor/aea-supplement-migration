@@ -101,15 +101,17 @@ We can look at the size of the supplements globally by journal. The following ta
  <thead>
   <tr>
    <th style="text-align:left;"> Journal </th>
+   <th style="text-align:right;"> Articles </th>
    <th style="text-align:right;"> Median Size (Mb) </th>
    <th style="text-align:right;"> Cumulative Size (Mb) </th>
-   <th style="text-align:right;"> Median files </th>
-   <th style="text-align:right;"> Total files </th>
+   <th style="text-align:right;"> Median no. of files </th>
+   <th style="text-align:right;"> Total no. of files </th>
   </tr>
  </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> American Economic Review </td>
+   <td style="text-align:right;"> 1,238 </td>
    <td style="text-align:right;"> 1.4 </td>
    <td style="text-align:right;"> 165,552.8 </td>
    <td style="text-align:right;"> 13 </td>
@@ -117,6 +119,7 @@ We can look at the size of the supplements globally by journal. The following ta
   </tr>
   <tr>
    <td style="text-align:left;"> American Economic Journal: Applied Economics </td>
+   <td style="text-align:right;"> 363 </td>
    <td style="text-align:right;"> 3.1 </td>
    <td style="text-align:right;"> 101,969.8 </td>
    <td style="text-align:right;"> 10 </td>
@@ -124,6 +127,7 @@ We can look at the size of the supplements globally by journal. The following ta
   </tr>
   <tr>
    <td style="text-align:left;"> American Economic Journal: Economic Policy </td>
+   <td style="text-align:right;"> 351 </td>
    <td style="text-align:right;"> 4.2 </td>
    <td style="text-align:right;"> 98,574.0 </td>
    <td style="text-align:right;"> 12 </td>
@@ -131,6 +135,7 @@ We can look at the size of the supplements globally by journal. The following ta
   </tr>
   <tr>
    <td style="text-align:left;"> AEA Papers and Proceedings </td>
+   <td style="text-align:right;"> 109 </td>
    <td style="text-align:right;"> 0.9 </td>
    <td style="text-align:right;"> 44,497.3 </td>
    <td style="text-align:right;"> 5 </td>
@@ -138,6 +143,7 @@ We can look at the size of the supplements globally by journal. The following ta
   </tr>
   <tr>
    <td style="text-align:left;"> American Economic Journal: Macroeconomics </td>
+   <td style="text-align:right;"> 259 </td>
    <td style="text-align:right;"> 1.4 </td>
    <td style="text-align:right;"> 14,943.5 </td>
    <td style="text-align:right;"> 21 </td>
@@ -145,6 +151,7 @@ We can look at the size of the supplements globally by journal. The following ta
   </tr>
   <tr>
    <td style="text-align:left;"> American Economic Journal: Microeconomics </td>
+   <td style="text-align:right;"> 115 </td>
    <td style="text-align:right;"> 1.1 </td>
    <td style="text-align:right;"> 12,899.3 </td>
    <td style="text-align:right;"> 10 </td>
@@ -152,6 +159,7 @@ We can look at the size of the supplements globally by journal. The following ta
   </tr>
   <tr>
    <td style="text-align:left;"> Journal of Economic Perspectives </td>
+   <td style="text-align:right;"> 115 </td>
    <td style="text-align:right;"> 0.8 </td>
    <td style="text-align:right;"> 12,755.7 </td>
    <td style="text-align:right;"> 7 </td>
@@ -159,6 +167,7 @@ We can look at the size of the supplements globally by journal. The following ta
   </tr>
   <tr>
    <td style="text-align:left;"> Journal of Economic Literature </td>
+   <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 17.8 </td>
    <td style="text-align:right;"> 432.1 </td>
    <td style="text-align:right;"> 67 </td>
@@ -166,6 +175,7 @@ We can look at the size of the supplements globally by journal. The following ta
   </tr>
   <tr>
    <td style="text-align:left;"> American Economic Review: Insights </td>
+   <td style="text-align:right;"> 3 </td>
    <td style="text-align:right;"> 8.2 </td>
    <td style="text-align:right;"> 74.7 </td>
    <td style="text-align:right;"> 5 </td>

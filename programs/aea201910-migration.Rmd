@@ -136,14 +136,13 @@ table.aea.count_by_journal <- group_by(aea.complete,doi) %>%
 	summarize(size=sum(as.numeric(file_size)),count=n(),journal=first(journal)) %>% 
 	ungroup() %>%
 	group_by(journal) %>%
-	summarize(median_size=median(as.numeric(size)),median_count=median(count),size=sum(as.numeric(size)),count=sum(count)) %>%
+	summarize(articles=n(),median_size=median(as.numeric(size)),median_count=median(count),size=sum(as.numeric(size)),count=sum(count)) %>%
 	arrange(desc(size)) %>%
 	mutate(`Cumulative Size (Mb)`=round(size/1024^2,1),`Median Size (Mb)`=round(median_size/1024^2,1))
 	
 table.aea.count_by_journal %>% 
-	rename(Journal = journal, `Total files` = count,`Median files` = median_count) %>%
-	select(Journal,`Median Size (Mb)`,`Cumulative Size (Mb)`,`Median files` ,`Total files`) %>%
-	kable(format.args=list(big.mark = ",")) %>% 
+	select(journal,articles,`Median Size (Mb)`,`Cumulative Size (Mb)`,median_count ,count) %>%
+	kable(col.names=c("Journal","Articles","Median Size (Mb)","Cumulative Size (Mb)","Median no. of files","Total no. of files"),format.args=list(big.mark = ",")) %>% 
 	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
 
 ```
