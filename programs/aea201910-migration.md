@@ -89,7 +89,8 @@ We can describe this subset of the historical supplements in a variety of ways.
 The 2,552 supplements contain a total of 94,465 files - programs, documents, datasets. The largest supplement within this group in terms of file count has 795 files, summing to 30.5 Gb [(Armour, Button, and Hollands, 2018)](https://doi.org/10.1257/pandp.20181045). Note however that among the remaining non-migrated supplements are very large packages: the largest we have identified has 201,972 files. 
 
 ### Distribution overall
-![](aea201910-migration_files/figure-html/figure_files-1.png)<!-- -->
+
+![Distribution of filesizes and filecounts](aea201910-migration_files/figure-html/figure_files-1.png)
 
 
 

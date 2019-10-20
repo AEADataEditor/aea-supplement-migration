@@ -117,9 +117,10 @@ table.aea.filecount %>%
 	  xlab("Log(count of files)") +
 	  theme_classic() + 
 	  theme(axis.line = element_line(size=0)) -> fig.count
-ggarrange(fig.size,fig.count) 
-	  
+g <- ggarrange(fig.size,fig.count) 
+ggsave("figure_files.png",g)
 ```
+![Distribution of filesizes and filecounts](aea201910-migration_files/figure-html/figure_files-1.png)
 
 
 
