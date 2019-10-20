@@ -482,7 +482,7 @@ In turn, the number of supplements in which software is used at least once is re
 Clearly, **Stata** is the most popular statistical software in the journals of the AEA, followed by **Matlab**. Note again the 258 supplements that do not contain files that we have identified as program files ("None"). 
  
 ### Data formats 
-It is somewhat more ambiguous identifying data files, as they come in a large variety of formats. Furthermore, data might be compressed. In following table, we tabulate data files and archives, by the software package associated with their extension. We restrict ourselves to the number of supplements which contain files with such extensions.
+It is somewhat more ambiguous identifying data files, as they come in a large variety of formats. Furthermore, data might be compressed. In the following table, we tabulate data files and archives, by the software package associated with their extension. The data type "General" encompasses formats like "tsv" or "csv" that are not associated with any particular software, but are nevertheless clearly identifiable as data files ([full list available](../data/original/aea_file_ext.csv)). We restrict ourselves to the number of supplements which contain files with such extensions.
 
 <table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
  <thead>
