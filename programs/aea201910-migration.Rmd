@@ -5,10 +5,12 @@ output:
     theme: journal
 bibliography: max.aea.filecount.bib
 nocite: '@*'
+editor_options: 
+  chunk_output_type: console
 ---
 # Migrating historical AEA supplements - DRAFT
 
-![](https://www.aeaweb.org/assets/8e0b7bf8/images/logo.svg)
+![](../assets/logo.svg)
 ![](https://www.icpsr.umich.edu/icpsrweb/ICPSR/images/open-icpsr-400.png)
 
 ```{r setup,echo=FALSE,message=FALSE,warning=FALSE}
@@ -220,6 +222,46 @@ aea.complete.programs %>%
 table.aea.file.ext %>% 
 	head(10) %>% kable(col.names = c("Number of files","Pct","Software")) %>% 
 	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+
+# NOw do graph by files
+table.aea.file.ext %>% 
+	mutate(Software=if_else(Software=="General","Other",Software)) %>%
+	mutate(sw=if_else(Pct>1,Software,"Other")) %>% 
+	group_by(sw) %>% summarise(count=sum(count),Pct=sum(Pct)) %>% 
+	arrange(desc(Pct)) %>% 
+	ggplot(aes(sw,Pct)) +
+		geom_col(fill="grey") +
+	    ylab(element_blank())+
+	    xlab("Software, Percent of all files") +
+	    ylab(element_blank()) +
+	    theme_classic() +
+	    theme(axis.line = element_line(size=0),axis.text.x = element_text(angle=45),
+	    	  axis.title.y = element_text(angle=0)) -> fig.software.files
+
+# Do the same by package
+aea.complete.programs %>% group_by(Software,doi) %>% 
+	summarize(count=n()) %>% group_by(Software) %>% 
+	summarize(count=n()) %>% arrange(desc(count)) %>% ungroup() -> table.aea.pkgs.ext
+table.aea.pkgs.ext %>% summarize(pkgs = sum(count)) -> sum.pkgs.programs
+table.aea.pkgs.ext$Pct = round(table.aea.pkgs.ext$count / as.numeric(sum.pkgs.programs) * 100,2)
+table.aea.pkgs.ext %>% 
+	mutate(Software=if_else(Software=="General","Other",Software)) %>%
+	mutate(Software=if_else(Software=="Unknown","Other",Software)) %>%
+	mutate(sw=if_else(Pct>1,Software,"Other")) %>% 
+	group_by(sw) %>% summarise(count=sum(count),Pct=sum(Pct)) %>% 
+	arrange(desc(Pct)) %>% 
+	ggplot(aes(sw,count)) +
+		geom_col(fill="grey") +
+	    ylab(element_blank())+
+	    xlab("Software, Number of packages") +
+	    ylab(element_blank()) +
+	    theme_classic() +
+	    theme(axis.line = element_line(size=0),axis.text.x = element_text(angle=45),
+	    	  axis.title.y = element_text(angle=0)) ->fig.software.pkgs
+
+g.software <- ggarrange(fig.software.files,fig.software.pkgs) 
+ggsave("figure_software.png",g.software)
+
 ```
 The top software with respect to number of files is **`r head(table.aea.file.ext,1)$Software`**. Note that there are `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
 
@@ -255,7 +297,11 @@ table.aea.doi_by_software  %>%
 	kable(col.names = c("Name of Software","Usages","Percent")) %>% 
 	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) %>%
 	footnote(general="*Percentage sum to more than 100 percent, since a supplement can use multiple software packages.*")
+
 ```
+
+![Distribution of software](figure_software.png)
+
 Clearly, **`r head(table.aea.doi_by_software$Software,1)`** is the most popular statistical software in the journals of the AEA, followed by **`r table.aea.doi_by_software[2,"Software"]`**. Note again the `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
  
 ### Data formats 
@@ -283,6 +329,6 @@ table.aea.doi_by_data  %>%
 ## Metadata 
 When planning the migration, the preservation of existing metadata - the information about the data and code - was important. The AEA Data Editor worked with the openICPSR staff to enhance the data infrastructure, adding the capability to store and display JEL codes in addition to subject terms.  Going forward, in addition to adding the JEL codes that also describe the linked article, authors can add metadata such as *geographic coverage*, *funding sources*, *time periods*, *geographic units* as well as *units of observation*, greatly enhancing the ability of researchers to find data through the openICPSR search interface. 
 
-Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface does not currently expose the ability to search by those fields. An enhancement is planned for implementation before the end of 2019.
+Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface only allows to search for these in an implicit way, i.e., one can search for "J31" because it is unlikely to appear as anything else, but there is no selection by specific JEL codes currently possible. The ability to do so is planned for a later implementation.
 
 ## References

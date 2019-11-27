@@ -1,6 +1,16 @@
+---
+output: 
+  html_document: 
+    keep_md: yes
+    theme: journal
+bibliography: max.aea.filecount.bib
+nocite: '@*'
+editor_options: 
+  chunk_output_type: console
+---
 # Migrating historical AEA supplements - DRAFT
 
-![](https://www.aeaweb.org/assets/8e0b7bf8/images/logo.svg)
+![](../assets/logo.svg)
 ![](https://www.icpsr.umich.edu/icpsrweb/ICPSR/images/open-icpsr-400.png)
 
 
@@ -570,6 +580,9 @@ In turn, the number of supplements in which software is used at least once is re
 <sup></sup> *Percentage sum to more than 100 percent, since a supplement can use multiple software packages.*</td></tr>
 </tfoot>
 </table>
+
+![Distribution of software](figure_software.png)
+
 Clearly, **Stata** is the most popular statistical software in the journals of the AEA, followed by **Matlab**. Note again the 258 supplements that do not contain files that we have identified as program files ("None"). 
  
 ### Data formats 
@@ -651,6 +664,6 @@ It is somewhat more ambiguous identifying data files, as they come in a large va
 ## Metadata 
 When planning the migration, the preservation of existing metadata - the information about the data and code - was important. The AEA Data Editor worked with the openICPSR staff to enhance the data infrastructure, adding the capability to store and display JEL codes in addition to subject terms.  Going forward, in addition to adding the JEL codes that also describe the linked article, authors can add metadata such as *geographic coverage*, *funding sources*, *time periods*, *geographic units* as well as *units of observation*, greatly enhancing the ability of researchers to find data through the openICPSR search interface. 
 
-Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface does not currently expose the ability to search by those fields. An enhancement is planned for implementation before the end of 2019.
+Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface only allows to search for these in an implicit way, i.e., one can search for "J31" because it is unlikely to appear as anything else, but there is no selection by specific JEL codes currently possible. The ability to do so is planned for a later implementation.
 
 ## References
