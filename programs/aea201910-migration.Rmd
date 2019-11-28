@@ -1,17 +1,16 @@
 ---
-output: 
-  html_document: 
+bibliography: max.aea.filecount.bib
+editor_options:
+  chunk_output_type: console
+nocite: '@*'
+output:
+  pdf_document:
+    keep_tex: yes
+  html_document:
     keep_md: yes
     theme: journal
-bibliography: max.aea.filecount.bib
-nocite: '@*'
-editor_options: 
-  chunk_output_type: console
+  word_document: default
 ---
-# Migrating historical AEA supplements - DRAFT
-
-![](../assets/logo.svg)
-![](https://www.icpsr.umich.edu/icpsrweb/ICPSR/images/open-icpsr-400.png)
 
 ```{r setup,echo=FALSE,message=FALSE,warning=FALSE}
 knitr::opts_chunk$set(echo = FALSE,message=FALSE,warning = FALSE,cache=TRUE)
@@ -67,7 +66,21 @@ n.aea.oct2019 <- 2645 # from private interface
 n.aea.sept2019 <- n.aea.oct2019 - nrow(aea.article)
 n.aea.sept2019.public <- 5
 
+software_cats <- c("Stata" ,  "Matlab" , "None" ,   "SAS"  ,   "R"  ,     "Fortran" ,"Python", "C" )
+
 ```
+
+```{r logos,results="asis"}
+outputFormat <- ifelse(is.null(knitr:::pandoc_to()),"html",knitr:::pandoc_to())
+if (outputFormat %in% c('html')) {
+	cat("![](../assets/logo.svg)")
+    cat("![](https://www.icpsr.umich.edu/icpsrweb/ICPSR/images/open-icpsr-400.png)")
+}
+```
+
+# Migrating historical AEA supplements - DRAFT
+
+
 
 Since July 16, 2019, the American Economic Association has used the **[AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea)** at **[openICPSR](https://www.openicpsr.org/openicpsr/)** as the default archive for its supplements. This archive serves a dual purpose: to share data with the AEA Data Editor prior to being published, and as a publication outlet for supplements to articles in AEA journals.
 
@@ -226,7 +239,7 @@ table.aea.file.ext %>%
 # NOw do graph by files
 table.aea.file.ext %>% 
 	mutate(Software=if_else(Software=="General","Other",Software)) %>%
-	mutate(sw=if_else(Pct>1,Software,"Other")) %>% 
+	mutate(sw=fct_explicit_na(factor(if_else(Pct>1,Software,"NA"),levels=software_cats),"Other")) %>% 
 	group_by(sw) %>% summarise(count=sum(count),Pct=sum(Pct)) %>% 
 	arrange(desc(Pct)) %>% 
 	ggplot(aes(sw,Pct)) +
@@ -239,18 +252,58 @@ table.aea.file.ext %>%
 	    	  axis.title.y = element_text(angle=0)) -> fig.software.files
 
 # Do the same by package
-aea.complete.programs %>% group_by(Software,doi) %>% 
-	summarize(count=n()) %>% group_by(Software) %>% 
-	summarize(count=n()) %>% arrange(desc(count)) %>% ungroup() -> table.aea.pkgs.ext
-table.aea.pkgs.ext %>% summarize(pkgs = sum(count)) -> sum.pkgs.programs
-table.aea.pkgs.ext$Pct = round(table.aea.pkgs.ext$count / as.numeric(sum.pkgs.programs) * 100,2)
-table.aea.pkgs.ext %>% 
-	mutate(Software=if_else(Software=="General","Other",Software)) %>%
-	mutate(Software=if_else(Software=="Unknown","Other",Software)) %>%
-	mutate(sw=if_else(Pct>1,Software,"Other")) %>% 
-	group_by(sw) %>% summarise(count=sum(count),Pct=sum(Pct)) %>% 
-	arrange(desc(Pct)) %>% 
-	ggplot(aes(sw,count)) +
+```
+The top software with respect to number of files is **`r head(table.aea.file.ext,1)$Software`**. Note that there are `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
+
+More interesting is how many supplements use one or more software:
+
+```{r software_packages}
+min_mentions <- 10
+aea.complete.programs %>%
+	group_by(doi,Software) %>% 
+	summarize(count=n())  %>% 
+	mutate(presence=count>0) %>% ungroup() -> aea.complete.programs.bydoi
+
+aea.complete.programs.bydoi %>% group_by(doi) %>%
+	summarize(n_software=n())  %>% 
+	arrange(desc(n_software)) %>% ungroup() -> table.aea.software_by_doi # this needs to be tabulated by frequency
+table.aea.software_by_doi  %>% 
+	mutate(c_software=factor(pmin(n_software,3),levels=c(0,1,2,3),labels=c("0","1","2","3+"))) %>%
+	group_by(c_software) %>%
+	summarize(count=n()) %>%
+	mutate(Percent = round(count/nrow(aea.article) *100,2)) %>%
+	kable(col.names = c("Number of Software","N","Percent")) %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+
+```
+with a maximum of `r max(table.aea.software_by_doi$n_software)` different software packages used in any one of the supplements. 
+In turn, the number of supplements in which software is used at least once is reflected in the next table (restricted to at least `r min_mentions` mentions):
+
+```{r software_packages2}
+aea.complete.programs.bydoi %>% group_by(Software) %>%
+	summarize(n_packages=n())  %>% 
+	arrange(desc(n_packages)) %>%
+	filter(n_packages >= min_mentions ) %>%
+	mutate(Percent = round(n_packages/nrow(aea.article) *100,2)) -> table.aea.doi_by_software # this needs to be tabulated by Software
+table.aea.doi_by_software  %>% 
+	kable(col.names = c("Name of Software","Usages","Percent")) %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) %>%
+	footnote(general="*Percentage sum to more than 100 percent, since a supplement can use multiple software packages.*")
+
+# now prepare the graph
+# We need to do this again, to reduce the types of software
+aea.complete.programs %>%
+	mutate(Software_collapsed=fct_explicit_na(factor(Software,levels=software_cats),"Other")) %>%
+    group_by(Software_collapsed,doi) %>% 
+	summarize(n_files_per_pkg=n()) %>% ungroup() -> aea.complete.software_collapsed.bydoi
+
+aea.complete.software_collapsed.bydoi %>% 
+	group_by(Software_collapsed) %>%
+	summarize(n_doi=n())  %>% 
+	arrange(desc(n_doi)) %>% ungroup() -> table.aea.software_by_doi # this needs to be tabulated by frequency
+
+table.aea.software_by_doi %>% 
+	ggplot(aes(Software_collapsed,n_doi)) +
 		geom_col(fill="grey") +
 	    ylab(element_blank())+
 	    xlab("Software, Number of packages") +
@@ -263,11 +316,12 @@ g.software <- ggarrange(fig.software.files,fig.software.pkgs)
 ggsave("figure_software.png",g.software)
 
 ```
-The top software with respect to number of files is **`r head(table.aea.file.ext,1)$Software`**. Note that there are `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
 
-More interesting is how many supplements use one or more software:
+![Distribution of software](figure_software.png)
 
-```{r software_packages}
+Clearly, **`r head(table.aea.doi_by_software$Software,1)`** is the most popular statistical software in the journals of the AEA, followed by **`r table.aea.doi_by_software[2,"Software"]`**. Note again the `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
+ 
+```{r software_packages_time}
 min_mentions <- 10
 aea.complete.programs %>%
 	group_by(doi,Software) %>% 
@@ -276,34 +330,14 @@ aea.complete.programs %>%
 aea.complete.programs.bydoi %>% group_by(doi) %>%
 	summarize(n_software=n())  %>% 
 	arrange(desc(n_software)) -> table.aea.software_by_doi # this needs to be tabulated by frequency
-table.aea.software_by_doi  %>% 
-	mutate(c_software=factor(pmin(n_software,3),levels=c(0,1,2,3),labels=c("0","1","2","3+"))) %>%
-	group_by(c_software) %>%
-	summarize(count=n()) %>%
-	mutate(Percent = round(count/nrow(table.aea.software_by_doi) *100,2)) %>%
-	kable(col.names = c("Number of Software","N","Percent")) %>% 
-	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+# table.aea.software_by_doi  %>% 
+# 	mutate(c_software=factor(pmin(n_software,3),levels=c(0,1,2,3),labels=c("0","1","2","3+"))) %>%
+# 	group_by(c_software) %>%
+# 	summarize(count=n()) %>%
+# 	mutate(Percent = round(count/nrow(table.aea.software_by_doi) *100,2)) %>%
+# 	kable(col.names = c("Number of Software","N","Percent")) %>% 
+#	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
 ```
-with a maximum of `r max(table.aea.software_by_doi$n_software)` different software packages used in any one of the supplements. 
-In turn, the number of supplements in which software is used at least once is reflected in the next table (restricted to at least `r min_mentions` mentions):
-
-```{r software_packages2}
-aea.complete.programs.bydoi %>% group_by(Software) %>%
-	summarize(n_packages=n())  %>% 
-	arrange(desc(n_packages)) %>%
-	filter(n_packages >= min_mentions ) %>%
-	mutate(Percent = round(n_packages/nrow(table.aea.software_by_doi) *100,2)) -> table.aea.doi_by_software # this needs to be tabulated by Software
-table.aea.doi_by_software  %>% 
-	kable(col.names = c("Name of Software","Usages","Percent")) %>% 
-	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) %>%
-	footnote(general="*Percentage sum to more than 100 percent, since a supplement can use multiple software packages.*")
-
-```
-
-![Distribution of software](figure_software.png)
-
-Clearly, **`r head(table.aea.doi_by_software$Software,1)`** is the most popular statistical software in the journals of the AEA, followed by **`r table.aea.doi_by_software[2,"Software"]`**. Note again the `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
- 
 ### Data formats 
 It is somewhat more ambiguous identifying data files, as they come in a large variety of formats. Furthermore, data might be compressed. In the following table, we tabulate data files and archives, by the software package associated with their extension. The data type "General" encompasses formats like "tsv" or "csv" that are not associated with any particular software, but are nevertheless clearly identifiable as data files ([full list available](../data/original/`r file.ext.map.file`)). We restrict ourselves to the number of supplements which contain files with such extensions.
 

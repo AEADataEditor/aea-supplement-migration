@@ -1,19 +1,24 @@
 ---
-output: 
-  html_document: 
+bibliography: max.aea.filecount.bib
+editor_options:
+  chunk_output_type: console
+nocite: '@*'
+output:
+  html_document:
     keep_md: yes
     theme: journal
-bibliography: max.aea.filecount.bib
-nocite: '@*'
-editor_options: 
-  chunk_output_type: console
+  pdf_document:
+    keep_tex: yes
+  word_document: default
 ---
+
+
+
+
+
+![](../assets/logo.svg)![](https://www.icpsr.umich.edu/icpsrweb/ICPSR/images/open-icpsr-400.png)
+
 # Migrating historical AEA supplements - DRAFT
-
-![](../assets/logo.svg)
-![](https://www.icpsr.umich.edu/icpsrweb/ICPSR/images/open-icpsr-400.png)
-
-
 
 
 
@@ -487,17 +492,17 @@ More interesting is how many supplements use one or more software:
   <tr>
    <td style="text-align:left;"> 1 </td>
    <td style="text-align:right;"> 2058 </td>
-   <td style="text-align:right;"> 80.39 </td>
+   <td style="text-align:right;"> 80.64 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 2 </td>
    <td style="text-align:right;"> 397 </td>
-   <td style="text-align:right;"> 15.51 </td>
+   <td style="text-align:right;"> 15.56 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 3+ </td>
    <td style="text-align:right;"> 105 </td>
-   <td style="text-align:right;"> 4.10 </td>
+   <td style="text-align:right;"> 4.11 </td>
   </tr>
 </tbody>
 </table>
@@ -516,37 +521,37 @@ In turn, the number of supplements in which software is used at least once is re
   <tr>
    <td style="text-align:left;"> Stata </td>
    <td style="text-align:right;"> 1862 </td>
-   <td style="text-align:right;"> 72.73 </td>
+   <td style="text-align:right;"> 72.96 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Matlab </td>
    <td style="text-align:right;"> 573 </td>
-   <td style="text-align:right;"> 22.38 </td>
+   <td style="text-align:right;"> 22.45 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> None </td>
    <td style="text-align:right;"> 258 </td>
-   <td style="text-align:right;"> 10.08 </td>
+   <td style="text-align:right;"> 10.11 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> SAS </td>
    <td style="text-align:right;"> 111 </td>
-   <td style="text-align:right;"> 4.34 </td>
+   <td style="text-align:right;"> 4.35 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> R </td>
    <td style="text-align:right;"> 97 </td>
-   <td style="text-align:right;"> 3.79 </td>
+   <td style="text-align:right;"> 3.80 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Fortran </td>
    <td style="text-align:right;"> 64 </td>
-   <td style="text-align:right;"> 2.50 </td>
+   <td style="text-align:right;"> 2.51 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Python </td>
    <td style="text-align:right;"> 54 </td>
-   <td style="text-align:right;"> 2.11 </td>
+   <td style="text-align:right;"> 2.12 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Unknown </td>
@@ -561,12 +566,12 @@ In turn, the number of supplements in which software is used at least once is re
   <tr>
    <td style="text-align:left;"> General </td>
    <td style="text-align:right;"> 29 </td>
-   <td style="text-align:right;"> 1.13 </td>
+   <td style="text-align:right;"> 1.14 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Shell </td>
    <td style="text-align:right;"> 29 </td>
-   <td style="text-align:right;"> 1.13 </td>
+   <td style="text-align:right;"> 1.14 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Windows </td>
@@ -585,6 +590,7 @@ In turn, the number of supplements in which software is used at least once is re
 
 Clearly, **Stata** is the most popular statistical software in the journals of the AEA, followed by **Matlab**. Note again the 258 supplements that do not contain files that we have identified as program files ("None"). 
  
+
 ### Data formats 
 It is somewhat more ambiguous identifying data files, as they come in a large variety of formats. Furthermore, data might be compressed. In the following table, we tabulate data files and archives, by the software package associated with their extension. The data type "General" encompasses formats like "tsv" or "csv" that are not associated with any particular software, but are nevertheless clearly identifiable as data files ([full list available](../data/original/aea_file_ext.csv)). We restrict ourselves to the number of supplements which contain files with such extensions.
 
