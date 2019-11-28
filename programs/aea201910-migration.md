@@ -677,4 +677,11 @@ When planning the migration, the preservation of existing metadata - the informa
 
 Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface only allows to search for these in an implicit way, i.e., one can search for "J31" because it is unlikely to appear as anything else, but there is no selection by specific JEL codes currently possible. The ability to do so is planned for a later implementation.
 
+## Data Availability
+
+The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper, and the data underlying the figures, are available at [https://github.com/AEADataEditor/aea-supplement-migration/data/generated](https://github.com/AEADataEditor/aea-supplement-migration/data/generated). 
+
+## Code Availability
+The code underlying this analysis can be downloaded at  [https://github.com/AEADataEditor/aea-supplement-migration](https://github.com/AEADataEditor/aea-supplement-migration).
+
 ## References
