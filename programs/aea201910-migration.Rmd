@@ -118,6 +118,9 @@ aea.complete %>% group_by(doi) %>%
 	  theme_classic() + 
 	  theme(axis.line = element_line(size=0)) -> fig.doi_count_by_year
 g <- ggarrange(fig.count_by_year,fig.doi_count_by_year) 
+
+ggsave("figure_files_by_year.png",fig.count_by_year)
+ggsave("figure_doi_by_year.png",fig.doi_count_by_year)
 ggsave("figure_years.png",g)
 ```
 ![Distribution across years](figure_years.png)
@@ -159,6 +162,9 @@ table.aea.filecount %>%
 	  xlab("Log(count of files)") +
 	  theme_classic() + 
 	  theme(axis.line = element_line(size=0)) -> fig.count
+
+ggsave("figure_files_count.png",fig.count)
+
 g <- ggarrange(fig.size,fig.count) 
 ggsave("figure_files.png",g)
 ```
@@ -251,6 +257,8 @@ table.aea.file.ext %>%
 	    theme(axis.line = element_line(size=0),axis.text.x = element_text(angle=45),
 	    	  axis.title.y = element_text(angle=0)) -> fig.software.files
 
+ggsave("figure_software_files.png",fig.software.files)
+
 # Do the same by package
 ```
 The top software with respect to number of files is **`r head(table.aea.file.ext,1)$Software`**. Note that there are `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
@@ -311,33 +319,88 @@ table.aea.software_by_doi %>%
 	    theme_classic() +
 	    theme(axis.line = element_line(size=0),axis.text.x = element_text(angle=45),
 	    	  axis.title.y = element_text(angle=0)) ->fig.software.pkgs
+ggsave("figure_software_pkgs.png",fig.software.pkgs)
 
 g.software <- ggarrange(fig.software.files,fig.software.pkgs) 
 ggsave("figure_software.png",g.software)
 
 ```
 
-![Distribution of software](figure_software.png)
+![Software usage](figure_software.png)
 
 Clearly, **`r head(table.aea.doi_by_software$Software,1)`** is the most popular statistical software in the journals of the AEA, followed by **`r table.aea.doi_by_software[2,"Software"]`**. Note again the `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
  
 ```{r software_packages_time}
-min_mentions <- 10
-aea.complete.programs %>%
-	group_by(doi,Software) %>% 
-	summarize(count=n())  %>% 
-	mutate(presence=count>0) -> aea.complete.programs.bydoi
-aea.complete.programs.bydoi %>% group_by(doi) %>%
-	summarize(n_software=n())  %>% 
-	arrange(desc(n_software)) -> table.aea.software_by_doi # this needs to be tabulated by frequency
-# table.aea.software_by_doi  %>% 
-# 	mutate(c_software=factor(pmin(n_software,3),levels=c(0,1,2,3),labels=c("0","1","2","3+"))) %>%
-# 	group_by(c_software) %>%
-# 	summarize(count=n()) %>%
-# 	mutate(Percent = round(count/nrow(table.aea.software_by_doi) *100,2)) %>%
-# 	kable(col.names = c("Number of Software","N","Percent")) %>% 
-#	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+# We want to show the evolution across time. To do this, we exploit the fact that a DOI is present in only one year. We simply attach the year of publication back to the DOI, and graph that. 
+
+# get the year and journal from aea.issue
+aea.issue %>% select(issue_id,journal,year) %>% 
+	right_join(select(aea.article,doi,issue_id),by="issue_id") %>% 
+    right_join(aea.complete.software_collapsed.bydoi,by="doi") -> aea.software_collapsed.bydoi_and_year.tmp
+
+# there are a few issues that do not have an issue_id. We look them up in crossref
+aea.software_collapsed.bydoi_and_year.tmp %>% filter(is.na(year)) %>% select(doi) %>% distinct(doi) -> lookup.doi
+
+results.doi <- rcrossref::cr_works(dois=lookup.doi$doi)$data
+results.doi %>% select(doi,issued) %>% 
+	mutate(year = substr(issued,1,4)) %>%
+	select(doi,year) %>%
+	right_join(aea.software_collapsed.bydoi_and_year.tmp,by="doi") %>%
+	mutate(year = if_else(is.na(year.x),year.y,as.integer(year.x))) %>% 
+	select(-year.x,-year.y) -> aea.software_collapsed.bydoi_and_year
+
+aea.software_collapsed.bydoi_and_year %>% 
+	group_by(year) %>%
+	summarize(n_doi_year=n()) -> total.dois.by_year
+
+aea.software_collapsed.bydoi_and_year %>% 
+	group_by(Software_collapsed,year) %>%
+	summarize(n_doi=n()) %>% 
+	left_join(total.dois.by_year,by="year") %>% 
+	mutate(Percent = round(n_doi/n_doi_year*100,2)) -> table.aea.software_by_year
+
+# now graph it
+
+table.aea.software_by_year %>% 
+	filter(year>2009) %>%
+	rename(Software = Software_collapsed) %>%
+	ggplot(aes(year,n_doi)) +
+		geom_line(aes(color=Software,linetype=Software)) +
+	    ylab(element_blank())+
+	    xlab("Software, Number of packages") +
+	    ylab(element_blank()) +
+	    theme_classic() +
+	    scale_colour_brewer(palette = "Paired") +
+	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),1)) +
+	    theme(axis.line = element_line(size=0),
+	    	  axis.title.y = element_text(angle=0)) -> fig.software_by_year.count
+ggsave("figure_software_years_count.png",fig.software_by_year.count)
+
+# graph percent
+table.aea.software_by_year %>% 
+	filter(year>2009) %>%
+	rename(Software = Software_collapsed) %>%
+	ggplot(aes(year,Percent)) +
+		geom_line(aes(color=Software,linetype=Software)) +
+	    ylab(element_blank())+
+	    xlab("Software, Percentage of packages") +
+	    ylab(element_blank()) +
+	    theme_classic() +
+	    scale_colour_brewer(palette = "Paired") +
+	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),1)) +
+	    theme(axis.line = element_line(size=0),
+	    	  axis.title.y = element_text(angle=0)) -> fig.software_by_year.pct
+ggsave("figure_software_years_pct.png",fig.software_by_year.pct)
+
+g.software.years <- ggarrange(fig.software_by_year.count,fig.software_by_year.pct) 
+ggsave("figure_software_years.png",g.software.years)
+
 ```
+
+![Software usage over time, number of supplements](figure_software_years_count.png)
+
+![Software usage over time, in percent](figure_software_years_pct.png)
+
 ### Data formats 
 It is somewhat more ambiguous identifying data files, as they come in a large variety of formats. Furthermore, data might be compressed. In the following table, we tabulate data files and archives, by the software package associated with their extension. The data type "General" encompasses formats like "tsv" or "csv" that are not associated with any particular software, but are nevertheless clearly identifiable as data files ([full list available](../data/original/`r file.ext.map.file`)). We restrict ourselves to the number of supplements which contain files with such extensions.
 
