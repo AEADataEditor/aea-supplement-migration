@@ -34,9 +34,19 @@ if ( file.exists(file) ) { fread(file) }
 aea.icpsr <- fread.exist(file.path(acquired,"aea_icpsr_all_files.csv.gz")) %>%
 	filter(!file_path %in% c("metadata.rdf","LICENSE.txt","citations")) %>%
 	filter(!dirname(file_path) %in% c("citations"))
+# Database of the articles and the associated packages sent to ICSPR
 aea.article <- fread.exist(file.path(acquired,"aea_article_data.csv.gz"))
+# Issue information
 aea.issue <- fread.exist(file.path(acquired,"aea_issue_data.csv.gz"))
+# JEL codes associated with articles
 aea.jel <- fread.exist(file.path(acquired,"aea_jel_data.csv.gz"))
+# Mapping of ICPSR packages to ICPSR-based DOI
+aea.mapping <- fread.exist(file.path(acquired,"aea_icpsr_mapping.20191014.txt"),
+						   col.names = c("DOI","Zipfile")) %>% 
+	mutate(icpsr_package_name = str_remove(Zipfile,"Original Zip: "),
+		   doi = str_remove(DOI,"http://doi.org/"))
+
+# Files that were too big to be migrated in the first batch
 aea.big <- fread(file.path(acquired,"1000plus_file_count.txt"),sep = " ",col.names = c("filecount","pkgsize","compressed"))
 file.ext.map <- fread(file.path(basepath,"data","original",file.ext.map.file)) %>% 
 	mutate(file.ext = tolower(Extension))
@@ -121,9 +131,9 @@ aea.complete %>% group_by(doi) %>%
 	  theme(axis.line = element_line(size=0)) -> fig.doi_count_by_year
 g <- ggarrange(fig.count_by_year,fig.doi_count_by_year) 
 
-ggsave("figure_files_by_year.png",fig.count_by_year)
-ggsave("figure_doi_by_year.png",fig.doi_count_by_year)
-ggsave("figure_years.png",g)
+ggsave(file.path(programs,"figure_files_by_year.png"),fig.count_by_year)
+ggsave(file.path(programs,"figure_doi_by_year.png"),fig.doi_count_by_year)
+ggsave(file.path(programs,"figure_years.png"),g)
 ```
 ![Distribution across years](figure_years.png)
 
@@ -135,7 +145,7 @@ aea.icpsr %>% group_by(doi) %>%
 	arrange(desc(size)) -> table.aea.filecount
 max.aea.filecount <- head(table.aea.filecount,1)
 max.aea.filecount.bib <- RefManageR::ReadCrossRef(query = paste("doi=",max.aea.filecount$doi))
-RefManageR::WriteBib(max.aea.filecount.bib,"max.aea.filecount.bib")
+RefManageR::WriteBib(max.aea.filecount.bib,file.path(programs,"max.aea.filecount.bib"))
 
 write.csv(table.aea.filecount,file=file.path(generated,"table.aea.filecount.csv"))
 table.aea.filecount %>% head(10) %>% kable() %>% 
@@ -167,10 +177,10 @@ table.aea.filecount %>%
 	  theme_classic() + 
 	  theme(axis.line = element_line(size=0)) -> fig.count
 
-ggsave("figure_files_count.png",fig.count)
+ggsave(file.path(programs,"figure_files_count.png"),fig.count)
 
 g <- ggarrange(fig.size,fig.count) 
-ggsave("figure_files.png",g)
+ggsave(file.path(programs,"figure_files.png"),g)
 ```
 ![Distribution of filesizes and filecounts](figure_files.png)
 
@@ -267,7 +277,7 @@ table.aea.file.ext %>%
 	    theme(axis.line = element_line(size=0),axis.text.x = element_text(angle=45),
 	    	  axis.title.y = element_text(angle=0)) -> fig.software.files
 
-ggsave("figure_software_files.png",fig.software.files)
+ggsave(file.path(programs,"figure_software_files.png"),fig.software.files)
 
 # Do the same by package
 ```
@@ -337,10 +347,10 @@ table.aea.software_by_doi %>%
 	    theme_classic() +
 	    theme(axis.line = element_line(size=0),axis.text.x = element_text(angle=45),
 	    	  axis.title.y = element_text(angle=0)) ->fig.software.pkgs
-ggsave("figure_software_pkgs.png",fig.software.pkgs)
+ggsave(file.path(programs,"figure_software_pkgs.png"),fig.software.pkgs)
 
 g.software <- ggarrange(fig.software.files,fig.software.pkgs) 
-ggsave("figure_software.png",g.software)
+ggsave(file.path(programs,"figure_software.png"),g.software)
 
 ```
 
@@ -392,7 +402,7 @@ table.aea.software_by_year %>%
 	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),1)) +
 	    theme(axis.line = element_line(size=0),
 	    	  axis.title.y = element_text(angle=0)) -> fig.software_by_year.count
-ggsave("figure_software_years_count.png",fig.software_by_year.count)
+ggsave(file.path(programs,"figure_software_years_count.png"),fig.software_by_year.count)
 
 # graph percent
 table.aea.software_by_year %>% 
@@ -408,10 +418,10 @@ table.aea.software_by_year %>%
 	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),1)) +
 	    theme(axis.line = element_line(size=0),
 	    	  axis.title.y = element_text(angle=0)) -> fig.software_by_year.pct
-ggsave("figure_software_years_pct.png",fig.software_by_year.pct)
+ggsave(file.path(programs,"figure_software_years_pct.png"),fig.software_by_year.pct)
 
 g.software.years <- ggarrange(fig.software_by_year.count,fig.software_by_year.pct) 
-ggsave("figure_software_years.png",g.software.years)
+ggsave(file.path(programs,"figure_software_years.png"),g.software.years)
 
 ```
 
