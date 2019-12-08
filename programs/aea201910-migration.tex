@@ -101,6 +101,11 @@
 \section{Migrating historical AEA supplements -
 DRAFT}\label{migrating-historical-aea-supplements---draft}}
 
+\emph{Author: Lars Vilhuber, Cornell University, AEA Data Editor
+(\href{mailto:dataeditor@aeapubs.org}{\nolinkurl{dataeditor@aeapubs.org}})}
+
+\emph{Last updated: 2019-12-07}
+
 Since July 16, 2019, the American Economic Association has used the
 \textbf{\href{https://www.openicpsr.org/openicpsr/aea}{AEA Data and Code
 Repository}} at
@@ -546,12 +551,55 @@ i.e., one can search for ``J31'' because it is unlikely to appear as
 anything else, but there is no selection by specific JEL codes currently
 possible. The ability to do so is planned for a later implementation.
 
+Metadata on which supplement at openICPSR relates to which article can
+be found in a few ways. First, in registering the new supplement DOI at
+openICPSR, a relationship link pointing to the article was created. A
+query to the \href{https://api.datacite.org/}{Datacite API}. For
+instance, the article with the largest supplement had article DOI
+10.1257/pandp.20181045. The associated supplement now has DOI
+10.3886/E114448V1. The Datacite API query for the supplement would be
+\url{https://api.datacite.org/dois/10.3886/E114448V1}, and querying this
+URL would yield a \href{https://www.json.org/}{JSON} object, identifying
+the link:
+
+\begin{figure}
+\centering
+\includegraphics{../assets/datacite_api_extract.png}
+\caption{Partial JSON from query}
+\end{figure}
+
+Alternatively, we have created a linkage file, available at
+\url{https://github.com/AEADataEditor/aea-supplement-migration/data/generated/table.aea.icpsr.mapping.csv},
+containing the article DOI, the title of the paper, and the supplement
+DOI at openICPSR:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|l|l}
+\hline
+doi & title & icpsr\_doi\\
+\hline
+10.1257/0002828043052196 & Progressive Taxation and Long-Run Growth & 10.3886/E112306V1\\
+\hline
+10.1257/0002828043052358 & The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster & 10.3886/E112307V1\\
+\hline
+10.1257/0002828053828446 & The Sensitivity of Long-Term Interest Rates to Economic News: Evidence and Implications for Macroeconomic Models & 10.3886/E112308V1\\
+\hline
+10.1257/0002828053828455 & Will U.S. Agriculture Really Benefit from Global Warming? Accounting for Irrigation in the Hedonic Approach & 10.3886/E112309V1\\
+\hline
+10.1257/0002828053828509 & Patent Citations and the Geography of Knowledge Spillovers: A Reassessment & 10.3886/E112310V1\\
+\hline
+10.1257/0002828053828635 & Why the Apple Doesn't Fall Far: Understanding Intergenerational Transmission of Human Capital & 10.3886/E112311V1\\
+\hline
+\end{tabular}
+\end{table}
+
 \hypertarget{data-availability}{%
 \subsection{Data Availability}\label{data-availability}}
 
 The input data to this paper are available at (OPENICPSR TBD). The
-tables presented in this paper, and the data underlying the figures, are
-available at
+tables presented in this paper, the data underlying the figures, and the
+linkage between article DOIs and supplement DOIs are all available at
 \url{https://github.com/AEADataEditor/aea-supplement-migration/data/generated}.
 
 \hypertarget{code-availability}{%

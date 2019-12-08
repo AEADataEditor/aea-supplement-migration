@@ -24,10 +24,10 @@ source(file.path(programs,"global-libraries.R"), echo=FALSE)
 ```{r readin1,echo=FALSE,message=FALSE,warning=FALSE}
 
 # load data
-fread.exist <- function(file) 
+fread.exist <- function(file,...) 
 {
 
-if ( file.exists(file) ) { fread(file) }
+if ( file.exists(file) ) { fread(file,...) }
 	
 }
 
@@ -44,7 +44,8 @@ aea.jel <- fread.exist(file.path(acquired,"aea_jel_data.csv.gz"))
 aea.mapping <- fread.exist(file.path(acquired,"aea_icpsr_mapping.20191014.txt"),
 						   col.names = c("DOI","Zipfile")) %>% 
 	mutate(icpsr_package_name = str_remove(Zipfile,"Original Zip: "),
-		   doi = str_remove(DOI,"http://doi.org/"))
+		   icpsr_doi = str_remove(DOI,"http://doi.org/")) %>%
+	select(-Zipfile,-DOI)
 
 # Files that were too big to be migrated in the first batch
 aea.big <- fread(file.path(acquired,"1000plus_file_count.txt"),sep = " ",col.names = c("filecount","pkgsize","compressed"))
@@ -89,6 +90,10 @@ if (outputFormat %in% c('html')) {
 ```
 
 # Migrating historical AEA supplements - DRAFT
+
+*Author: Lars Vilhuber, Cornell University, AEA Data Editor ([dataeditor@aeapubs.org](mailto:dataeditor@aeapubs.org))*
+
+*Last updated: `r Sys.Date()`*
 
 
 
@@ -459,9 +464,37 @@ When planning the migration, the preservation of existing metadata - the informa
 
 Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface only allows to search for these in an implicit way, i.e., one can search for "J31" because it is unlikely to appear as anything else, but there is no selection by specific JEL codes currently possible. The ability to do so is planned for a later implementation.
 
+
+```{r output_mapping}
+aea.mapping %>% 
+	left_join(aea.article,by=c("icpsr_package_name")) %>% 
+	select(doi,icpsr_doi,title) -> table.aea.icpsr.mapping
+
+write.csv(table.aea.icpsr.mapping,file=file.path(generated,"table.aea.icpsr.mapping.csv"))
+```
+
+```{r datacite_example}
+sample_datacite <- max.aea.filecount %>% left_join(table.aea.icpsr.mapping,by=c("doi")) 
+```
+
+Metadata on which supplement at openICPSR relates to which article can be found in a few ways. First, in registering the new supplement DOI at openICPSR, a relationship link pointing to the article was created. A query to the [Datacite API](https://api.datacite.org/). For instance, the article with the largest supplement had article DOI `r max.aea.filecount$doi`. The associated supplement now has DOI `r sample_datacite$icpsr_doi`. The Datacite API query for the supplement would be [https://api.datacite.org/dois/`r sample_datacite$icpsr_doi`](https://api.datacite.org/dois/`r sample_datacite$icpsr_doi`), and querying this URL would yield a [JSON](https://www.json.org/) object, identifying the link:
+
+![Partial JSON from query](../assets/datacite_api_extract.png)
+
+Alternatively, we have created a linkage file, available at [`r file.path(git.base,git.repo,"data","generated","table.aea.icpsr.mapping.csv")`](`r file.path(git.base,git.repo,"data","generated","table.aea.icpsr.mapping.csv")`), containing the article DOI, the title of the paper, and the supplement DOI at openICPSR:
+
+```{r print_linkage}
+
+table.aea.icpsr.mapping  %>% 
+	head() %>%
+	kable() %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F)
+
+```
+
 ## Data Availability
 
-The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper, and the data underlying the figures, are available at [`r file.path(git.base,git.repo,"data","generated")`](`r file.path(git.base,git.repo,"data","generated")`). 
+The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper,  the data underlying the figures, and the linkage between article DOIs and supplement DOIs are all available at [`r file.path(git.base,git.repo,"data","generated")`](`r file.path(git.base,git.repo,"data","generated")`). 
 
 ## Code Availability
 The code underlying this analysis can be downloaded at  [`r file.path(git.base,git.repo)`](`r file.path(git.base,git.repo)`).

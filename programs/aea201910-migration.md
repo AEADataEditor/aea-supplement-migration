@@ -20,6 +20,10 @@ output:
 
 # Migrating historical AEA supplements - DRAFT
 
+*Author: Lars Vilhuber, Cornell University, AEA Data Editor ([dataeditor@aeapubs.org](mailto:dataeditor@aeapubs.org))*
+
+*Last updated: 2019-12-07*
+
 
 
 Since July 16, 2019, the American Economic Association has used the **[AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea)** at **[openICPSR](https://www.openicpsr.org/openicpsr/)** as the default archive for its supplements. This archive serves a dual purpose: to share data with the AEA Data Editor prior to being published, and as a publication outlet for supplements to articles in AEA journals.
@@ -677,9 +681,62 @@ When planning the migration, the preservation of existing metadata - the informa
 
 Two important caveats apply, however. First, none of the additional metadata exists for the historical archives. Second, the openICPSR search interface only allows to search for these in an implicit way, i.e., one can search for "J31" because it is unlikely to appear as anything else, but there is no selection by specific JEL codes currently possible. The ability to do so is planned for a later implementation.
 
+
+
+
+
+
+Metadata on which supplement at openICPSR relates to which article can be found in a few ways. First, in registering the new supplement DOI at openICPSR, a relationship link pointing to the article was created. A query to the [Datacite API](https://api.datacite.org/). For instance, the article with the largest supplement had article DOI 10.1257/pandp.20181045. The associated supplement now has DOI 10.3886/E114448V1. The Datacite API query for the supplement would be [https://api.datacite.org/dois/10.3886/E114448V1](https://api.datacite.org/dois/10.3886/E114448V1), and querying this URL would yield a [JSON](https://www.json.org/) object, identifying the link:
+
+![Partial JSON from query](../assets/datacite_api_extract.png)
+
+Alternatively, we have created a linkage file, available at [https://github.com/AEADataEditor/aea-supplement-migration/data/generated/table.aea.icpsr.mapping.csv](https://github.com/AEADataEditor/aea-supplement-migration/data/generated/table.aea.icpsr.mapping.csv), containing the article DOI, the title of the paper, and the supplement DOI at openICPSR:
+
+<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> doi </th>
+   <th style="text-align:left;"> title </th>
+   <th style="text-align:left;"> icpsr_doi </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> 10.1257/0002828043052196 </td>
+   <td style="text-align:left;"> Progressive Taxation and Long-Run Growth </td>
+   <td style="text-align:left;"> 10.3886/E112306V1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 10.1257/0002828043052358 </td>
+   <td style="text-align:left;"> The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster </td>
+   <td style="text-align:left;"> 10.3886/E112307V1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 10.1257/0002828053828446 </td>
+   <td style="text-align:left;"> The Sensitivity of Long-Term Interest Rates to Economic News: Evidence and Implications for Macroeconomic Models </td>
+   <td style="text-align:left;"> 10.3886/E112308V1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 10.1257/0002828053828455 </td>
+   <td style="text-align:left;"> Will U.S. Agriculture Really Benefit from Global Warming? Accounting for Irrigation in the Hedonic Approach </td>
+   <td style="text-align:left;"> 10.3886/E112309V1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 10.1257/0002828053828509 </td>
+   <td style="text-align:left;"> Patent Citations and the Geography of Knowledge Spillovers: A Reassessment </td>
+   <td style="text-align:left;"> 10.3886/E112310V1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 10.1257/0002828053828635 </td>
+   <td style="text-align:left;"> Why the Apple Doesn't Fall Far: Understanding Intergenerational Transmission of Human Capital </td>
+   <td style="text-align:left;"> 10.3886/E112311V1 </td>
+  </tr>
+</tbody>
+</table>
+
 ## Data Availability
 
-The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper, and the data underlying the figures, are available at [https://github.com/AEADataEditor/aea-supplement-migration/data/generated](https://github.com/AEADataEditor/aea-supplement-migration/data/generated). 
+The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper,  the data underlying the figures, and the linkage between article DOIs and supplement DOIs are all available at [https://github.com/AEADataEditor/aea-supplement-migration/data/generated](https://github.com/AEADataEditor/aea-supplement-migration/data/generated). 
 
 ## Code Availability
 The code underlying this analysis can be downloaded at  [https://github.com/AEADataEditor/aea-supplement-migration](https://github.com/AEADataEditor/aea-supplement-migration).
