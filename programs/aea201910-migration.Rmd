@@ -158,8 +158,21 @@ table.aea.filecount %>% head(10) %>% kable() %>%
 ```
 
 
+```{r additional_stats,cache=FALSE}
+text.stats <- tibble(statistic = "supplements",value=as.numeric(nrow(aea.article)))
+text.stats <- add_row(text.stats,statistic="files",value=nrow(aea.icpsr))
+text.stats <- add_row(text.stats,statistic="max.filecount",value=max.aea.filecount$count)
+text.stats <- add_row(text.stats,statistic="max.size",value=max.aea.filecount$size)
+text.stats <- add_row(text.stats,statistic="size",value=sum(aea.icpsr$file_size))
+text.stats <- add_row(text.stats,statistic="median.size",value=median(table.aea.filecount$size))
+text.stats <- add_row(text.stats,statistic="median.filecount",value=median(table.aea.filecount$count))
 
-The `r format(nrow(aea.article),big.mark=",")` supplements contain a total of `r format(nrow(aea.icpsr),big.mark=",")` files - programs, documents, datasets. The largest supplement within this group in terms of file count has `r format(max.aea.filecount$count,big.mark=",")` files, summing to `r utils:::format.object_size(max.aea.filecount$size,"auto")` [`r Citep(max.aea.filecount.bib)`](https://doi.org/`r max.aea.filecount$doi`). Note however that among the remaining non-migrated supplements are very large packages: the largest we have identified has `r format(max(aea.big$filecount),big.mark=",")` files. 
+myvalue <- function(arg) {
+	as.numeric(filter(text.stats,statistic==arg) %>% select(value))
+}
+```
+
+The `r format(myvalue("supplements"),big.mark=",")` supplements contain a total of `r format(myvalue("files"),big.mark=",")` files - programs, documents, datasets. The largest supplement within this group in terms of file count has `r format(myvalue("max.filecount"),big.mark=",")` files, summing to `r utils:::format.object_size(max.aea.filecount$size,"auto")` [`r Citep(max.aea.filecount.bib)`](https://doi.org/`r max.aea.filecount$doi`). Note however that among the remaining non-migrated supplements are very large packages: the largest we have identified has `r format(max(aea.big$filecount),big.mark=",")` files. 
 
 ### Distribution overall
 ```{r figure_files,cache=FALSE}
@@ -192,7 +205,7 @@ ggsave(file.path(programs,"figure_files.png"),g)
 
 
 ### Stats by journal
-We can look at the size of the supplements globally by journal. The following table shows cumulative and median size and number of files.
+Globally, the median supplement is `r utils:::format.object_size(myvalue("median.size"),"auto")` and has `r format(myvalue("median.filecount"),big.mark=",")`. We can look at the size of the supplements by journal. The following table shows cumulative and median size and number of files.
 
 ```{r table_journal,echo=FALSE,message=FALSE,warning=FALSE,cache=TRUE}
 
@@ -357,11 +370,14 @@ ggsave(file.path(programs,"figure_software_pkgs.png"),fig.software.pkgs)
 g.software <- ggarrange(fig.software.files,fig.software.pkgs) 
 ggsave(file.path(programs,"figure_software.png"),g.software)
 
+text.stats <- add_row(text.stats,statistic="supplements.stata.pct",value=as.numeric(filter(table.aea.file.ext,Software=="Stata") %>% select(Pct)))
+text.stats <- add_row(text.stats,statistic="supplements.matlab.pct",value=as.numeric(filter(table.aea.file.ext,Software=="Matlab") %>% select(Pct)))
+
 ```
 
 ![Software usage](figure_software.png)
 
-Clearly, **`r head(table.aea.doi_by_software$Software,1)`** is the most popular statistical software in the journals of the AEA, followed by **`r table.aea.doi_by_software[2,"Software"]`**. Note again the `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
+Clearly, **`r head(table.aea.doi_by_software$Software,1)`** is the most popular statistical software in the journals of the AEA (`r head(table.aea.doi_by_software$Percent,1)` percent of all supplements use it), followed by **`r table.aea.doi_by_software[2,"Software"]`** (`r table.aea.doi_by_software[2,"Percent"]` percent). Note again the `r filter(table.aea.file.ext,Software=="None") %>% select(count)` supplements that do not contain files that we have identified as program files ("None"). 
  
 ```{r software_packages_time}
 # We want to show the evolution across time. To do this, we exploit the fact that a DOI is present in only one year. We simply attach the year of publication back to the DOI, and graph that. 
@@ -493,6 +509,10 @@ table.aea.icpsr.mapping  %>%
 ```
 
 ## Data Availability
+
+```{r write_out_parms, cache=FALSE}
+write.csv(text.stats,file=file.path(generated,"text.stats.csv"))
+```
 
 The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper,  the data underlying the figures, and the linkage between article DOIs and supplement DOIs are all available at [`r file.path(git.base,git.repo,"data","generated")`](`r file.path(git.base,git.repo,"data","generated")`). 
 

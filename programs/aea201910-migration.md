@@ -22,7 +22,7 @@ output:
 
 *Author: Lars Vilhuber, Cornell University, AEA Data Editor ([dataeditor@aeapubs.org](mailto:dataeditor@aeapubs.org))*
 
-*Last updated: 2019-12-07*
+*Last updated: 2019-12-08*
 
 
 
@@ -196,6 +196,7 @@ This is only a subset of all supplements, so what years are covered?
 
 
 
+
 The 2,552 supplements contain a total of 94,465 files - programs, documents, datasets. The largest supplement within this group in terms of file count has 795 files, summing to 30.5 Gb [(Armour, Button, and Hollands, 2018)](https://doi.org/10.1257/pandp.20181045). Note however that among the remaining non-migrated supplements are very large packages: the largest we have identified has 201,972 files. 
 
 ### Distribution overall
@@ -205,7 +206,7 @@ The 2,552 supplements contain a total of 94,465 files - programs, documents, dat
 
 
 ### Stats by journal
-We can look at the size of the supplements globally by journal. The following table shows cumulative and median size and number of files.
+Globally, the median supplement is 1.5 Mb and has 12. We can look at the size of the supplements by journal. The following table shows cumulative and median size and number of files.
 
 <table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
  <thead>
@@ -592,7 +593,7 @@ In turn, the number of supplements in which software is used at least once is re
 
 ![Software usage](figure_software.png)
 
-Clearly, **Stata** is the most popular statistical software in the journals of the AEA, followed by **Matlab**. Note again the 258 supplements that do not contain files that we have identified as program files ("None"). 
+Clearly, **Stata** is the most popular statistical software in the journals of the AEA (72.96 percent of all supplements use it), followed by **Matlab** (22.45 percent). Note again the 258 supplements that do not contain files that we have identified as program files ("None"). 
  
 
 
@@ -696,45 +697,47 @@ Alternatively, we have created a linkage file, available at [https://github.com/
  <thead>
   <tr>
    <th style="text-align:left;"> doi </th>
-   <th style="text-align:left;"> title </th>
    <th style="text-align:left;"> icpsr_doi </th>
+   <th style="text-align:left;"> title </th>
   </tr>
  </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> 10.1257/0002828043052196 </td>
-   <td style="text-align:left;"> Progressive Taxation and Long-Run Growth </td>
    <td style="text-align:left;"> 10.3886/E112306V1 </td>
+   <td style="text-align:left;"> Progressive Taxation and Long-Run Growth </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 10.1257/0002828043052358 </td>
-   <td style="text-align:left;"> The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster </td>
    <td style="text-align:left;"> 10.3886/E112307V1 </td>
+   <td style="text-align:left;"> The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 10.1257/0002828053828446 </td>
-   <td style="text-align:left;"> The Sensitivity of Long-Term Interest Rates to Economic News: Evidence and Implications for Macroeconomic Models </td>
    <td style="text-align:left;"> 10.3886/E112308V1 </td>
+   <td style="text-align:left;"> The Sensitivity of Long-Term Interest Rates to Economic News: Evidence and Implications for Macroeconomic Models </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 10.1257/0002828053828455 </td>
-   <td style="text-align:left;"> Will U.S. Agriculture Really Benefit from Global Warming? Accounting for Irrigation in the Hedonic Approach </td>
    <td style="text-align:left;"> 10.3886/E112309V1 </td>
+   <td style="text-align:left;"> Will U.S. Agriculture Really Benefit from Global Warming? Accounting for Irrigation in the Hedonic Approach </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 10.1257/0002828053828509 </td>
-   <td style="text-align:left;"> Patent Citations and the Geography of Knowledge Spillovers: A Reassessment </td>
    <td style="text-align:left;"> 10.3886/E112310V1 </td>
+   <td style="text-align:left;"> Patent Citations and the Geography of Knowledge Spillovers: A Reassessment </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 10.1257/0002828053828635 </td>
-   <td style="text-align:left;"> Why the Apple Doesn't Fall Far: Understanding Intergenerational Transmission of Human Capital </td>
    <td style="text-align:left;"> 10.3886/E112311V1 </td>
+   <td style="text-align:left;"> Why the Apple Doesn't Fall Far: Understanding Intergenerational Transmission of Human Capital </td>
   </tr>
 </tbody>
 </table>
 
 ## Data Availability
+
+
 
 The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper,  the data underlying the figures, and the linkage between article DOIs and supplement DOIs are all available at [https://github.com/AEADataEditor/aea-supplement-migration/data/generated](https://github.com/AEADataEditor/aea-supplement-migration/data/generated). 
 
