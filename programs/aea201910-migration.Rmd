@@ -121,7 +121,7 @@ table.by_year %>% kable() %>%
 	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
 
 aea.complete %>%  ggplot(aes(year)) + 
-	  geom_histogram(fill="grey",breaks=seq(min(aea.complete$year,na.rm=TRUE),max(aea.complete$year,na.rm=TRUE),1)) + 
+	  geom_histogram(fill="grey",col="white",breaks=seq(min(aea.complete$year,na.rm=TRUE),max(aea.complete$year,na.rm=TRUE),1)) + 
 	  ylab(element_blank())+ 
 	  xlab("Number of files, by year") +
 	  theme_classic() + 
@@ -129,7 +129,7 @@ aea.complete %>%  ggplot(aes(year)) +
 aea.complete %>% group_by(doi) %>%
 	summarize(count=n(),year=first(year)) %>%
 	ggplot(aes(year)) + 
-	  geom_histogram(fill="grey",breaks=seq(min(aea.complete$year,na.rm=TRUE),max(aea.complete$year,na.rm=TRUE),1)) + 
+	  geom_histogram(fill="grey",col="white",breaks=seq(min(aea.complete$year,na.rm=TRUE),max(aea.complete$year,na.rm=TRUE),1)) + 
 	  ylab(element_blank())+ 
 	  xlab("Number of supplements, by year") +
 	  theme_classic() + 
