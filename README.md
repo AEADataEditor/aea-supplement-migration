@@ -1,7 +1,5 @@
 # Code and information to migrate AEA data supplements to ICPSR
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AEADataEditor/aea-supplement-migration/master?urlpath=rstudio) not working
-
-Currently, this repository is incomplete, as data has not been published yet, and is only internally available.
+Currently, this repository is incomplete, as data has not been published yet, and is only internally available. See [https://aeadataeditor.github.io/aea-supplement-migration/programs/aea201910-migration.html](https://aeadataeditor.github.io/aea-supplement-migration/programs/aea201910-migration.html).
 
