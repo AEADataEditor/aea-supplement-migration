@@ -18,7 +18,12 @@ source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"path
 source(file.path(programs,"config.R"), echo=FALSE)
 source(file.path(programs,"global-libraries.R"), echo=FALSE)
 
-
+options(DT.options = list(dom = 'frtipB',
+						  autoFill = TRUE,
+                           buttons = c('csv','copy'),
+                           lengthMenu = list(c(10,25,50),
+                                             c(10,25,50))))
+options(DT.extensions = c('AutoFill','Buttons'))
 ```
 
 ```{r readin1,echo=FALSE,message=FALSE,warning=FALSE}
@@ -153,8 +158,10 @@ max.aea.filecount.bib <- RefManageR::ReadCrossRef(query = paste("doi=",max.aea.f
 RefManageR::WriteBib(max.aea.filecount.bib,file.path(programs,"max.aea.filecount.bib"))
 
 write.csv(table.aea.filecount,file=file.path(generated,"table.aea.filecount.csv"))
-table.aea.filecount %>% head(10) %>% kable() %>% 
-	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+#table.aea.filecount %>% head(10) %>% kable() %>% 
+#	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", #"condensed"),full_width = F) 
+table.aea.filecount %>% 
+	datatable( autoHideNavigation = TRUE )
 ```
 
 
@@ -223,8 +230,9 @@ table.aea.count_by_journal <- group_by(aea.complete,doi) %>%
 write.csv(table.aea.count_by_journal,file=file.path(generated,"table.aea.count_by_journal.csv"))
 table.aea.count_by_journal %>% 
 	select(journal,articles,`Median Size (Mb)`,`Cumulative Size (Mb)`,median_count ,count) %>%
-	kable(col.names=c("Journal","Articles","Median Size (Mb)","Cumulative Size (Mb)","Median no. of files","Total no. of files"),format.args=list(big.mark = ",")) %>% 
-	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+	datatable( autoHideNavigation = TRUE)
+	#kable(col.names=c("Journal","Articles","Median Size (Mb)","Cumulative Size (Mb)","Median no. of files","Total no. of files"),format.args=list(big.mark = ",")) %>% 
+	#kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
 
 ```
 
@@ -242,11 +250,13 @@ aea.jel %>% group_by(jel_code) %>%
 
 write.csv(table.aea.jel,file=file.path(generated,"table.aea.jel.csv"))
 table.aea.jel %>% 
-	head(10) %>% kable() %>% 
-	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) %>%
-	footnote(general="*A supplement can be associated with multiple JEL codes.*")
+	datatable( autoHideNavigation = TRUE)
+    #head(10) %>% kable() %>% 
+	#kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) %>%
+	#footnote(general="*A supplement can be associated with multiple JEL codes.*")
 
 ```
+*A supplement can be associated with multiple JEL codes.*
 
 ### Software used
 To identify software usage and data formats, we (manually) [mapped file extensions](../data/original/`r file.ext.map.file`)  into known software packages, and classified the file type into a set of categories:
@@ -502,7 +512,8 @@ Alternatively, we have created a linkage file, available at [`r file.path(git.ba
 ```{r print_linkage}
 
 table.aea.icpsr.mapping  %>% 
-	head() %>%
+	datatable()
+    head() %>%
 	kable() %>% 
 	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F)
 
