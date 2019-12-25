@@ -230,9 +230,8 @@ table.aea.count_by_journal <- group_by(aea.complete,doi) %>%
 write.csv(table.aea.count_by_journal,file=file.path(generated,"table.aea.count_by_journal.csv"))
 table.aea.count_by_journal %>% 
 	select(journal,articles,`Median Size (Mb)`,`Cumulative Size (Mb)`,median_count ,count) %>%
-	datatable( autoHideNavigation = TRUE)
-	#kable(col.names=c("Journal","Articles","Median Size (Mb)","Cumulative Size (Mb)","Median no. of files","Total no. of files"),format.args=list(big.mark = ",")) %>% 
-	#kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
+	kable(col.names=c("Journal","Articles","Median Size (Mb)","Cumulative Size (Mb)","Median no. of files","Total no. of files"),format.args=list(big.mark = ",")) %>% 
+	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F) 
 
 ```
 
@@ -512,8 +511,7 @@ Alternatively, we have created a linkage file, available at [`r file.path(git.ba
 ```{r print_linkage}
 
 table.aea.icpsr.mapping  %>% 
-	datatable()
-    head() %>%
+	head() %>%
 	kable() %>% 
 	kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed"),full_width = F)
 
