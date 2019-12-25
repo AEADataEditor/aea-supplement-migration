@@ -506,7 +506,7 @@ Metadata on which supplement at openICPSR relates to which article can be found 
 
 ![Partial JSON from query](../assets/datacite_api_extract.png)
 
-Alternatively, we have created a linkage file, available at [`r file.path(git.base,git.repo,"data","generated","table.aea.icpsr.mapping.csv")`](`r file.path(git.base,git.repo,"data","generated","table.aea.icpsr.mapping.csv")`), containing the article DOI, the title of the paper, and the supplement DOI at openICPSR:
+Alternatively, we have created a linkage file, available at [`r file.path(git.base,git.repo,git.base,"data","generated","table.aea.icpsr.mapping.csv")`](`r file.path(git.base,git.repo,"data","generated","table.aea.icpsr.mapping.csv")`), containing the article DOI, the title of the paper, and the supplement DOI at openICPSR:
 
 ```{r print_linkage}
 
@@ -523,7 +523,7 @@ table.aea.icpsr.mapping  %>%
 write.csv(text.stats,file=file.path(generated,"text.stats.csv"))
 ```
 
-The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper,  the data underlying the figures, and the linkage between article DOIs and supplement DOIs are all available at [`r file.path(git.base,git.repo,"data","generated")`](`r file.path(git.base,git.repo,"data","generated")`). 
+The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper,  the data underlying the figures, and the linkage between article DOIs and supplement DOIs are all available at [`r file.path(git.base,git.repo,git.raw,"data","generated")`](`r file.path(git.base,git.repo,git.raw,"data","generated")`). 
 
 ## Code Availability
 The code underlying this analysis can be downloaded at  [`r file.path(git.base,git.repo)`](`r file.path(git.base,git.repo)`).

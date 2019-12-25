@@ -558,7 +558,7 @@ Metadata on which supplement at openICPSR relates to which article can be found 
 
 ![Partial JSON from query](../assets/datacite_api_extract.png)
 
-Alternatively, we have created a linkage file, available at [https://github.com/AEADataEditor/aea-supplement-migration/data/generated/table.aea.icpsr.mapping.csv](https://github.com/AEADataEditor/aea-supplement-migration/data/generated/table.aea.icpsr.mapping.csv), containing the article DOI, the title of the paper, and the supplement DOI at openICPSR:
+Alternatively, we have created a linkage file, available at [https://github.com/AEADataEditor/aea-supplement-migration/https://github.com/data/generated/table.aea.icpsr.mapping.csv](https://github.com/AEADataEditor/aea-supplement-migration/data/generated/table.aea.icpsr.mapping.csv), containing the article DOI, the title of the paper, and the supplement DOI at openICPSR:
 
 <table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
  <thead>
@@ -606,7 +606,7 @@ Alternatively, we have created a linkage file, available at [https://github.com/
 
 
 
-The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper,  the data underlying the figures, and the linkage between article DOIs and supplement DOIs are all available at [https://github.com/AEADataEditor/aea-supplement-migration/data/generated](https://github.com/AEADataEditor/aea-supplement-migration/data/generated). 
+The input data to this paper are available at (OPENICPSR TBD). The tables presented in this paper,  the data underlying the figures, and the linkage between article DOIs and supplement DOIs are all available at [https://github.com/AEADataEditor/aea-supplement-migration/blob/master/data/generated](https://github.com/AEADataEditor/aea-supplement-migration/blob/master/data/generated). 
 
 ## Code Availability
 The code underlying this analysis can be downloaded at  [https://github.com/AEADataEditor/aea-supplement-migration](https://github.com/AEADataEditor/aea-supplement-migration).
