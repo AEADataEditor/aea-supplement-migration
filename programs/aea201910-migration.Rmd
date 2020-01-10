@@ -506,7 +506,7 @@ Metadata on which supplement at openICPSR relates to which article can be found 
 
 ![Partial JSON from query](../assets/datacite_api_extract.png)
 
-Alternatively, we have created a linkage file, available at [`r file.path(git.base,git.repo,git.base,"data","generated","table.aea.icpsr.mapping.csv")`](`r file.path(git.base,git.repo,"data","generated","table.aea.icpsr.mapping.csv")`), containing the article DOI, the title of the paper, and the supplement DOI at openICPSR:
+Alternatively, we have created a linkage file, available at [`r file.path(git.base,git.repo,git.raw,"data","generated","table.aea.icpsr.mapping.csv")`](`r file.path(git.base,git.repo,git.raw,"data","generated","table.aea.icpsr.mapping.csv")`), containing the article DOI, the title of the paper, and the supplement DOI at openICPSR:
 
 ```{r print_linkage}
 
