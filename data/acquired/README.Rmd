@@ -1,0 +1,178 @@
+---
+title: "Data Description"
+author: "Lars Vilhuber"
+date: "2/21/2020"
+output: 
+  pdf_document: 
+    toc: yes
+  html_document:
+    keep_md: yes
+    theme: journal
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r setup,echo=FALSE,message=FALSE,warning=FALSE}
+knitr::opts_chunk$set(echo = FALSE,message=FALSE,warning = FALSE,cache=TRUE)
+source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"pathconfig.R"),echo=FALSE)
+source(file.path(programs,"config.R"), echo=FALSE)
+source(file.path(programs,"global-libraries.R"), echo=FALSE)
+fread.exist <- function(file,...) 
+{
+
+if ( file.exists(file) ) { fread(file,...) }
+	
+}
+
+```
+
+The files in this directory constitute metadata from the AEA's migration of supplements from the AEA website ([https://www.aeaweb.org](https://www.aeaweb.org)) to the new [AEA Data and Code Repository at openICPSR](https://www.openicpsr.org/openicpsr/search/aea/studies).
+
+To migrate, a metadata file (`metadata.rdf`) and a default license (`LICENSE.txt`) was injected into the ZIP files, and a citation generated to link back to the original manuscript. 
+
+The resulting list of files are cataloged in `aea_icpsr_all_files.csv`, indexed by DOI. 
+
+Once the ingest was finalized, the technical team at openICPSR provided a mapping from the new DOI at openICPSR to the name of the datafile ingested (`aea_icpsr_mapping.20191014.txt`). 
+
+Certain supplements were too big, because they contained more than 1000 component files. A full list is not part of this metadata, but their file counts and overall sizes are listed in `1000plus_file_count.txt`.
+
+To map back to the original articles, additional metadata regarding the articles was extracted from the AEA's internal database. Most of this data can be recovered from the CrossRef DOI registry, and all of this data is embedded in the AEA's article landing pages. 
+
+This document simply documents the file formats used by these files.
+
+## 1000plus_file_count.txt
+Supplements that were too big to be migrated in the first batch
+
+- Tab-separated with column headers
+
+```{r thousand_plus}
+head(fread(file.path(acquired,"1000plus_file_count.txt"),sep = " "))
+```
+
+- With alternate column names:
+```{r thousand_plus2}
+aea.big <- fread(file.path(acquired,"1000plus_file_count.txt"),sep = " ",col.names = c("filecount","pkgsize","compressed"))
+
+summary(aea.big)
+```
+The file has **`r nrow(aea.big)`** rows.
+
+## aea_icpsr_all_files.csv
+List of all files in the packages provided to openICPSR:
+
+```{r aeaicpsr}
+aea.icpsr <- fread.exist(file.path(acquired,"aea_icpsr_all_files.csv.gz")) 
+summary(aea.icpsr)
+```
+The file has **`r nrow(aea.icpsr)`** rows.
+
+- `doi`: DOI of the published article (links to other files, CrossRef). There are `r aea.icpsr %>% select(doi) %>% unique() %>% nrow()` unique DOIs.
+- `file_path`: full file path and name of the file within the ZIP file
+- `file_size`: file size in bytes of the file
+
+The administrative files occur in every package:
+```{r aeaicpsr2}
+aea.icpsr %>% 
+	filter(file_path %in% c("metadata.rdf","LICENSE.txt","citations")) %>%
+  select(file_path) %>%
+	table()
+```
+
+## aea_article_data.csv
+Database of the articles and the associated packages sent to ICSPR.
+```{r articles}
+aea.article <- fread.exist(file.path(acquired,"aea_article_data.csv.gz"))
+head(aea.article)
+summary(aea.article)
+```
+The file has **`r nrow(aea.article)`** rows. 
+
+- `issue_id`: An internal sequential number for the issue of the article (links to `aea_issue_data`).
+- `doi`: DOI of the published article (links to other files, CrossRef). There are `r aea.article %>% select(doi) %>% unique() %>% nrow()` unique DOIs.
+- `start_page`: Start page in the issue in which the article was printed.
+- `end_page`: End page in the issue in which the article was printed.
+- `title`: Title of the article
+- `aea_url`: URL of the package on the AEA website. Can be used in combination with other files in this package to map pre-2019 URLs in references to the new openICPSR DOI.
+- `icpsr_package_name`: name of the ZIP file as sent to ICPSR (not the same as originally presented on the AEA website). Links to `aea_icpsr_mapping.20191014.txt`.
+
+
+## aea_issue_data.csv
+Issue information
+
+```{r issue_info}
+aea.issue <- fread.exist(file.path(acquired,"aea_issue_data.csv.gz"))
+head(aea.issue)
+summary(aea.issue)
+```
+The file has **`r nrow(aea.issue)`** rows and `r aea.issue %>% select(issue) %>% unique() %>% nrow()` unique issues.
+
+
+- `issue_id`: An internal sequential number for the issue of the article (links to `aea_issue_data`).
+- `journal`: Journal name
+- `journal_abbreviation`: Abbreviation used for the journal.
+- `volume`: Volume of the particular issue
+- `issue`: Issue number of the particular issue
+- `year`: Year of publication of the issue
+- `month`: Month of publication of the issue
+- `cover_date`: The date on the cover of the issue
+
+```{r tabulate}
+table(aea.issue$journal)
+table(aea.issue$journal_abbreviation)
+```
+
+
+### Note: missing issue information
+```{r crossref}
+aea.icpsr %>% left_join(select(aea.article,doi,issue_id),by=c("doi")) %>%
+	left_join(aea.issue,by=c("issue_id")) -> aea.tmp
+aea.tmp %>% filter(is.na(issue_id)) %>% select(doi) %>% distinct(doi) -> aea.not_complete
+```
+Some articles do not have issues in the database. This affects `r nrow(aea.not_complete)` articles.
+The relevant information can be obtained from CrossRef:
+```{r query_crossref,eval=FALSE,include=TRUE,echo=TRUE}
+# not executed
+aea.complete.B <- rcrossref::cr_works(dois=aea.not_complete$doi)
+```
+
+
+
+## aea_jel_data.csv
+JEL codes associated with articles
+```{r jel}
+aea.jel <- fread.exist(file.path(acquired,"aea_jel_data.csv.gz"))
+head(aea.jel)
+summary(aea.jel)
+```
+The file has **`r nrow(aea.jel)`** rows and `r aea.jel %>% select(doi) %>% unique() %>% nrow()` unique DOIs.
+
+- `doi`: DOI of the published article (links to other files, CrossRef). There are `r aea.jel %>% select(doi) %>% unique() %>% nrow()` unique DOIs.
+- `jel_code`: 3-character JEL code, see [https://www.aeaweb.org/econlit/jelCodes.php?view=jel](https://www.aeaweb.org/econlit/jelCodes.php?view=jel). There are `r aea.jel %>% select(jel_code) %>% unique() %>% nrow()` unique JEL codes on this file.
+- `jel_description`: Verbose description of the JEL code.
+
+
+
+## aea_icpsr_mapping.20191014.txt
+Mapping of ICPSR packages to ICPSR-based DOI
+```{r mappinghead}
+head(fread.exist(file.path(acquired,"aea_icpsr_mapping.20191014.txt")))
+```
+The file needs a bit of cleaning:
+```{r mapping,echo=TRUE}
+aea.mapping <- fread.exist(file.path(acquired,"aea_icpsr_mapping.20191014.txt"),
+						   col.names = c("DOI","Zipfile")) %>% 
+	mutate(icpsr_package_name = str_remove(Zipfile,"Original Zip: "),
+		   icpsr_doi = str_remove(DOI,"http://doi.org/")) %>%
+	select(-Zipfile,-DOI)
+```
+
+The file has **`r nrow(aea.issue)`** rows and `r aea.issue %>% select(issue) %>% unique() %>% nrow()` unique issues.
+
+- `icpsr_package_name`: name of the ZIP file as sent to ICPSR. Links to `aea_icpsr_all_files_all`.
+- `icpsr_doi`: newly assigned DOI of the ingested supplement.
+
+## Further information
+
+These files are provided without any warranty. 
