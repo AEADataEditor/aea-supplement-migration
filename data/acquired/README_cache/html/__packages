@@ -1,0 +1,17 @@
+base
+data.table
+dplyr
+usethis
+devtools
+rprojroot
+tictoc
+knitr
+kableExtra
+stringr
+rcrossref
+RefManageR
+ggplot2
+magrittr
+ggpubr
+forcats
+DT

@@ -1,0 +1,86 @@
+---
+title: "Documentation for Data: AEA Supplement Migration"
+editor_options:
+  chunk_output_type: console
+nocite: '@*'
+output:
+  html_document:
+    keep_md: yes
+    theme: journal
+  pdf_document:
+    keep_tex: yes
+  github_document: default
+---
+
+```{r setup,echo=FALSE,message=FALSE,warning=FALSE}
+knitr::opts_chunk$set(echo = FALSE,message=FALSE,warning = FALSE,cache=TRUE)
+source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"pathconfig.R"),echo=FALSE)
+source(file.path(programs,"config.R"), echo=FALSE)
+source(file.path(programs,"global-libraries.R"), echo=FALSE)
+
+options(DT.options = list(dom = 'frtipB',
+						  autoFill = TRUE,
+                           buttons = c('csv','copy'),
+                           lengthMenu = list(c(10,25,50),
+                                             c(10,25,50))))
+options(DT.extensions = c('AutoFill','Buttons'))
+```
+## Data files that are part of this archive
+
+```{r}
+allfiles <- as.data.frame(list.files(path=acquired,full.names = FALSE)) 
+names(allfiles)[1] <- "Files"
+allfiles %>% filter(if_else(str_detect(Files,"README"),FALSE,TRUE))
+kable(allfiles)
+```
+
+
+
+
+
+
+```{r readin1,echo=FALSE,message=FALSE,warning=FALSE,eval=FALSE}
+
+# load data
+fread.exist <- function(file,...) 
+{
+
+if ( file.exists(file) ) { fread(file,...) }
+	
+}
+
+aea.icpsr <- fread.exist(file.path(acquired,"aea_icpsr_all_files.csv.gz")) %>%
+	filter(!file_path %in% c("metadata.rdf","LICENSE.txt","citations")) %>%
+	filter(!dirname(file_path) %in% c("citations"))
+# Database of the articles and the associated packages sent to ICSPR
+aea.article <- fread.exist(file.path(acquired,"aea_article_data.csv.gz"))
+# Issue information
+aea.issue <- fread.exist(file.path(acquired,"aea_issue_data.csv.gz"))
+# JEL codes associated with articles
+aea.jel <- fread.exist(file.path(acquired,"aea_jel_data.csv.gz"))
+# Mapping of ICPSR packages to ICPSR-based DOI
+aea.mapping <- fread.exist(file.path(acquired,"aea_icpsr_mapping.20191014.txt"),
+						   col.names = c("DOI","Zipfile")) %>% 
+	mutate(icpsr_package_name = str_remove(Zipfile,"Original Zip: "),
+		   icpsr_doi = str_remove(DOI,"http://doi.org/")) %>%
+	select(-Zipfile,-DOI)
+
+# Files that were too big to be migrated in the first batch
+aea.big <- fread(file.path(acquired,"1000plus_file_count.txt"),sep = " ",col.names = c("filecount","pkgsize","compressed"))
+file.ext.map <- fread(file.path(basepath,"data","original",file.ext.map.file)) %>% 
+	mutate(file.ext = tolower(Extension))
+# do some manipulation
+
+aea.icpsr %>% left_join(select(aea.article,doi,issue_id),by=c("doi")) %>%
+	left_join(aea.issue,by=c("issue_id")) -> aea.tmp
+aea.tmp %>% filter(is.na(issue_id)) %>% select(doi) %>% distinct(doi) -> aea.not_complete
+aea.complete.B <- rcrossref::cr_works(dois=aea.not_complete$doi)
+aea.complete <- left_join(aea.tmp,select(aea.complete.B$data,doi,container.title),by=c("doi")) %>%
+	mutate(journal=if_else(is.na(journal),container.title,journal),file.ext = tolower(file_ext(file_path))) %>%
+	left_join(file.ext.map,by=c("file.ext")) %>%
+	mutate(Software=if_else(is.na(Software),"Unknown",Software),Type=if_else(is.na(Type),"Unknown",Type))
+
+
+
+```
+
