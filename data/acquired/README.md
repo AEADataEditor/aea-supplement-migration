@@ -1,9 +1,9 @@
 ---
 title: "Data Description"
 author: "Lars Vilhuber"
-date: "2/21/2020"
+date: "2020-02-21"
 output: 
-  html_document:
+  html_document: 
     keep_md: yes
     theme: journal
     toc: yes
@@ -152,20 +152,20 @@ Issue information
 
 
 ```
-##    issue_id                          journal journal_abbreviation volume
-## 1:        1 Journal of Economic Perspectives                  jep     16
-## 2:        2 Journal of Economic Perspectives                  jep     16
-## 3:        3 Journal of Economic Perspectives                  jep     16
-## 4:        4 Journal of Economic Perspectives                  jep     16
-## 5:        5 Journal of Economic Perspectives                  jep     17
-## 6:        6 Journal of Economic Perspectives                  jep     17
-##    issue year month  cover_date
-## 1:     1 2002     3 Winter 2002
-## 2:     2 2002     6 Spring 2002
-## 3:     3 2002     9 Summer 2002
-## 4:     4 2002    12   Fall 2002
-## 5:     1 2003     3 Winter 2003
-## 6:     2 2003     6 Spring 2003
+##    issue_id                          journal journal_abbreviation volume issue
+## 1:        1 Journal of Economic Perspectives                  jep     16     1
+## 2:        2 Journal of Economic Perspectives                  jep     16     2
+## 3:        3 Journal of Economic Perspectives                  jep     16     3
+## 4:        4 Journal of Economic Perspectives                  jep     16     4
+## 5:        5 Journal of Economic Perspectives                  jep     17     1
+## 6:        6 Journal of Economic Perspectives                  jep     17     2
+##    year month  cover_date
+## 1: 2002     3 Winter 2002
+## 2: 2002     6 Spring 2002
+## 3: 2002     9 Summer 2002
+## 4: 2002    12   Fall 2002
+## 5: 2003     3 Winter 2003
+## 6: 2003     6 Spring 2003
 ```
 
 ```
@@ -278,20 +278,13 @@ The file has **11395** rows and 2552 unique DOIs.
 Mapping of ICPSR packages to ICPSR-based DOI
 
 ```
-##    http://doi.org/10.3886/E112305V1
-## 1: http://doi.org/10.3886/E112306V1
-## 2: http://doi.org/10.3886/E112307V1
-## 3: http://doi.org/10.3886/E112308V1
-## 4: http://doi.org/10.3886/E112309V1
-## 5: http://doi.org/10.3886/E112310V1
-## 6: http://doi.org/10.3886/E112311V1
-##    Original Zip: 0002828042002516_data.zip
-## 1: Original Zip: 0002828043052196_data.zip
-## 2: Original Zip: 0002828043052358_data.zip
-## 3: Original Zip: 0002828053828446_data.zip
-## 4: Original Zip: 0002828053828455_data.zip
-## 5: Original Zip: 0002828053828509_data.zip
-## 6: Original Zip: 0002828053828635_data.zip
+##    http://doi.org/10.3886/E112305V1 Original Zip: 0002828042002516_data.zip
+## 1: http://doi.org/10.3886/E112306V1 Original Zip: 0002828043052196_data.zip
+## 2: http://doi.org/10.3886/E112307V1 Original Zip: 0002828043052358_data.zip
+## 3: http://doi.org/10.3886/E112308V1 Original Zip: 0002828053828446_data.zip
+## 4: http://doi.org/10.3886/E112309V1 Original Zip: 0002828053828455_data.zip
+## 5: http://doi.org/10.3886/E112310V1 Original Zip: 0002828053828509_data.zip
+## 6: http://doi.org/10.3886/E112311V1 Original Zip: 0002828053828635_data.zip
 ```
 The file needs a bit of cleaning:
 
