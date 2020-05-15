@@ -4,8 +4,7 @@ editor_options:
   chunk_output_type: console
 nocite: '@*'
 output:
-  html_document:
-    keep_md: yes
+  html_document: 
     theme: journal
   pdf_document:
     keep_tex: yes
@@ -355,18 +354,20 @@ table.aea.doi_by_software  %>%
 
 # now prepare the graph
 # We need to do this again, to reduce the types of software
-aea.complete.programs %>%
+aea.complete.programs.bydoi %>%
 	mutate(Software_collapsed=fct_explicit_na(factor(Software,levels=software_cats),"Other")) %>%
     group_by(Software_collapsed,doi) %>% 
-	summarize(n_files_per_pkg=n()) %>% ungroup() -> aea.complete.software_collapsed.bydoi
+	summarize(n_files=n()) %>% ungroup() -> aea.complete.software_collapsed.bydoi
 
 aea.complete.software_collapsed.bydoi %>% 
 	group_by(Software_collapsed) %>%
-	summarize(n_doi=n())  %>% 
-	arrange(desc(n_doi)) %>% ungroup() -> table.aea.software_by_doi # this needs to be tabulated by frequency
+	summarize(n_packages=n())  %>% 
+	arrange(desc(n_packages)) %>%
+	filter(n_packages >= min_mentions ) %>%
+	mutate(Percent = round(n_packages/nrow(aea.article) *100,2))  -> table.aea.doi_by_software_collapsed # this needs to be tabulated by frequency
 
-table.aea.software_by_doi %>% 
-	ggplot(aes(Software_collapsed,n_doi)) +
+table.aea.doi_by_software_collapsed %>% 
+	ggplot(aes(Software_collapsed,n_packages)) +
 		geom_col(fill="grey") +
 	    ylab(element_blank())+
 	    xlab("Software, Number of packages") +
@@ -376,11 +377,24 @@ table.aea.software_by_doi %>%
 	    	  axis.title.y = element_text(angle=0)) ->fig.software.pkgs
 ggsave(file.path(programs,"figure_software_pkgs.png"),fig.software.pkgs)
 
-g.software <- ggarrange(fig.software.files,fig.software.pkgs) 
+## by percent
+table.aea.doi_by_software_collapsed %>% 
+	ggplot(aes(Software_collapsed,Percent)) +
+		geom_col(fill="grey") +
+	    ylab(element_blank())+
+	    xlab("Software, Percent of packages") +
+	    ylab(element_blank()) +
+	    theme_classic() +
+	    theme(axis.line = element_line(size=0),axis.text.x = element_text(angle=45),
+	    	  axis.title.y = element_text(angle=0)) ->fig.software_pct.pkgs
+
+ggsave(file.path(programs,"figure_software_pct_pkgs.png"),fig.software_pct.pkgs)
+
+g.software <- ggarrange(fig.software.files,fig.software_pct.pkgs) 
 ggsave(file.path(programs,"figure_software.png"),g.software)
 
-text.stats <- add_row(text.stats,statistic="supplements.stata.pct",value=as.numeric(filter(table.aea.file.ext,Software=="Stata") %>% select(Pct)))
-text.stats <- add_row(text.stats,statistic="supplements.matlab.pct",value=as.numeric(filter(table.aea.file.ext,Software=="Matlab") %>% select(Pct)))
+text.stats <- add_row(text.stats,statistic="supplements.stata.pct",value=as.numeric(filter(table.aea.doi_by_software,Software=="Stata") %>% select(Percent)))
+text.stats <- add_row(text.stats,statistic="supplements.matlab.pct",value=as.numeric(filter(table.aea.doi_by_software,Software=="Matlab") %>% select(Percent)))
 
 ```
 
@@ -402,12 +416,21 @@ aea.software_collapsed.bydoi_and_year.tmp %>% filter(is.na(year)) %>% select(doi
 results.doi <- rcrossref::cr_works(dois=lookup.doi$doi)$data
 results.doi %>% select(doi,issued) %>% 
 	mutate(year = substr(issued,1,4)) %>%
-	select(doi,year) %>%
+	select(doi,year) -> results.doi.year
+results.doi.year%>%
 	right_join(aea.software_collapsed.bydoi_and_year.tmp,by="doi") %>%
 	mutate(year = if_else(is.na(year.x),year.y,as.integer(year.x))) %>% 
 	select(-year.x,-year.y) -> aea.software_collapsed.bydoi_and_year
 
-aea.software_collapsed.bydoi_and_year %>% 
+# we want the total number of DOIs per year, not by package
+# aea.software_collapsed.bydoi_and_year %>% 
+aea.issue %>% select(issue_id,journal,year) %>% 
+	right_join(select(aea.article,doi,issue_id),by="issue_id") %>%
+  left_join(results.doi.year,by="doi") %>%
+	mutate(year = if_else(is.na(year.x),as.integer(year.y),as.integer(year.x))) %>% 
+	select(-year.x,-year.y) -> aea.article.year_complete
+  
+aea.article.year_complete %>%
 	group_by(year) %>%
 	summarize(n_doi_year=n()) -> total.dois.by_year
 
@@ -416,6 +439,9 @@ aea.software_collapsed.bydoi_and_year %>%
 	summarize(n_doi=n()) %>% 
 	left_join(total.dois.by_year,by="year") %>% 
 	mutate(Percent = round(n_doi/n_doi_year*100,2)) -> table.aea.software_by_year
+
+
+write.csv(table.aea.software_by_year,file=file.path(generated,"table.aea.software_by_year.csv"))
 
 # now graph it
 
@@ -458,6 +484,10 @@ ggsave(file.path(programs,"figure_software_years.png"),g.software.years)
 ![Software usage over time, number of supplements](figure_software_years_count.png)
 
 ![Software usage over time, in percent](figure_software_years_pct.png)
+```{r software_by_year,echo=FALSE,message=FALSE,warning=FALSE}
+table.aea.software_by_year  %>% 
+	datatable( autoHideNavigation = TRUE , filter = "top")
+```
 
 ### Data formats 
 It is somewhat more ambiguous identifying data files, as they come in a large variety of formats. Furthermore, data might be compressed. In the following table, we tabulate data files and archives, by the software package associated with their extension. The data type "General" encompasses formats like "tsv" or "csv" that are not associated with any particular software, but are nevertheless clearly identifiable as data files ([full list available](../data/original/`r file.ext.map.file`)). We restrict ourselves to the number of supplements which contain files with such extensions.
