@@ -366,6 +366,8 @@ aea.complete.software_collapsed.bydoi %>%
 	filter(n_packages >= min_mentions ) %>%
 	mutate(Percent = round(n_packages/nrow(aea.article) *100,2))  -> table.aea.doi_by_software_collapsed # this needs to be tabulated by frequency
 
+write.csv(table.aea.doi_by_software_collapsed,file=file.path(generated,"table.aea.doi_by_software_collapsed.csv"))
+
 table.aea.doi_by_software_collapsed %>% 
 	ggplot(aes(Software_collapsed,n_packages)) +
 		geom_col(fill="grey") +
