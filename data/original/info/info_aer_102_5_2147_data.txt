@@ -1,0 +1,1166 @@
+Archive:  aer_102_5_2147_data.zip
+Zip file size: 3546989884 bytes, number of entries: 1163
+drwxrwxr--  2.0 unx        0 b- stor 21-May-17 14:57 citations/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:58 data/
+-rw-r--r--  2.0 unx    14974 b- defN 21-May-17 14:57 LICENSE.txt
+-rw-r--r--  2.0 unx   394391 b- defN 21-May-17 14:58 metadata.rdf
+-rw-r--r--  2.0 unx      305 b- defN 21-May-17 14:57 citations/AER_102_5_2147_82.ris
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:58 data/AERdata/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:58 data/AERdata/data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:56 data/AERdata/dofiles/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:58 data/AERdata/spatialdemand/
+-rw-r--r--  2.0 unx   132119 b- defN 21-May-17 14:56 data/AERdata/data_and_program_readme.docx
+-rw-r--r--  2.0 unx    54619 b- defN 21-May-17 14:56 data/AERdata/data_and_program_readme.pdf
+-rw-r--r--  2.0 unx 176785569 b- defN 21-May-17 14:56 data/AERdata/data/pop_dist_1995.dta
+-rw-r--r--  2.0 unx     3367 b- defN 21-May-17 14:56 data/AERdata/data/Street1.in7
+-rw-r--r--  2.0 unx 22020126 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_all_1991-2001.mat
+-rw-r--r--  2.0 unx  3237459 b- defN 21-May-17 14:56 data/AERdata/data/shopping_dist_avg_1991-2001.mat
+-rw-r--r--  2.0 unx  3976905 b- defN 21-May-17 14:56 data/AERdata/data/pop_dist_avg_1991-2001.mat
+-rw-r--r--  2.0 unx 22020126 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_all_1991-2001.mat 2
+-rw-r--r--  2.0 unx 49109824 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_1991-2001.dta
+-rw-r--r--  2.0 unx  3746370 b- defN 21-May-17 14:56 data/AERdata/data/shopping_dist_1995-2001.mat
+-rw-r--r--  2.0 unx  7965686 b- defN 21-May-17 14:56 data/AERdata/data/pop_dist_1995-2001.dta
+-rw-r--r--  2.0 unx  4382174 b- defN 21-May-17 14:56 data/AERdata/data/pop_dist_1995-2001.mat
+-rw-r--r--  2.0 unx 22020613 b- defN 21-May-17 14:56 data/AERdata/data/pop_dist_all_1991-2001.mat
+-rw-r--r--  2.0 unx 23398027 b- defN 21-May-17 14:56 data/AERdata/data/shopping_dist_all_1991-2001.mat
+-rw-r--r--  2.0 unx  4250828 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_avg_1991-2001.mat
+-rw-r--r--  2.0 unx  3743608 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_1991-2001.mat
+-rw-r--r--  2.0 unx  4679472 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_96_1991-2001.mat
+-rw-r--r--  2.0 unx  4599579 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_1995-2001.mat
+-rw-r--r--  2.0 unx  3686043 b- defN 21-May-17 14:56 data/AERdata/data/shopping_dist_96_1991-2001.mat
+-rw-r--r--  2.0 unx 93636864 b- defN 21-May-17 14:56 data/AERdata/data/pop_dist_01_1991-2001.mat
+-rw-r--r--  2.0 unx  3743481 b- defN 21-May-17 14:56 data/AERdata/data/pop_dist_1991-2001.mat
+-rw-r--r--  2.0 unx 93630894 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_01_1991-2001.mat
+-rw-r--r--  2.0 unx    89456 b- defN 21-May-17 14:56 data/AERdata/data/DAlist_spt.fmt
+-rw-r--r--  2.0 unx 81313955 b- defN 21-May-17 14:56 data/AERdata/data/shopping_dist_01_1991-2001.mat
+-rw-r--r--  2.0 unx  4430441 b- defN 21-May-17 14:56 data/AERdata/data/pop_dist_96_1991-2001.mat
+-rw-r--r--  2.0 unx     3367 b- defN 21-May-17 14:56 data/AERdata/data/Street2.in7
+-rw-r--r--  2.0 unx 22020126 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_all_1991-2001.mat copy
+-rw-r--r--  2.0 unx  3087080 b- defN 21-May-17 14:56 data/AERdata/data/shopping_dist_1991-2001.mat
+-rw-r--r--  2.0 unx 10264558 b- defN 21-May-17 14:56 data/AERdata/data/traffic_dist_1995-2001.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:58 data/AERdata/spatialdemand/IVmatrix/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:58 data/AERdata/spatialdemand/SimPref/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:58 data/AERdata/spatialdemand/distance/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:58 data/AERdata/spatialdemand/oxfiles/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/
+-rw-r--r--  2.0 unx       50 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_data.h
+-rw-r--r--  2.0 unx      409 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_model_moment.ox
+-rw-r--r--  2.0 unx    15652 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/sim_preference_june_2010.ox
+-rw-r--r--  2.0 unx     4354 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_jacobian.ox
+-rw-r--r--  2.0 unx      154 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_model_gmm.ox
+-rw-r--r--  2.0 unx      253 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/distance.ox
+-rw-r--r--  2.0 unx       37 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_MC_logit.h
+-rw-r--r--  2.0 unx    14150 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_IV_new.ox
+-rw-r--r--  2.0 unx       15 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/dim.h
+-rw-r--r--  2.0 unx      577 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Dspace.ox
+-rw-r--r--  2.0 unx       60 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/dim.ox
+-rw-r--r--  2.0 unx      566 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_demand_disc.ox
+-rw-r--r--  2.0 unx     1852 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/MaxARS.ox
+-rw-r--r--  2.0 unx      193 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/ivreg.ox
+-rw-r--r--  2.0 unx     1119 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_micro_moment.ox
+-rw-r--r--  2.0 unx       32 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/distance.h
+-rw-r--r--  2.0 unx      855 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_GMM.ox
+-rw-r--r--  2.0 unx      534 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_demand_cont.ox
+-rw-r--r--  2.0 unx       57 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/MaxARS.h
+-rw-r--r--  2.0 unx       45 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/ivreg.h
+-rw-r--r--  2.0 unx     9782 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_MC_logit.ox
+-rw-r--r--  2.0 unx       41 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Within.h
+-rw-r--r--  2.0 unx       89 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_welfare.h
+-rw-r--r--  2.0 unx       57 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_CF_merger.h
+-rw-r--r--  2.0 unx     5248 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_inversion_discrete.ox
+-rw-r--r--  2.0 unx       30 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_model_moment.h
+-rw-r--r--  2.0 unx       27 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_micro_moment.h
+-rw-r--r--  2.0 unx    10144 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_main_logit.ox
+-rw-r--r--  2.0 unx      453 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Within.ox
+-rw-r--r--  2.0 unx     4037 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_welfare.ox
+-rw-r--r--  2.0 unx       58 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_GMM.h
+-rw-r--r--  2.0 unx       33 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Dspace.h
+-rw-r--r--  2.0 unx       22 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_characteristics.h
+-rw-r--r--  2.0 unx    10551 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_CF_merger.ox
+-rw-r--r--  2.0 unx     5656 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_main_cf.ox
+-rw-r--r--  2.0 unx     2210 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_IV_moment.ox
+-rw-r--r--  2.0 unx     8607 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_mc_est.ox
+-rw-r--r--  2.0 unx       24 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_IV_moment.h
+-rw-r--r--  2.0 unx       22 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_HAC.h
+-rw-r--r--  2.0 unx       61 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_demand_cont.h
+-rw-r--r--  2.0 unx     5761 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_inversion_cont.ox
+-rw-r--r--  2.0 unx       92 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_inversion_cont.h
+-rw-r--r--  2.0 unx     9341 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_characteristics.ox
+-rw-r--r--  2.0 unx    11465 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_main.ox
+-rw-r--r--  2.0 unx     1651 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_HAC.ox
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_inversion_discrete.h
+-rw-r--r--  2.0 unx     7842 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_gmm_table.ox
+-rw-r--r--  2.0 unx     9530 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_data.ox
+-rw-r--r--  2.0 unx       66 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_demand_disc.h
+-rw-r--r--  2.0 unx      105 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_jacobian.h
+-rw-r--r--  2.0 unx       64 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/SD_model_gmm.h
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec4_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  1411163 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-11-17 17:10:52.csv
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec1_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx     2971 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_profits_t16_Multi-address.csv
+-rw-r--r--  2.0 unx 13717580 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t0_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step1_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec3_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec4_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec3_step2_2010-08-05 15:40:36.mat
+-rw-r--r--  2.0 unx   784250 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_welfare_t11_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec2_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx  7426912 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t43_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  8174972 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t31_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec0_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  1419986 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx    18089 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t14_Multi-address.dta
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec3_2010-08-05 15:40:36.mat
+-rw-r--r--  2.0 unx    66144 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score1_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec0_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec2_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec3_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step2_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx  8892639 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t23_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx  9146456 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t14_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  1418790 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step1_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec2_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec2_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step1_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec3_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec1_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec2_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec4_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  1419230 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step2_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec1_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx     5648 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score1_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx    51063 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t11_Multi-address.csv
+-rw-r--r--  2.0 unx  8073508 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t30_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  7387646 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t42_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx 12757241 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t1_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step1_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec3_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec0_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx    18530 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t12_Multi-address.dta
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec3_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec3_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec3_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  1418803 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step2_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step1_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step2_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec3_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx     3398 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_profits_t10_Multi-address.csv
+-rw-r--r--  2.0 unx  9358350 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t15_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec2_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec2_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  1418820 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step2_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx  9001186 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t22_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx 15071932 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/NearestNBH_disc_Multi-address.dta
+-rw-r--r--  2.0 unx    18040 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t15_Multi-address.dta
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step2_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec0_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec0_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx   783211 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_welfare_t10_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec4_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec1_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  8942296 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t21_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec4_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  1419068 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step1_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx  3274067 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec3_Home.csv
+-rw-r--r--  2.0 unx  3272798 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec4_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx     5565 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score2_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx  9408078 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t16_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec1_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-11-17 17:10:52.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec1_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step2_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx  8180919 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t33_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec2_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec0_step1_2010-11-17 17:10:52.mat
+-rw-r--r--  2.0 unx  1418934 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step1_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx  7490975 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t41_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step1_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec0_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx    49899 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t16_Multi-address.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec1_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec0_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx  1418770 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec3_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step2_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx  9102777 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t18_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec4_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx 11517120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t2_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec3_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_cont_spec3_2010-08-05 15:40:36.in7
+-rw-r--r--  2.0 unx     4368 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score2_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx  9233592 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t17_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec0_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  8876654 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t20_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec1_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-11-17 17:10:52.in7
+-rw-r--r--  2.0 unx  1419849 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec0_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step2_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec4_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec0_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec3_step1_2010-08-05 15:40:36.mat
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx    50841 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t10_Multi-address.csv
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec1_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec4_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec4_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec2_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step2_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx  8950495 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t19_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx 10994489 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t3_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec0_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_cont_spec3_2010-08-05 15:40:36.bn7
+-rw-r--r--  2.0 unx     2974 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_profits_t11_Multi-address.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec2_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec0_step1_2010-11-17 17:10:52.mat
+-rw-r--r--  2.0 unx  1418795 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step2_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec4_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx   784206 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_welfare_t16_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step2_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx  7494699 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t40_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec1_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx  8063607 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t32_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec3_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step1_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx    49276 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t15_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec2_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx     5645 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score1_2010-08-05 15:40:36.in7
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec3_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step2_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step1_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec2_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  8467702 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t26_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-08-05 15:40:36.bn7
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec3_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx  1420058 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step1_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx  9720795 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t11_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec2_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  8225002 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t34_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec3_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec4_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step1_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec4_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec1_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx     1976 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec3_step2_2010-08-05 15:40:36.mat
+-rw-r--r--  2.0 unx    18236 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t16_Multi-address.dta
+-rw-r--r--  2.0 unx  8184519 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t28_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx    68016 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score1_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec0_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec2_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx 10703136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t5_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     3075 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_profits_t14_Multi-address.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec0_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  1418719 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec3_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx  9763156 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t10_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-08-05 15:40:36.in7
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec3_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  1420033 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step2_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx     3080 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_profits_t12_Multi-address.csv
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step1_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx  8327202 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t27_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec3_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec2_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  1418819 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step2_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx    18530 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t10_Multi-address.dta
+-rw-r--r--  2.0 unx  1404704 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-08-05 15:40:36.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step2_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec3_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx    53664 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score1_2010-08-05 15:40:36.bn7
+-rw-r--r--  2.0 unx   783770 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_welfare_t15_Multi-address.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec2_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec4_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  1418675 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step2_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec1_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec3_step2_2010-08-05 15:40:36.mat
+-rw-r--r--  2.0 unx     5648 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score1_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx 10828648 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t4_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec1_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  8234411 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t29_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec2_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx  3272860 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec3_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step1_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec0_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  8117157 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t35_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step1_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec0_step1_2010-11-17 17:10:52.mat
+-rw-r--r--  2.0 unx     3744 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score2_2010-08-05 15:40:36.bn7
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec0_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec1_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step2_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx 10093789 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t7_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec2_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  1418790 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step1_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx  1405025 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-08-05 15:40:36.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec4_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx 18231971 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_disc_Multi-address.dta
+-rw-r--r--  2.0 unx  7980007 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t36_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec3_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  7366773 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t44_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx    49351 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t14_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec0_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-08-05 15:40:36.in7
+-rw-r--r--  2.0 unx  1420060 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step1_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec3_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step2_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_cont_spec3_2010-08-05 15:40:36.in7
+-rw-r--r--  2.0 unx  8801917 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t24_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec4_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx     2974 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_profits_t15_Multi-address.csv
+-rw-r--r--  2.0 unx  9706161 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t9_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  9159727 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t13_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec0_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step2_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec0_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec1_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec1_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  7726411 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t38_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec1_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec4_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  1418692 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step1_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec4_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec3_step1_2010-08-05 15:40:36.mat
+-rw-r--r--  2.0 unx     5565 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score2_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx   784322 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_welfare_t12_Multi-address.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec2_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx  1420009 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step2_2010-11-15 20:55:40.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec4_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx   782441 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_welfare_t14_Multi-address.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec4_step2_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec2_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  7477394 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t45_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx    18579 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t11_Multi-address.dta
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-08-05 15:40:36.bn7
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec0_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx  7768610 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t37_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx 10390565 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t6_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec1_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx     5562 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score2_2010-08-05 15:40:36.in7
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec3_step1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec1_step1_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx    96489 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_Multi-address.dta
+-rw-r--r--  2.0 unx  3272956 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec3_Home.csv
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec0_step2_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx    50895 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/mergersim_prices_t12_Multi-address.csv
+-rw-r--r--  2.0 unx     1541 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec1_2010-11-15 20:55:40.in7
+-rw-r--r--  2.0 unx  1418784 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step2_2010-10-27 16:29:12.csv
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec0_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx     4368 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Score2_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx  7588447 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t39_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec0_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx      329 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/p_spec1_step1_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_disc_spec4_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx     2003 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec4_step2_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx      128 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec3_step1_2010-10-27 16:29:12.in7
+-rw-r--r--  2.0 unx  9838727 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t8_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MK_cont_spec3_2010-08-05 15:40:36.bn7
+-rw-r--r--  2.0 unx     1976 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Lp_spec3_step1_2010-08-05 15:40:36.mat
+-rw-r--r--  2.0 unx  9602300 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t12_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx       83 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Obj_spec4_step2_2010-11-15 20:55:40.mat
+-rw-r--r--  2.0 unx  2282720 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/MC_disc_spec0_2010-11-15 20:55:40.bn7
+-rw-r--r--  2.0 unx   114136 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/Delta_spec2_step2_2010-10-27 16:29:12.bn7
+-rw-r--r--  2.0 unx  8562712 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/CrossElasticity_t25_disc_spec3_Multi-address.csv
+-rw-r--r--  2.0 unx   158424 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/oxfiles/Param/VarParam_spec1_2010-10-27 16:29:12.mat
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t22.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t41.bn7
+-rw-r--r--  2.0 unx 291838960 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t11.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t16.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t21.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t10.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t18.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t37.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t40.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t28.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t35.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t26.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t17.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t40.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t30.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t32.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t25.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t46.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t16.in7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t9.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t11.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t8.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t28.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t19.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t34.bn7
+-rw-r--r--  2.0 unx      776 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t3.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t11.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t13.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t21.in7
+-rw-r--r--  2.0 unx  4034640 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Location.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t32.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t7.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t4.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t18.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t6.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t35.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t42.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t40.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t35.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t3.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t1.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t18.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t45.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t32.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t33.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t16.bn7
+-rw-r--r--  2.0 unx      776 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t4.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t14.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t39.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t26.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t34.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t19.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t3.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t2.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t42.bn7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t8.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t37.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t6.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t13.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t21.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t23.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t30.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t1.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t14.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t26.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t24.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t39.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t33.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t4.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t5.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t45.bn7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t1.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t41.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t22.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t13.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t28.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t37.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t42.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t10.bn7
+-rw-r--r--  2.0 unx 291838960 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t24.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t23.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t45.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t17.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t23.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t24.in7
+-rw-r--r--  2.0 unx     3503 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/PopDens.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t39.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t6.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t46.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t25.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t14.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t8.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t30.bn7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t6.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t42.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t35.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t40.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t32.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t18.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t4.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t7.bn7
+-rw-r--r--  2.0 unx      473 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Location.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t21.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t11.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t3.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t13.in7
+-rw-r--r--  2.0 unx 146924640 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home.fmt
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t34.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t28.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t19.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t39.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t26.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t4.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t16.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t14.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t33.in7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t1.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t18.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t32.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t45.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t35.in7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t3.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t40.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t37.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t28.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t35.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t18.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t21.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t10.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t16.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t11.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t41.in7
+-rw-r--r--  2.0 unx    33279 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t22.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t11.bn7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t8.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t9.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t16.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t46.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t25.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t30.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t32.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t40.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t26.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t17.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t23.bn7
+-rw-r--r--  2.0 unx   598067 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/PredShare_sp.dta
+-rw-r--r--  2.0 unx    33277 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t24.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t10.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t42.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t28.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t37.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t22.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t13.in7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t1.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t41.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t30.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t25.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t14.in7
+-rw-r--r--  2.0 unx    32888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t8.in7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t6.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t39.bn7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t46.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t24.bn7
+-rw-r--r--  2.0 unx 30932240 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/PopDens.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t23.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t17.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t45.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t21.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t23.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t13.bn7
+-rw-r--r--  2.0 unx    32888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t6.in7
+-rw-r--r--  2.0 unx 146924640 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed.fmt
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t37.bn7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t8.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t2.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t42.in7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t3.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t19.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t34.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t5.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t45.in7
+-rw-r--r--  2.0 unx   598067 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/PredShare_home.dta
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t4.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t33.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t26.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t24.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t39.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t14.bn7
+-rw-r--r--  2.0 unx    32888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t1.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t30.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t44.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t16.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t22.in7
+-rw-r--r--  2.0 unx       99 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/CommTime.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t25.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t38.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t7.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t24.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t9.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t15.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t31.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t40.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t23.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t12.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t29.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t36.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t43.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t11.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t25.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t22.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t31.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t15.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t27.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t38.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t25.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t32.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t5.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t44.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t4.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t35.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t18.bn7
+-rw-r--r--  2.0 unx 291838960 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp1.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t2.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t43.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t3.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t9.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t36.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t7.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t12.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t20.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t22.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t2.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t1.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t34.bn7
+-rw-r--r--  2.0 unx     3376 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/mHomeDens_usage.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t44.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t33.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t19.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t46.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t32.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t17.bn7
+-rw-r--r--  2.0 unx      776 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t5.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t15.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t38.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t27.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t29.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t18.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t35.bn7
+-rw-r--r--  2.0 unx      776 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t2.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t10.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t12.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t20.in7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t6.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t19.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t5.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t33.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t34.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t43.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t7.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t41.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t27.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t16.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t41.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t46.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t31.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t33.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t24.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t17.in7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t8.in7
+-rw-r--r--  2.0 unx    31995 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dhome.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t9.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t10.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t23.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t40.bn7
+-rw-r--r--  2.0 unx     3167 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/ShopCDF.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t10.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t17.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t20.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t11.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t19.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t46.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t36.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t41.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t34.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t29.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t44.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t4.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t5.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t32.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t27.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t38.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t25.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t15.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t31.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t20.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t22.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t12.bn7
+-rw-r--r--  2.0 unx    32888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t7.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t36.bn7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t9.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t43.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t3.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t2.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t18.in7
+-rw-r--r--  2.0 unx    33278 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp1.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t35.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t31.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t24.bn7
+-rw-r--r--  2.0 unx    32888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t9.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t15.in7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t7.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t38.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t25.bn7
+-rw-r--r--  2.0 unx   672440 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/CommTime.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t22.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t16.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t44.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t22.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t25.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t11.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t43.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t29.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t36.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t23.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t12.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t40.bn7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t9.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t10.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t8.bn7
+-rw-r--r--  2.0 unx  3343536 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dhome.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t17.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t24.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t31.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t46.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t33.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t41.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t27.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t16.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t41.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t36.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t34.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t29.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t19.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t46.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t20.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t11.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t17.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t10.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t40.in7
+-rw-r--r--  2.0 unx  6463632 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/ShopCDF.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t23.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t38.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t27.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t5.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t17.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t15.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t32.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t33.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t44.bn7
+-rw-r--r--  2.0 unx   350704 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/mHomeDens_usage.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t19.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t46.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t1.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t2.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t34.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t43.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t34.in7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t7.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t41.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t5.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t19.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t6.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t33.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t20.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t10.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t2.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t12.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t35.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t29.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t18.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t21.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t23.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t11.bn7
+-rw-r--r--  2.0 unx    32888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t4.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t18.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t29.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t35.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t40.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t28.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t1.in7
+-rw-r--r--  2.0 unx    33278 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp2.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t36.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t7.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t28.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t6.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t31.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t26.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t24.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t16.bn7
+-rw-r--r--  2.0 unx    32888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t3.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t32.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t9.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t21.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t8.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t26.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t12.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t40.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t35.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t28.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t18.bn7
+-rw-r--r--  2.0 unx 30932240 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/ShopDens.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t11.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t20.bn7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t43.bn7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t3.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t32.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t16.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t27.bn7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t44.bn7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t4.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t26.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t21.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t15.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t38.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t37.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t35.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t42.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t45.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t18.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t8.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t12.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t23.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t14.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t13.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t39.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t43.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t20.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t39.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t13.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t8.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t14.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t44.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t27.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t30.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t45.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t32.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t42.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t38.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t15.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t24.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t42.bn7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t4.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t37.in7
+-rw-r--r--  2.0 unx   672440 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/CommDist.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t40.bn7
+-rw-r--r--  2.0 unx     3370 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/mHomeDens.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t30.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t5.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t6.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t29.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t23.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t11.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t1.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t13.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t36.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t39.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t24.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t16.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t14.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t6.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t31.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t45.bn7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t3.in7
+-rw-r--r--  2.0 unx     3507 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/TrafficDens.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t30.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t37.in7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t1.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t2.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t43.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t3.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t11.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t20.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t18.in7
+-rw-r--r--  2.0 unx     3504 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/ShopDens.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t35.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t28.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t40.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t12.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t8.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t26.in7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t9.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t21.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t38.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t15.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t21.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t26.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t44.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t4.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t16.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t27.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t32.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t36.in7
+-rw-r--r--  2.0 unx 291838960 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp2.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t1.bn7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t40.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t28.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t35.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t4.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t18.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t29.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t11.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t21.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t23.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t32.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t3.bn7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t16.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t26.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t24.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t31.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t28.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t6.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t7.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t36.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t11.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t13.bn7
+-rw-r--r--  2.0 unx      776 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t1.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t23.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t29.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t30.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t6.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t5.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t42.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t4.bn7
+-rw-r--r--  2.0 unx   350704 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/mHomeDens.bn7
+-rw-r--r--  2.0 unx       99 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/CommDist.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t40.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t37.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t37.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t2.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t1.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t45.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t3.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t30.bn7
+-rw-r--r--  2.0 unx 30932240 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/TrafficDens.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t31.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t16.bn7
+-rw-r--r--  2.0 unx      776 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t6.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t14.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t39.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t24.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t20.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t43.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t13.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t39.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t14.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t12.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t23.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t45.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t18.bn7
+-rw-r--r--  2.0 unx      776 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t8.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t37.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t42.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t35.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t15.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t24.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t38.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t42.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t30.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t32.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t45.bn7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t27.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t44.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t14.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t8.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t39.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t13.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t25.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t38.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t17.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t15.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t7.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t30.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t44.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t46.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t31.in7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t2.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t3.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t36.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t43.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t36.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t41.bn7
+-rw-r--r--  2.0 unx    32121 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t5.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t4.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t7.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t31.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t28.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t22.bn7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t10.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t12.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t37.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t12.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t38.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t15.bn7
+-rw-r--r--  2.0 unx    32124 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t9.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t45.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t26.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t31.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t44.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t33.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t43.in7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t39.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t14.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t25.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t36.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t34.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t43.in7
+-rw-r--r--  2.0 unx    32122 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t19.in7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t44.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t9.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t13.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t22.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t15.bn7
+-rw-r--r--  2.0 unx    32889 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t38.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t12.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t42.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t21.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t33.in7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t17.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t26.bn7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t45.bn7
+-rw-r--r--  2.0 unx 62259904 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp.bn7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t5.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t27.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t20.bn7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t14.in7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t39.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t46.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t8.bn7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t20.bn7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t27.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t9.in7
+-rw-r--r--  2.0 unx      832 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t13.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t41.bn7
+-rw-r--r--  2.0 unx    32120 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t29.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t34.in7
+-rw-r--r--  2.0 unx   800320 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t19.bn7
+-rw-r--r--  2.0 unx    32125 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t10.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t21.bn7
+-rw-r--r--  2.0 unx   264352 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t42.bn7
+-rw-r--r--  2.0 unx      831 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t2.in7
+-rw-r--r--  2.0 unx      777 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t46.in7
+-rw-r--r--  2.0 unx 10429888 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t6.bn7
+-rw-r--r--  2.0 unx    32119 b- defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t7.in7
+-rw-r--r--  2.0 unx 34733888 b- defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t29.bn7
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t30.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t27.in7
+-rw-r--r--  4.5 unx    32122 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t25.in7
+-rw-r--r--  4.5 unx   800320 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t17.bn7
+-rw-r--r--  4.5 unx    32888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t2.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t33.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t20.in7
+-rw-r--r--  4.5 unx    32122 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t22.in7
+-rw-r--r--  4.5 unx   800320 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t10.bn7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t19.in7
+-rw-r--r--  4.5 unx    32888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t5.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t28.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t34.bn7
+-rw-r--r--  4.5 unx      777 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t41.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t1.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t29.bn7
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t37.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t14.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t25.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t39.bn7
+-rw-r--r--  4.5 unx 34733888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t43.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t31.in7
+-rw-r--r--  4.5 unx    32122 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t33.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t44.bn7
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t26.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t45.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t9.bn7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t15.in7
+-rw-r--r--  4.5 unx    32889 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t12.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t38.bn7
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t21.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t42.bn7
+-rw-r--r--  4.5 unx 34733888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t38.bn7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t12.in7
+-rw-r--r--  4.5 unx    32889 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t15.in7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t13.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t22.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t19.bn7
+-rw-r--r--  4.5 unx 34733888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t44.bn7
+-rw-r--r--  4.5 unx      776 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t9.in7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t36.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t43.bn7
+-rw-r--r--  4.5 unx    32122 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t34.in7
+-rw-r--r--  4.5 unx    32119 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t3.in7
+-rw-r--r--  4.5 unx 34733888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t36.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t44.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t31.bn7
+-rw-r--r--  4.5 unx    32122 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t46.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t2.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t30.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t17.bn7
+-rw-r--r--  4.5 unx      776 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t7.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t15.bn7
+-rw-r--r--  4.5 unx      777 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t25.in7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t38.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t37.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t10.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t12.bn7
+-rw-r--r--  4.5 unx      777 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t22.in7
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t28.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t7.bn7
+-rw-r--r--  4.5 unx    32119 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t4.in7
+-rw-r--r--  4.5 unx 34733888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t31.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t43.in7
+-rw-r--r--  4.5 unx    32122 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t41.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t36.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t5.bn7
+-rw-r--r--  4.5 unx  1843802 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/PredShare_sp.csv
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t33.in7
+-rw-r--r--  4.5 unx 34733888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t2.bn7
+-rw-r--r--  4.5 unx      777 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t17.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t27.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t25.bn7
+-rw-r--r--  4.5 unx      832 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t30.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t7.bn7
+-rw-r--r--  4.5 unx    32889 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t29.in7
+-rw-r--r--  4.5 unx   800320 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t46.bn7
+-rw-r--r--  4.5 unx    32124 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t6.in7
+-rw-r--r--  4.5 unx 146924640 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp.fmt
+-rw-r--r--  4.5 unx      832 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t37.in7
+-rw-r--r--  4.5 unx   800320 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t41.bn7
+-rw-r--r--  4.5 unx    32124 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t1.in7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t29.in7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t34.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t19.bn7
+-rw-r--r--  4.5 unx 34733888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t5.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t28.in7
+-rw-r--r--  4.5 unx      777 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t10.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t20.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_all_t22.bn7
+-rw-r--r--  4.5 unx      832 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t39.in7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t46.in7
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t14.bn7
+-rw-r--r--  4.5 unx    32889 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t20.in7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t27.in7
+-rw-r--r--  4.5 unx      832 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t45.in7
+-rw-r--r--  4.5 unx    32932 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp.in7
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t5.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t17.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t26.in7
+-rw-r--r--  4.5 unx   800320 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t33.bn7
+-rw-r--r--  4.5 unx      832 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t42.in7
+-rw-r--r--  4.5 unx  1665088 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/PredShare_home.csv
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t2.bn7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t10.bn7
+-rw-r--r--  4.5 unx    32120 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t21.in7
+-rw-r--r--  4.5 unx      777 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t19.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_all_t29.bn7
+-rw-r--r--  4.5 unx   800320 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_home_all_t34.bn7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t41.in7
+-rw-r--r--  4.5 unx   264352 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Sim_pref_all_t13.bn7
+-rw-r--r--  4.5 unx    32889 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_home_shopping_all_t27.in7
+-rw-r--r--  4.5 unx 10429888 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_all_t9.bn7
+-rw-r--r--  4.5 unx    32124 bx defN 21-May-17 14:57 data/AERdata/spatialdemand/SimPref/Dcost_sp_shop_all_t8.in7
+-rw-r--r--  4.5 unx    32125 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/SimPref/Dcost_ed_shop_all_t20.in7
+-rw-r--r--  4.5 unx  1506864 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/distance/KM_St2St.fmt
+-rw-r--r--  4.5 unx    38208 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/distance/Gtravel.fmt
+-rw-r--r--  4.5 unx  3881712 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/distance/G0.fmt
+-rw-r--r--  4.5 unx  9999408 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/distance/KM_Da2Da.fmt
+-rw-r--r--  4.5 unx  3881712 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/distance/KM_Da2St.fmt
+-rw-r--r--  4.5 unx  1506864 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/distance/Time_St2St.fmt
+-rw-r--r--  4.5 unx 1093074351 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/distance/Distance_by_da (G_*.fmt).zip
+-rw-r--r--  4.5 unx  3881712 bx defN 21-May-17 14:56 data/AERdata/spatialdemand/distance/KM_St2Da.fmt
+-rw-r--r--  4.5 unx     6677 bx defN 21-May-17 14:56 data/AERdata/dofiles/sunoco_merger_cf.do
+-rw-r--r--  4.5 unx     8185 bx defN 21-May-17 14:56 data/AERdata/dofiles/linear_demand_iv_june_2010.do
+-rw-r--r--  4.5 unx     3594 bx defN 21-May-17 14:56 data/AERdata/dofiles/buffer_correlation.do
+-rw-r--r--  4.5 unx     6319 bx defN 21-May-17 14:56 data/AERdata/dofiles/sunoco_merger_june_2010.do
+-rw-r--r--  4.5 unx     6286 bx defN 21-May-17 14:56 data/AERdata/dofiles/panel_cross_elasticity_nov2010.do
+-rw-r--r--  4.5 unx     8230 bx defN 21-May-17 14:56 data/AERdata/dofiles/mc_extract_june_2010.do
+1163 files, 8182948964 bytes uncompressed, 3546755508 bytes compressed:  56.7%

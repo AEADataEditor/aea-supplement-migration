@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Lars Vilhuber" />
 
+<meta name="date" content="2020-02-21" />
 
 <title>Data Description</title>
 
@@ -343,6 +343,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -376,7 +377,7 @@ summary {
 
 <h1 class="title toc-ignore">Data Description</h1>
 <h4 class="author">Lars Vilhuber</h4>
-<h4 class="date">2/21/2020</h4>
+<h4 class="date">2020-02-21</h4>
 
 </div>
 
@@ -506,20 +507,20 @@ summary {
 <div id="aea_issue_data.csv" class="section level2">
 <h2>aea_issue_data.csv</h2>
 <p>Issue information</p>
-<pre><code>##    issue_id                          journal journal_abbreviation volume
-## 1:        1 Journal of Economic Perspectives                  jep     16
-## 2:        2 Journal of Economic Perspectives                  jep     16
-## 3:        3 Journal of Economic Perspectives                  jep     16
-## 4:        4 Journal of Economic Perspectives                  jep     16
-## 5:        5 Journal of Economic Perspectives                  jep     17
-## 6:        6 Journal of Economic Perspectives                  jep     17
-##    issue year month  cover_date
-## 1:     1 2002     3 Winter 2002
-## 2:     2 2002     6 Spring 2002
-## 3:     3 2002     9 Summer 2002
-## 4:     4 2002    12   Fall 2002
-## 5:     1 2003     3 Winter 2003
-## 6:     2 2003     6 Spring 2003</code></pre>
+<pre><code>##    issue_id                          journal journal_abbreviation volume issue
+## 1:        1 Journal of Economic Perspectives                  jep     16     1
+## 2:        2 Journal of Economic Perspectives                  jep     16     2
+## 3:        3 Journal of Economic Perspectives                  jep     16     3
+## 4:        4 Journal of Economic Perspectives                  jep     16     4
+## 5:        5 Journal of Economic Perspectives                  jep     17     1
+## 6:        6 Journal of Economic Perspectives                  jep     17     2
+##    year month  cover_date
+## 1: 2002     3 Winter 2002
+## 2: 2002     6 Spring 2002
+## 3: 2002     9 Summer 2002
+## 4: 2002    12   Fall 2002
+## 5: 2003     3 Winter 2003
+## 6: 2003     6 Spring 2003</code></pre>
 <pre><code>##     issue_id       journal          journal_abbreviation     volume      
 ##  Min.   :  1.0   Length:534         Length:534           Min.   :  1.00  
 ##  1st Qu.:134.2   Class :character   Class :character     1st Qu.:  7.25  
@@ -607,20 +608,13 @@ aea.complete.B &lt;- rcrossref::cr_works(dois=aea.not_complete$doi)</code></pre>
 <div id="aea_icpsr_mapping.20191014.txt" class="section level2">
 <h2>aea_icpsr_mapping.20191014.txt</h2>
 <p>Mapping of ICPSR packages to ICPSR-based DOI</p>
-<pre><code>##    http://doi.org/10.3886/E112305V1
-## 1: http://doi.org/10.3886/E112306V1
-## 2: http://doi.org/10.3886/E112307V1
-## 3: http://doi.org/10.3886/E112308V1
-## 4: http://doi.org/10.3886/E112309V1
-## 5: http://doi.org/10.3886/E112310V1
-## 6: http://doi.org/10.3886/E112311V1
-##    Original Zip: 0002828042002516_data.zip
-## 1: Original Zip: 0002828043052196_data.zip
-## 2: Original Zip: 0002828043052358_data.zip
-## 3: Original Zip: 0002828053828446_data.zip
-## 4: Original Zip: 0002828053828455_data.zip
-## 5: Original Zip: 0002828053828509_data.zip
-## 6: Original Zip: 0002828053828635_data.zip</code></pre>
+<pre><code>##    http://doi.org/10.3886/E112305V1 Original Zip: 0002828042002516_data.zip
+## 1: http://doi.org/10.3886/E112306V1 Original Zip: 0002828043052196_data.zip
+## 2: http://doi.org/10.3886/E112307V1 Original Zip: 0002828043052358_data.zip
+## 3: http://doi.org/10.3886/E112308V1 Original Zip: 0002828053828446_data.zip
+## 4: http://doi.org/10.3886/E112309V1 Original Zip: 0002828053828455_data.zip
+## 5: http://doi.org/10.3886/E112310V1 Original Zip: 0002828053828509_data.zip
+## 6: http://doi.org/10.3886/E112311V1 Original Zip: 0002828053828635_data.zip</code></pre>
 <p>The file needs a bit of cleaning:</p>
 <pre class="r"><code>aea.mapping &lt;- fread.exist(file.path(acquired,&quot;aea_icpsr_mapping.20191014.txt&quot;),
                            col.names = c(&quot;DOI&quot;,&quot;Zipfile&quot;)) %&gt;% 
