@@ -5,14 +5,14 @@ info_aer_101_1_158_data.txt,cd data/AERprograms && zip -rp logfiles.zip $(find .
 info_aer_101_2_664_data.txt,find . -name ._\* -exec rm {} \;
 info_aer_101_5_2108_data.txt,cd data/20090375_data/20090375_data/sources/ && zip -rp originalbankruptcy.zip originalbankruptcy/ && \rm -rf originalbankruptcy/
 info_aer_102_5_1857_data.txt,cd data/2010-0760_Data/Data/ && for arg in Relations Raw_csv; do zip -rp ${arg}.zip $arg/ && \rm -rf $arg/; done
-info_aer_102_5_2147_data.txt,
+info_aer_102_5_2147_data.txt,cd data/AERdata/spatialdemand/ && zip -rp SimPref.zip SimPref/ && \rm -rf SimPref
 info_aer_103_3_178_data.txt,
-info_aer_104_10_3073_data.txt,
+info_aer_104_10_3073_data.txt,(downloading)
 info_aer_104_5_230_data.txt,
-info_aer_104_7_2075_data.txt,
-info_aer_20110035_data.txt,
-info_aer_20110683_data.txt,
-info_aer_20130957_data.txt,
+info_aer_104_7_2075_data.txt,find data -name .svn -exec rm {} \;
+info_aer_20110035_data.txt,cd "data/Codes + Readme File/EndogenousLiquidity_ModelCodes/" && zip results-pdf.zip *pdf && \rm *.pdf
+info_aer_20110683_data.txt,cd data/krw2014_all/krw2014_code_and_graphs/matlab/ && zip -rp solver_lib.zip solver_lib && \rm -rf solver_lib
+info_aer_20130957_data.txt,cd "data/Revised Data and programs for AER/Data/" && zip -rp spi.zip spi && \rm -rf spi
 info_aer_20141529_data.txt,
 info_aer_20150342_data.txt,
 info_aer_20150443_data.txt,
