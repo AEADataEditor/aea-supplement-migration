@@ -1,0 +1,1165 @@
+Archive:  aer_20180277_data.zip
+Zip file size: 54424443 bytes, number of entries: 1162
+drwxrwxr--  2.0 unx        0 b- stor 21-May-17 16:10 citations/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:11 data/
+-rw-r--r--  2.0 unx   373664 b- defN 21-May-17 16:11 metadata.rdf
+-rw-r--r--  2.0 unx    14974 b- defN 21-May-17 16:10 LICENSE.txt
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/
+-rw-r--r--  2.0 unx     5486 b- defN 21-May-17 16:10 data/data/2 Master Analysis.do
+-rw-r--r--  2.0 unx    42355 b- defN 21-May-17 16:10 data/data/README - Transfers paper data and code guide.docx
+-rw-r--r--  2.0 unx     4135 b- defN 21-May-17 16:10 data/data/1 Master Compile.do
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Randomization/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Tax Circle Boundaries/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Department Correspondence/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Pilot/
+-rw-r--r--  2.0 unx    22388 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Pilot/130728 Lahore Pilot Preferences.dta
+-rw-r--r--  2.0 unx     6790 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Pilot/Multan Pilot Preference Data.xlsx
+-rw-r--r--  2.0 unx     6986 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 13.csv
+-rw-r--r--  2.0 unx     7006 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 14.csv
+-rw-r--r--  2.0 unx     6916 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 5.csv
+-rw-r--r--  2.0 unx     5932 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 2.csv
+-rw-r--r--  2.0 unx     6886 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 3.csv
+-rw-r--r--  2.0 unx     5512 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 4.csv
+-rw-r--r--  2.0 unx     7006 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 15.csv
+-rw-r--r--  2.0 unx     5744 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 12.csv
+-rw-r--r--  2.0 unx     6906 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 9.csv
+-rw-r--r--  2.0 unx     6906 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 7.csv
+-rw-r--r--  2.0 unx     6986 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 11.csv
+-rw-r--r--  2.0 unx     6862 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 10.csv
+-rw-r--r--  2.0 unx     6744 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 6.csv
+-rw-r--r--  2.0 unx     6742 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Lahore/130731 Lahore Transfers MAIN Randomization 1170000 GROUP 8.csv
+-rw-r--r--  2.0 unx    27648 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 BAHAWALPUR GROUP 1.xls
+-rw-r--r--  2.0 unx    24064 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 MULTAN GROUP 2.xls
+-rw-r--r--  2.0 unx    22528 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 MULTAN GROUP 5.xls
+-rw-r--r--  2.0 unx    23040 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 GUJRANWALA GROUP 2.xls
+-rw-r--r--  2.0 unx    20480 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 GUJRANWALA GROUP 5.xls
+-rw-r--r--  2.0 unx    19968 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 FAISALABAD GROUP 1.xls
+-rw-r--r--  2.0 unx    23552 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 FAISALABAD GROUP 6.xls
+-rw-r--r--  2.0 unx    27648 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 RAWALPINDI GROUP 1.xls
+-rw-r--r--  2.0 unx    26624 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 SARGODHA GROUP 2.xls
+-rw-r--r--  2.0 unx    25600 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 GUJRANWALA GROUP 4.xls
+-rw-r--r--  2.0 unx    20480 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 GUJRANWALA GROUP 3.xls
+-rw-r--r--  2.0 unx    24576 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 MULTAN GROUP 4.xls
+-rw-r--r--  2.0 unx    22528 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 MULTAN GROUP 3.xls
+-rw-r--r--  2.0 unx    25088 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 FAISALABAD GROUP 3.xls
+-rw-r--r--  2.0 unx    19968 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 FAISALABAD GROUP 4.xls
+-rw-r--r--  2.0 unx    27648 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 RAWALPINDI GROUP 2.xls
+-rw-r--r--  2.0 unx    28160 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 SARGODHA GROUP 1.xls
+-rw-r--r--  2.0 unx    32768 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 BAHAWALPUR GROUP 3.xls
+-rw-r--r--  2.0 unx    27648 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 BAHAWALPUR GROUP 4.xls
+-rw-r--r--  2.0 unx    23552 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 MULTAN GROUP 6.xls
+-rw-r--r--  2.0 unx    22528 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 GUJRANWALA GROUP 6.xls
+-rw-r--r--  2.0 unx    24064 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 GUJRANWALA GROUP 1.xls
+-rw-r--r--  2.0 unx    25600 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 FAISALABAD GROUP 5.xls
+-rw-r--r--  2.0 unx    25600 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 FAISALABAD GROUP 2.xls
+-rw-r--r--  2.0 unx    27648 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 BAHAWALPUR GROUP 2.xls
+-rw-r--r--  2.0 unx    27648 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 RAWALPINDI GROUP 4.xls
+-rw-r--r--  2.0 unx    27648 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Data/Year 1/Non-Lahore/130813 Non-Lahore Transfers MAIN Randomization 606 RAWALPINDI GROUP 3.xls
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/130630 HR Verification Q4-Ballot/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/131028 HR Verification FY2014Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140414 HR Verification FY2014 Q2-Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140630 HR Verification FY2014 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140915 HR Verification FY2015 Q1 - Ballot/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/150114 HR Verification FY2015 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/150301 HR Verification FY2015 Q3/
+-rw-r--r--  2.0 unx    28608 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/131124 Stage II Treatment Staff.dta
+-rw-r--r--  2.0 unx     1983 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/README STARTING FY 2014.txt
+-rw-r--r--  2.0 unx    35364 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/131028 HR Verification FY2014Q1/150109 HR Verification Q1 Inspectors.csv
+-rw-r--r--  2.0 unx    34406 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/131028 HR Verification FY2014Q1/140709 HR Verification Q1 Inspectors.csv
+-rw-r--r--  2.0 unx    29109 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/131028 HR Verification FY2014Q1/140709 HR Verification Q1 Inspectors.xlsx
+-rw-r--r--  2.0 unx    44561 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/150114 HR Verification FY2015 Q2/150216 HR Verification Q2.csv
+-rw-r--r--  2.0 unx    34868 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140414 HR Verification FY2014 Q2-Q3/140709 HR Verification Q2 Inspectors.xlsx
+-rw-r--r--  2.0 unx    40060 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140414 HR Verification FY2014 Q2-Q3/150108 HR Verification Q3 Inspectors.csv
+-rw-r--r--  2.0 unx    36007 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140414 HR Verification FY2014 Q2-Q3/140709 HR Verification Q3 Inspectors.xlsx
+-rw-r--r--  2.0 unx    38942 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140414 HR Verification FY2014 Q2-Q3/140709 HR Verification Q3 Inspectors.csv
+-rw-r--r--  2.0 unx    36677 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140414 HR Verification FY2014 Q2-Q3/150109 HR Verification Q2 Inspectors.csv
+-rw-r--r--  2.0 unx    35695 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140414 HR Verification FY2014 Q2-Q3/140709 HR Verification Q2 Inspectors.csv
+-rw-r--r--  2.0 unx    42155 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140915 HR Verification FY2015 Q1 - Ballot/150109 HR Verification Q1.csv
+-rw-r--r--  2.0 unx    40997 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/150301 HR Verification FY2015 Q3/150512 HR Verification Q3.csv
+-rw-r--r--  2.0 unx    25733 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/130630 HR Verification Q4-Ballot/130729 Non-Lahore Ballot HR Verification (HR ID).xlsx
+-rw-r--r--  2.0 unx    37763 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140630 HR Verification FY2014 Q4/140717 HR Verification Q4.xlsx
+-rw-r--r--  2.0 unx    39626 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140630 HR Verification FY2014 Q4/150109 HR Verification Q4.csv
+-rw-r--r--  2.0 unx    38465 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Current HR Confirmation/140630 HR Verification FY2014 Q4/140717 HR Verification Q4.csv
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/
+-rw-r--r--  2.0 unx     3043 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Circles under litigation.csv
+-rw-r--r--  2.0 unx   162793 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/120904 Crosswalk to Randomization_All.csv
+-rw-r--r--  2.0 unx     8960 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2014_q3_transition.csv
+-rw-r--r--  2.0 unx     7439 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2011_q2_transition.csv
+-rw-r--r--  2.0 unx     8993 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2014_q4_transition.csv
+-rw-r--r--  2.0 unx    11363 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2015_q1_transition.csv
+-rw-r--r--  2.0 unx    23392 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2013_q1_transition.csv
+-rw-r--r--  2.0 unx    11146 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2012_q4_transition.csv
+-rw-r--r--  2.0 unx    10997 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2012_q3_transition.csv
+-rw-r--r--  2.0 unx     7768 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2009_q2_transition.csv
+-rw-r--r--  2.0 unx     7799 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2010_q2_transition.csv
+-rw-r--r--  2.0 unx     9836 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2015_q3_transition.csv
+-rw-r--r--  2.0 unx    15497 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2014_q1_transition.csv
+-rw-r--r--  2.0 unx     9840 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2015_q4_transition.csv
+-rw-r--r--  2.0 unx     8119 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2013_q4_transition.csv
+-rw-r--r--  2.0 unx     8031 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2012_q1_transition.csv
+-rw-r--r--  2.0 unx     8657 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2013_q3_transition.csv
+-rw-r--r--  2.0 unx     7137 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2008_q2_transition.csv
+-rw-r--r--  2.0 unx     7689 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2008_q4_transition.csv
+-rw-r--r--  2.0 unx     7741 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2009_q1_transition.csv
+-rw-r--r--  2.0 unx    14875 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2015_ballot_transition.csv
+-rw-r--r--  2.0 unx     8619 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2013_q2_transition.csv
+-rw-r--r--  2.0 unx     8108 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2008_q3_transition.csv
+-rw-r--r--  2.0 unx     9319 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2013_ballot_transition.csv
+-rw-r--r--  2.0 unx     7807 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2010_q3_transition.csv
+-rw-r--r--  2.0 unx     9731 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2015_q2_transition.csv
+-rw-r--r--  2.0 unx     7334 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2010_q4_transition.csv
+-rw-r--r--  2.0 unx     9930 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2011_q1_transition.csv
+-rw-r--r--  2.0 unx    11468 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2012_rand_transition.csv
+-rw-r--r--  2.0 unx     7229 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2009_q4_transition.csv
+-rw-r--r--  2.0 unx    16380 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2016_q1_transition.csv
+-rw-r--r--  2.0 unx    14875 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2014_ballot_transition.csv
+-rw-r--r--  2.0 unx     7905 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2012_q2_transition.csv
+-rw-r--r--  2.0 unx     7789 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2009_q3_transition.csv
+-rw-r--r--  2.0 unx     9527 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2014_q2_transition.csv
+-rw-r--r--  2.0 unx     7845 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2011_rand_transition.csv
+-rw-r--r--  2.0 unx     7962 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2011_q3_transition.csv
+-rw-r--r--  2.0 unx     7737 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2010_q1_transition.csv
+-rw-r--r--  2.0 unx     7953 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Administrative Data/Crosswalk/2011_q4_transition.csv
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/
+-rw-r--r--  2.0 unx    20554 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/140811 Treatment Preference sheet Tracking.xlsx
+-rw-r--r--  2.0 unx     5229 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization LAHORE GROUP 5.xlsx
+-rw-r--r--  2.0 unx     6310 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization BAHAWALPUR GROUP 4.xlsx
+-rw-r--r--  2.0 unx     5256 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization LAHORE GROUP 9.xlsx
+-rw-r--r--  2.0 unx     5231 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization LAHORE GROUP 13.xlsx
+-rw-r--r--  2.0 unx     5310 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization FAISALABAD GROUP 6.xlsx
+-rw-r--r--  2.0 unx     6743 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization RAWALPINDI GROUP 4.xlsx
+-rw-r--r--  2.0 unx     5532 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization MULTAN GROUP 5.xlsx
+-rw-r--r--  2.0 unx     5164 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization FAISALABAD GROUP 4.xlsx
+-rw-r--r--  2.0 unx     6207 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization BAHAWALPUR GROUP 3.xlsx
+-rw-r--r--  2.0 unx     5220 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization MULTAN GROUP 3.xlsx
+-rw-r--r--  2.0 unx     6602 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization SARGODHA GROUP 1.xlsx
+-rw-r--r--  2.0 unx     5225 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization LAHORE GROUP 7.xlsx
+-rw-r--r--  2.0 unx     5551 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization GUJRANWALA GROUP 1.xlsx
+-rw-r--r--  2.0 unx     5159 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization GUJRANWALA GROUP 5.xlsx
+-rw-r--r--  2.0 unx     6708 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Preference Tracking/Data/140815 Treated Groups Year 2 Randomization RAWALPINDI GROUP 3.xlsx
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/Department Correspondence/July Demand 2014/
+-rw-r--r--  2.0 unx    38152 b- defN 21-May-17 16:10 data/data/Data/Raw Data/Department Correspondence/July Demand 2014/140717 July Data.xlsx
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/
+-rw-r--r--  2.0 unx     2975 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - RAWALPINDI Group 4.xlsx
+-rw-r--r--  2.0 unx     2918 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - FAISALABAD Group 6.xlsx
+-rw-r--r--  2.0 unx     2882 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - MULTAN Group 5.xlsx
+-rw-r--r--  2.0 unx     2964 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - LAHORE Group 5.xlsx
+-rw-r--r--  2.0 unx     2970 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - BAHAWALPUR Group 4.xlsx
+-rw-r--r--  2.0 unx     2969 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - LAHORE Group 9.xlsx
+-rw-r--r--  2.0 unx     2980 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - LAHORE Group 7.xlsx
+-rw-r--r--  2.0 unx     2892 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - SARGODHA Group 1.xlsx
+-rw-r--r--  2.0 unx     2843 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - GUJRANWALA Group 1.xlsx
+-rw-r--r--  2.0 unx     2975 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - RAWALPINDI Group 3.xlsx
+-rw-r--r--  2.0 unx     2840 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - GUJRANWALA Group 5.xlsx
+-rw-r--r--  2.0 unx     2892 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - FAISALABAD Group 4.xlsx
+-rw-r--r--  2.0 unx     2918 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - BAHAWALPUR Group 3.xlsx
+-rw-r--r--  2.0 unx     2912 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - MULTAN Group 3.xlsx
+-rw-r--r--  2.0 unx     2997 b- defN 21-May-17 16:10 data/data/Data/Raw Data/FY 14 Transfers/Transfer Tables FULL/140823 Transfers - LAHORE Group 13.xlsx
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Preference Data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Randomization/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Ranks/
+-rw-r--r--  2.0 unx     5720 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Ranks/140822 Q4 Ranks Recovery SMS.csv
+-rw-r--r--  2.0 unx     4833 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Ranks/140821 Q4 Ranks Demand SMS.csv
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/
+-rw-r--r--  2.0 unx    15764 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/140127 Circle to District Mapping.csv
+-rw-r--r--  2.0 unx  9753983 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Punjab Compiled - Quarterly.dta
+-rw-r--r--  2.0 unx  2437881 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Punjab Crosswalked - Current Circles.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/
+-rw-r--r--  2.0 unx     3855 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Truncated.dta
+-rw-r--r--  2.0 unx    15174 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2008_q3_keys.dta
+-rw-r--r--  2.0 unx    18180 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2010_q1_keys.dta
+-rw-r--r--  2.0 unx    20050 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2013_q2_keys.dta
+-rw-r--r--  2.0 unx    25304 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2015_q4_keys.dta
+-rw-r--r--  2.0 unx    15762 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2011_q2_keys.dta
+-rw-r--r--  2.0 unx    30418 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2012_q1_keys.dta
+-rw-r--r--  2.0 unx    36136 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2015_q3_keys.dta
+-rw-r--r--  2.0 unx    23953 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2008_q4_keys.dta
+-rw-r--r--  2.0 unx    17976 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2008_q2_keys.dta
+-rw-r--r--  2.0 unx    23258 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2013_q3_keys.dta
+-rw-r--r--  2.0 unx    21578 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2011_q4_keys.dta
+-rw-r--r--  2.0 unx    35186 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2014_q1_keys.dta
+-rw-r--r--  2.0 unx    16994 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2013_q4_keys.dta
+-rw-r--r--  2.0 unx    50959 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2015_q2_keys.dta
+-rw-r--r--  2.0 unx    24698 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2016_q1_keys.dta
+-rw-r--r--  2.0 unx    27318 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2011_q3_keys.dta
+-rw-r--r--  2.0 unx    24188 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2009_q1_keys.dta
+-rw-r--r--  2.0 unx    15566 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2010_q4_keys.dta
+-rw-r--r--  2.0 unx    24058 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2015_q1_keys.dta
+-rw-r--r--  2.0 unx    21498 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2012_q3_keys.dta
+-rw-r--r--  2.0 unx    22006 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2009_q2_keys.dta
+-rw-r--r--  2.0 unx    21178 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2010_q3_keys.dta
+-rw-r--r--  2.0 unx    18826 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2012_q4_keys.dta
+-rw-r--r--  2.0 unx    35282 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2014_q2_keys.dta
+-rw-r--r--  2.0 unx    21378 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2012_q2_keys.dta
+-rw-r--r--  2.0 unx    27640 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2011_q1_keys.dta
+-rw-r--r--  2.0 unx    20832 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2014_q4_keys.dta
+-rw-r--r--  2.0 unx    24235 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2009_q3_keys.dta
+-rw-r--r--  2.0 unx    18180 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2009_q4_keys.dta
+-rw-r--r--  2.0 unx    23978 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2014_q3_keys.dta
+-rw-r--r--  2.0 unx    21978 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2013_q1_keys.dta
+-rw-r--r--  2.0 unx    24470 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Keys/2010_q2_keys.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2016 Q1/
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q4/rp149_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q4/rp39_t.dta
+-rw-r--r--  2.0 unx     1207 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q4/rp163_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/rp317_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/rp316_t.dta
+-rw-r--r--  2.0 unx    11828 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/rp315_t.dta
+-rw-r--r--  2.0 unx     3163 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/rp262_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/rp483_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/rp462_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/rp253_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q3/rp330_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q3/rp191_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q3/rp459_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q3/rp267_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q3/rp266_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q3/rp192_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp73_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp259_t.dta
+-rw-r--r--  2.0 unx      737 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp255_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp220_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp47_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp371_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp264_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp231_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp206_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp188_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp251_t.dta
+-rw-r--r--  2.0 unx      737 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp229_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q1/rp225_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q1/rp456_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q1/rp11_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q1/rp1_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q1/rp46_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q1/rp377_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q1/rp146_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2016 Q1/rp490_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2016 Q1/rp366_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2016 Q1/rp347_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2016 Q1/rp397_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2016 Q1/rp8_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2016 Q1/rp343_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2016 Q1/rp385_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q2/rp46_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q2/rp325_t.dta
+-rw-r--r--  2.0 unx     2523 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2014 Q2/rp329_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp223_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp286_t.dta
+-rw-r--r--  2.0 unx     4515 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp291_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp222_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp287_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp197_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp221_t.dta
+-rw-r--r--  2.0 unx     1430 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp292_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp452_t.dta
+-rw-r--r--  2.0 unx      323 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp151_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp196_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp150_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp453_t.dta
+-rw-r--r--  2.0 unx      522 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp454_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp143_t.dta
+-rw-r--r--  2.0 unx     2487 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp162_t.dta
+-rw-r--r--  2.0 unx      725 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To TP Randomization/FY2015 Q2/rp163_t.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q4/
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q3/rp129_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q3/rp70_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q3/rp81_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q3/rp80_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q3/rp202_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q3/rp408_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q3/rp415_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q2/rp202_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q2/rp419_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q2/rp116_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q2/rp123_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q2/rp153_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q2/rp276_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q2/rp476_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q3/rp131_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q4/rp223_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q4/rp33_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q4/rp270_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q4/rp415_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q4/rp269_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q2/rp444_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q2/rp39_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q2/rp302_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp196_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp150_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp453_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp221_t.dta
+-rw-r--r--  2.0 unx      448 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp197_t.dta
+-rw-r--r--  2.0 unx     1046 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp292_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp452_t.dta
+-rw-r--r--  2.0 unx      448 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp151_t.dta
+-rw-r--r--  2.0 unx     3875 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp291_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp222_t.dta
+-rw-r--r--  2.0 unx      286 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp287_t.dta
+-rw-r--r--  2.0 unx      286 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp223_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp286_t.dta
+-rw-r--r--  2.0 unx      290 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp163_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp143_t.dta
+-rw-r--r--  2.0 unx     1207 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp162_t.dta
+-rw-r--r--  2.0 unx      286 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q1/rp454_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q1/rp46_t.dta
+-rw-r--r--  2.0 unx     3163 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q1/rp329_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q1/rp325_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q2/rp121_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q2/rp359_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q4/rp85_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q4/rp208_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q4/rp159_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q4/rp107_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q4/rp129_t_notrounded.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q4/rp146_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q4/rp129_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q1/rp288_t_notrounded.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q1/rp418_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q1/rp288_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q1/rp379_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/rp330_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/rp462_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/rp253_t.dta
+-rw-r--r--  2.0 unx     2523 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/rp262_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/rp483_t.dta
+-rw-r--r--  2.0 unx    11188 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/rp315_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/rp316_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q2/rp317_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q2/rp266_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q2/rp459_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q2/rp191_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q1/rp427_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q1/rp385_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q1/rp435_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q1/rp349_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q1/rp434_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q1/rp370_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q3/rp445_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp149_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp467_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp86_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp39_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp243_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp448_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp128_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp7_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp6_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp269_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp11_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2010 Q4/rp225_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp297_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp419_t.dta
+-rw-r--r--  2.0 unx     2511 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp443_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp272_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp244_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp206_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp9_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp278_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp314_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp242_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp30_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp127_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp424_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp314_t_notrounded.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp173_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp290_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp28_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp362_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp240_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp13_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q4/rp172_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp225_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp229_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp487_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp373_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp251_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp188_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp437_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp231_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp206_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp436_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp371_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp229_t_notrounded.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp264_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp498_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp255_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp411_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp259_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp47_t.dta
+-rw-r--r--  2.0 unx     3163 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp449_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp220_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp73_t.dta
+-rw-r--r--  2.0 unx     1859 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp255_t_notrounded.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2013 Q4/rp392_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q3/rp154_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2011 Q3/rp401_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q2/rp129_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q2/rp385_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q2/rp50_t.dta
+-rw-r--r--  2.0 unx     2499 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q2/rp68_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q2/rp48_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q4/rp368_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q4/rp377_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2012 Q4/rp285_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q3/rp149_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q3/rp39_t.dta
+-rw-r--r--  2.0 unx     2487 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q3/rp163_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q4/rp490_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q4/rp8_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q4/rp347_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q4/rp366_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q4/rp397_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q4/rp343_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2015 Q4/rp385_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q1/rp474_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q1/rp270_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q1/rp358_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2009 Q1/rp314_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2008 Q1/rp417_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q4/rp46_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q4/rp1_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q4/rp456_t.dta
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q4/rp11_t.dta
+-rw-r--r--  2.0 unx     1851 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q4/rp146_t.dta
+-rw-r--r--  2.0 unx     1843 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Transition Matrices/To Present/FY2014 Q4/rp377_t.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/
+-rw-r--r--  2.0 unx    61941 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2015_q1.dta
+-rw-r--r--  2.0 unx    61941 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2014_q2.dta
+-rw-r--r--  2.0 unx    61941 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2014_q4.dta
+-rw-r--r--  2.0 unx    61941 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2014_q3.dta
+-rw-r--r--  2.0 unx    61941 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2015_q4.dta
+-rw-r--r--  2.0 unx    61941 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2015_q3.dta
+-rw-r--r--  2.0 unx    49954 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2014_q1.dta
+-rw-r--r--  2.0 unx    61941 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2015_q2.dta
+-rw-r--r--  2.0 unx    61941 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To TP Randomization/2016_q1.dta
+-rw-r--r--  2.0 unx   997354 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2015_q1_crosswalk.dta
+-rw-r--r--  2.0 unx   960792 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2014_q4_crosswalk.dta
+-rw-r--r--  2.0 unx   766406 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2013_q3_crosswalk.dta
+-rw-r--r--  2.0 unx  1115912 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2015_q4_crosswalk.dta
+-rw-r--r--  2.0 unx   853466 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2014_q1_crosswalk.dta
+-rw-r--r--  2.0 unx   603574 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2012_q3_crosswalk.dta
+-rw-r--r--  2.0 unx    74348 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2008_q2_crosswalk.dta
+-rw-r--r--  2.0 unx   476750 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2011_q3_crosswalk.dta
+-rw-r--r--  2.0 unx   349854 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2010_q3_crosswalk.dta
+-rw-r--r--  2.0 unx   196420 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2009_q2_crosswalk.dta
+-rw-r--r--  2.0 unx  1178954 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2016_q1_crosswalk.dta
+-rw-r--r--  2.0 unx   508312 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2011_q4_crosswalk.dta
+-rw-r--r--  2.0 unx   287634 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2010_q1_crosswalk.dta
+-rw-r--r--  2.0 unx   415178 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2011_q1_crosswalk.dta
+-rw-r--r--  2.0 unx   380304 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2010_q4_crosswalk.dta
+-rw-r--r--  2.0 unx   924422 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2014_q3_crosswalk.dta
+-rw-r--r--  2.0 unx   535026 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2012_q1_crosswalk.dta
+-rw-r--r--  2.0 unx   800224 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2013_q4_crosswalk.dta
+-rw-r--r--  2.0 unx  1084518 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2015_q3_crosswalk.dta
+-rw-r--r--  2.0 unx   640360 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2012_q4_crosswalk.dta
+-rw-r--r--  2.0 unx   697026 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2013_q1_crosswalk.dta
+-rw-r--r--  2.0 unx  1039900 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2015_q2_crosswalk.dta
+-rw-r--r--  2.0 unx   886988 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2014_q2_crosswalk.dta
+-rw-r--r--  2.0 unx    44283 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2008_q1_crosswalk.dta
+-rw-r--r--  2.0 unx   255368 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2009_q4_crosswalk.dta
+-rw-r--r--  2.0 unx   135104 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2008_q4_crosswalk.dta
+-rw-r--r--  2.0 unx   165914 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2009_q1_crosswalk.dta
+-rw-r--r--  2.0 unx   317940 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2010_q2_crosswalk.dta
+-rw-r--r--  2.0 unx   226334 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2009_q3_crosswalk.dta
+-rw-r--r--  2.0 unx   104430 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2008_q3_crosswalk.dta
+-rw-r--r--  2.0 unx   445964 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2011_q2_crosswalk.dta
+-rw-r--r--  2.0 unx   567364 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2012_q2_crosswalk.dta
+-rw-r--r--  2.0 unx   731620 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Crosswalk/Quarterly/To Present - Analysis/2013_q2_crosswalk.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2016 Q1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2016 Q2/
+-rw-r--r--  2.0 unx     5029 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q4/FY2015 Q4 Circle List.csv
+-rw-r--r--  2.0 unx   360984 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q4/FY2015 Q4.dta
+-rw-r--r--  2.0 unx     5916 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q1/FY2009 Q1 Circle List.csv
+-rw-r--r--  2.0 unx   321768 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q1/FY2009 Q1.dta
+-rw-r--r--  2.0 unx     5821 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q1/FY2008 Q1 Circle List.csv
+-rw-r--r--  2.0 unx   317640 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q1/FY2008 Q1.dta
+-rw-r--r--  2.0 unx     4939 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q4/FY2014 Q4 Circle List.csv
+-rw-r--r--  2.0 unx   355824 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q4/FY2014 Q4.dta
+-rw-r--r--  2.0 unx   354792 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q3/FY2014 Q3.dta
+-rw-r--r--  2.0 unx     4922 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q3/FY2014 Q3 Circle List.csv
+-rw-r--r--  2.0 unx     5047 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q3/FY2015 Q3 Circle List.csv
+-rw-r--r--  2.0 unx   362016 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q3/FY2015 Q3.dta
+-rw-r--r--  2.0 unx     5942 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q2/FY2009 Q2 Circle List.csv
+-rw-r--r--  2.0 unx   322800 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q2/FY2009 Q2.dta
+-rw-r--r--  2.0 unx     6068 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q3/FY2011 Q3 Circle List.csv
+-rw-r--r--  2.0 unx   328476 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q3/FY2011 Q3.dta
+-rw-r--r--  2.0 unx     4775 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q4/FY2013 Q4 Circle List.csv
+-rw-r--r--  2.0 unx   346536 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q4/FY2013 Q4.dta
+-rw-r--r--  2.0 unx     6163 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q4/FY2012 Q4 Circle List.csv
+-rw-r--r--  2.0 unx   331572 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q4/FY2012 Q4.dta
+-rw-r--r--  2.0 unx     5971 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q3/FY2010 Q3 Circle List.csv
+-rw-r--r--  2.0 unx   324864 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q3/FY2010 Q3.dta
+-rw-r--r--  2.0 unx     5818 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q2/FY2008 Q2 Circle List.csv
+-rw-r--r--  2.0 unx   317640 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q2/FY2008 Q2.dta
+-rw-r--r--  2.0 unx    76668 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q3/FY2007 Q3.dta
+-rw-r--r--  2.0 unx       19 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q3/FY2007 Q3 Circle List.csv
+-rw-r--r--  2.0 unx    76668 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q4/FY2007 Q4.dta
+-rw-r--r--  2.0 unx       19 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q4/FY2007 Q4 Circle List.csv
+-rw-r--r--  2.0 unx     5959 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q4/FY2010 Q4 Circle List.csv
+-rw-r--r--  2.0 unx   324348 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q4/FY2010 Q4.dta
+-rw-r--r--  2.0 unx   330024 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q3/FY2012 Q3.dta
+-rw-r--r--  2.0 unx     6107 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q3/FY2012 Q3 Circle List.csv
+-rw-r--r--  2.0 unx     4736 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q3/FY2013 Q3 Circle List.csv
+-rw-r--r--  2.0 unx   344472 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q3/FY2013 Q3.dta
+-rw-r--r--  2.0 unx     6082 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q4/FY2011 Q4 Circle List.csv
+-rw-r--r--  2.0 unx   328992 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q4/FY2011 Q4.dta
+-rw-r--r--  2.0 unx   122177 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q4/FY2011 Q4 NON LAHORE (Ismail Khan's conflicted copy 2015-05-06).dta
+-rw-r--r--  2.0 unx   121333 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q4/FY2011 Q4 NON LAHORE.dta
+-rw-r--r--  2.0 unx     6459 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q1/FY2013 Q1 Circle List.csv
+-rw-r--r--  2.0 unx   343440 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q1/FY2013 Q1.dta
+-rw-r--r--  2.0 unx   359952 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q2/FY2015 Q2.dta
+-rw-r--r--  2.0 unx     5011 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q2/FY2015 Q2 Circle List.csv
+-rw-r--r--  2.0 unx     4883 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q2/FY2014 Q2 Circle List.csv
+-rw-r--r--  2.0 unx   352728 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q2/FY2014 Q2.dta
+-rw-r--r--  2.0 unx     4413 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q1/FY2012 Q1 Circle List.csv
+-rw-r--r--  2.0 unx   245429 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q1/FY2012 Q1 (Ismail Khan's conflicted copy 2015-05-06).dta
+-rw-r--r--  2.0 unx   326412 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q1/FY2012 Q1.dta
+-rw-r--r--  2.0 unx   322800 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q1/FY2010 Q1.dta
+-rw-r--r--  2.0 unx     5927 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q1/FY2010 Q1 Circle List.csv
+-rw-r--r--  2.0 unx     7629 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2016 Q2/FY2016 Q2 Circle List.csv
+-rw-r--r--  2.0 unx   369756 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2016 Q2/FY2016 Q2.dta
+-rw-r--r--  2.0 unx       19 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q1/FY2007 Q1 Circle List.csv
+-rw-r--r--  2.0 unx    76668 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q1/FY2007 Q1.dta
+-rw-r--r--  2.0 unx   328476 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q1/FY2011 Q1.dta
+-rw-r--r--  2.0 unx     6062 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q1/FY2011 Q1 Circle List.csv
+-rw-r--r--  2.0 unx     4737 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q2/FY2013 Q2 Circle List.csv
+-rw-r--r--  2.0 unx   344472 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2013 Q2/FY2013 Q2.dta
+-rw-r--r--  2.0 unx   320220 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q4/FY2009 Q4.dta
+-rw-r--r--  2.0 unx     5878 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q4/FY2009 Q4 Circle List.csv
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q1/Backup/
+-rw-r--r--  2.0 unx     4966 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q1/FY2015 Q1 Circle List.csv
+-rw-r--r--  2.0 unx   357372 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q1/FY2015 Q1.dta
+-rw-r--r--  2.0 unx    78537 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q1/Backup/FY2015 Q1 for five divs (FSD, DG, MUL, SAH, LHR C).dta
+-rw-r--r--  2.0 unx   187858 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q1/Backup/FY2015 Q1.dta
+-rw-r--r--  2.0 unx    93626 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2015 Q1/Backup/FY2015 Q1 for four divs (LHR B, SAR, LHR A, GUJ).dta
+-rw-r--r--  2.0 unx   351696 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q1/FY2014 Q1.dta
+-rw-r--r--  2.0 unx     4865 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2014 Q1/FY2014 Q1 Circle List.csv
+-rw-r--r--  2.0 unx   320736 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q4/FY2008 Q4.dta
+-rw-r--r--  2.0 unx     5896 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q4/FY2008 Q4 Circle List.csv
+-rw-r--r--  2.0 unx     5991 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q2/FY2012 Q2 Circle List.csv
+-rw-r--r--  2.0 unx   326928 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q2/FY2012 Q2.dta
+-rw-r--r--  2.0 unx   189432 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2012 Q2/FY2012 Q2 (Ismail Khan's conflicted copy 2015-05-06).dta
+-rw-r--r--  2.0 unx     5936 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q2/FY2010 Q2 Circle List.csv
+-rw-r--r--  2.0 unx   323316 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2010 Q2/FY2010 Q2.dta
+-rw-r--r--  2.0 unx     5848 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q3/FY2008 Q3 Circle List.csv
+-rw-r--r--  2.0 unx   318672 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2008 Q3/FY2008 Q3.dta
+-rw-r--r--  2.0 unx       19 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q2/FY2007 Q2 Circle List.csv
+-rw-r--r--  2.0 unx    76668 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2007 Q2/FY2007 Q2.dta
+-rw-r--r--  2.0 unx     7690 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2016 Q1/FY2016 Q1 Circle List.csv
+-rw-r--r--  2.0 unx   370272 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2016 Q1/FY2016 Q1.dta
+-rw-r--r--  2.0 unx   320736 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q3/FY2009 Q3.dta
+-rw-r--r--  2.0 unx     5892 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2009 Q3/FY2009 Q3 Circle List.csv
+-rw-r--r--  2.0 unx   328476 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q2/FY2011 Q2.dta
+-rw-r--r--  2.0 unx     6058 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Administrative Data/Quarterly/FY2011 Q2/FY2011 Q2 Circle List.csv
+-rw-r--r--  2.0 unx    31238 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Randomization/TP Year 1 Randomization.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/Round 3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/Round 3/Cleaned/
+-rw-r--r--  2.0 unx 44791264 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/Round 3/survey_cleaned_data.dta
+-rw-r--r--  2.0 unx  6777397 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/Round 3/Cleaned/Section 4.dta
+-rw-r--r--  2.0 unx 18356918 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/Round 3/Cleaned/Section 3.dta
+-rw-r--r--  2.0 unx  3485439 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/Round 3/Cleaned/Section 7.dta
+-rw-r--r--  2.0 unx    68466 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/Round 3/Cleaned/SEC9_Title_Count.dta
+-rw-r--r--  2.0 unx  2841250 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Field Survey/Round 3/Cleaned/Section 6.dta
+-rw-r--r--  2.0 unx   559703 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Preference Data/150605 Compiled Preference Data.dta
+-rw-r--r--  2.0 unx   559703 b- defN 21-May-17 16:10 data/data/Data/Cleaned Data/Preference Data/Compiled Preference Data.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Administrative data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Cleaning/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Data prep/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/RI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Randomization/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Transfer simulations/
+-rw-r--r--  2.0 unx     5789 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/Make Keys.do
+-rw-r--r--  2.0 unx    11969 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/Crosswalk to TP Randomization.do
+-rw-r--r--  2.0 unx     1819 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/RP315 Backwards Transition Matrix.do
+-rw-r--r--  2.0 unx     6761 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/Make Transition Matrix.do
+-rw-r--r--  2.0 unx    14491 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/Crosswalk to Present - Special Cases.do
+-rw-r--r--  2.0 unx     3757 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/Mata Functions.do
+-rw-r--r--  2.0 unx     6060 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/README.txt
+-rw-r--r--  2.0 unx     8971 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/Crosswalk to Present - Analysis.do
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/RP315 Transition Matrix.do
+-rw-r--r--  2.0 unx      610 b- defN 21-May-17 16:10 data/data/Data/Do Files/Administrative data/RP373 Transition Matrix.do
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 2/
+-rw-r--r--  2.0 unx    14328 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/FINAL SEEDS.docx
+-rw-r--r--  2.0 unx    56688 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/150603TransfersPostingsBallotInfo.pdf
+-rw-r--r--  2.0 unx     8163 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 2/140821 Year2 Ballot 2 (For Control Groups).do
+-rw-r--r--  2.0 unx     1277 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 2/140702 Create Dataset for Ballot in Year 2.do
+-rw-r--r--  2.0 unx    11174 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 2/140723 Excluded Divisions and Control Groups Ballot.do
+-rw-r--r--  2.0 unx     7773 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 2/140713 Create Dataset for New Groups Ballot.do
+-rw-r--r--  2.0 unx     5339 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 2/140702 Year2 Ballot 1 (For Treated Groups).do
+-rw-r--r--  2.0 unx     4617 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 1/130728Multan_Pilot_Ballot.do
+-rw-r--r--  2.0 unx     4750 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 1/130728OtherDivisions_Assign_Treatment_Ballot.do
+-rw-r--r--  2.0 unx     5264 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 1/130725Lahore_Pilot_Ballot.do
+-rw-r--r--  2.0 unx     5588 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 1/130728OtherDivisions_Main_Ballot.do
+-rw-r--r--  2.0 unx     4944 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 1/130725Lahore_Main_Ballot.do
+-rw-r--r--  2.0 unx     4672 b- defN 21-May-17 16:10 data/data/Data/Do Files/Randomization/Year 1/130728Lahore_Assign_Treatment_Ballot.do
+-rw-r--r--  2.0 unx     7196 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/150525 Analysis Dataset Cleaning - Year 1 FULL SAMPLE.do
+-rw-r--r--  2.0 unx    10084 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Y1 Movement Dummies.do
+-rw-r--r--  2.0 unx    11763 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Recovery Ranks Q4 2014 control inspectors.do
+-rw-r--r--  2.0 unx     1870 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Y2 Q1 and Y3 Q1 Demand Data.do
+-rw-r--r--  2.0 unx     7487 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Analysis Dataset with Lags.do
+-rw-r--r--  2.0 unx     4626 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Inspectors after Y1 transfers.do
+-rw-r--r--  2.0 unx    12506 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Demand Ranks Q4 2014 control inspectors.do
+-rw-r--r--  2.0 unx    13242 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Time in Circle as of Y2 Q3.do
+-rw-r--r--  2.0 unx    15124 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Preferences_treatment.do
+-rw-r--r--  2.0 unx    15968 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Y1 Preferences data prep.do
+-rw-r--r--  2.0 unx     7263 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/150525 Analysis Dataset Cleaning - Year 1.do
+-rw-r--r--  2.0 unx    10713 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Baseline Preferences data prep.do
+-rw-r--r--  2.0 unx    14038 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Competitiveness analysis data prep.do
+-rw-r--r--  2.0 unx     5241 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/Basic simulation results prep.do
+-rw-r--r--  2.0 unx    24290 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/140821 Calculate Q4 Ranks Recovery UPDATED.do
+-rw-r--r--  2.0 unx    20119 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/140821 Calculate Q4 Ranks Demand UPDATED.do
+-rw-r--r--  2.0 unx    16046 b- defN 21-May-17 16:10 data/data/Data/Do Files/Data prep/150610 Analysis Dataset Cleaning Year 2.do
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Cleaning/Treatment Inspectors List/
+-rw-r--r--  2.0 unx     8191 b- defN 21-May-17 16:10 data/data/Data/Do Files/Cleaning/130815 Preference Data Cleaning.do
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Cleaning/Treatment Inspectors List/Year 1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Cleaning/Treatment Inspectors List/Year 2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Do Files/Cleaning/Treatment Inspectors List/Year 2/called files/
+-rw-r--r--  2.0 unx     2864 b- defN 21-May-17 16:10 data/data/Data/Do Files/Cleaning/Treatment Inspectors List/Year 2/Master Year 2 Ballot Cleaning.do
+-rw-r--r--  2.0 unx     1376 b- defN 21-May-17 16:10 data/data/Data/Do Files/Cleaning/Treatment Inspectors List/Year 2/called files/new treatment list with current inspectors.do
+-rw-r--r--  2.0 unx     2423 b- defN 21-May-17 16:10 data/data/Data/Do Files/Cleaning/Treatment Inspectors List/Year 2/called files/Complete Treatment Group.do
+-rw-r--r--  2.0 unx     4220 b- defN 21-May-17 16:10 data/data/Data/Do Files/Cleaning/Treatment Inspectors List/Year 1/131123 treatment inspector list.do
+-rw-r--r--  2.0 unx     7235 b- defN 21-May-17 16:10 data/data/Data/Do Files/Transfer simulations/prepare_sim_input.do
+-rw-r--r--  2.0 unx     8489 b- defN 21-May-17 16:10 data/data/Data/Do Files/Transfer simulations/base_growth_predictions.do
+-rw-r--r--  2.0 unx     5018 b- defN 21-May-17 16:10 data/data/Data/Do Files/Transfer simulations/average_effort_robustness.do
+-rw-r--r--  2.0 unx     1384 b- defN 21-May-17 16:10 data/data/Data/Do Files/Transfer simulations/average_effort_multipleiters.do
+-rw-r--r--  2.0 unx     1501 b- defN 21-May-17 16:10 data/data/Data/Do Files/Transfer simulations/average_effort_multipleiters_up_down.do
+-rw-r--r--  2.0 unx    51645 b- defN 21-May-17 16:10 data/data/Data/Do Files/RI/Ballot.do
+-rw-r--r--  2.0 unx  1967732 b- defN 21-May-17 16:10 data/data/Data/Tax Circle Boundaries/circles_location.xlsx
+-rw-r--r--  2.0 unx    27093 b- defN 21-May-17 16:10 data/data/Data/Tax Circle Boundaries/attributes_to_merge.xlsx
+-rw-r--r--  2.0 unx  3180778 b- defN 21-May-17 16:10 data/data/Data/Tax Circle Boundaries/LAHOREAB.pdf
+-rw-r--r--  2.0 unx 10737861 b- defN 21-May-17 16:10 data/data/Data/Tax Circle Boundaries/PUNJAB.pdf
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Randomization/Ballot Cleaning Year 2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Randomization/Output/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Randomization/Ballot Cleaning Year 2/Output/
+-rw-r--r--  2.0 unx     8192 b- defN 21-May-17 16:10 data/data/Data/Randomization/Ballot Cleaning Year 2/preferencetracking.dta
+-rw-r--r--  2.0 unx    21435 b- defN 21-May-17 16:10 data/data/Data/Randomization/Ballot Cleaning Year 2/completetreatment.dta
+-rw-r--r--  2.0 unx     8947 b- defN 21-May-17 16:10 data/data/Data/Randomization/Ballot Cleaning Year 2/excluded.dta
+-rw-r--r--  2.0 unx    31139 b- defN 21-May-17 16:10 data/data/Data/Randomization/Ballot Cleaning Year 2/Output/Complete Treatment List Year 2.dta
+-rw-r--r--  2.0 unx   185611 b- defN 21-May-17 16:10 data/data/Data/Randomization/Ballot Cleaning Year 2/Output/New Treatment List.dta
+-rw-r--r--  2.0 unx    28875 b- defN 21-May-17 16:10 data/data/Data/Randomization/Ballot Cleaning Year 2/Output/150622 Complete Treatment List Year 2.dta
+-rw-r--r--  2.0 unx 11058587 b- defN 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/Punjab Compiled - Quarterly OLD.dta
+-rw-r--r--  2.0 unx   348387 b- defN 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/Punjab Compiled - Quarterly - For FY2014 Transfers & Postings Ballot - FINAL.dta
+-rw-r--r--  2.0 unx   353368 b- defN 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/Punjab Compiled - Quarterly - For FY2014 Transfers & Postings Ballot - FINAL - Non-Lahore.dta
+-rw-r--r--  2.0 unx   364348 b- defN 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/Punjab Compiled - Quarterly - For FY2014 Transfers & Postings Ballot - FULL SET - Non-Lahore.dta
+-rw-r--r--  2.0 unx  7413636 b- defN 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/Punjab Compiled - Quarterly.dta
+-rw-r--r--  2.0 unx   786903 b- defN 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/2014_q3_crosswalk.dta
+-rw-r--r--  2.0 unx   782991 b- defN 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/2014_q3_crosswalk_OLD.dta
+-rw-r--r--  2.0 unx    21556 b- defN 21-May-17 16:10 data/data/Data/Randomization/Data for Ballot/140804 Updated HR Names for Year 1 Treated Groups.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Data/Randomization/Output/Year 2/
+-rw-r--r--  2.0 unx   383666 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 2/140805 Year 1 Control Groups Main Randomization 125450.dta
+-rw-r--r--  2.0 unx   440835 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 2/140830 Control Groups Year 2 Randomization 391.dta
+-rw-r--r--  2.0 unx    49858 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 2/140805 Treated Groups Year 2 Randomization 500060.dta
+-rw-r--r--  2.0 unx    33424 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 2/140805 New Groups Main Randomization 125450.dta
+-rw-r--r--  2.0 unx   298177 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 2/140805 Excluded Circles Main Randomization 125450.dta
+-rw-r--r--  2.0 unx   237660 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/130803 Other Divisions Transfers Main Randomization 606.dta
+-rw-r--r--  2.0 unx    29876 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/Year 1 Treated Groups Ballot.dta
+-rw-r--r--  2.0 unx   153097 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/130726 Lahore PILOT Transfers Randomization Output 150.dta
+-rw-r--r--  2.0 unx   117953 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/130803 Multan PILOT Transfers Randomization Output 51135.dta
+-rw-r--r--  2.0 unx     8358 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/130803 Multan PILOT Transfers Randomization Output MERGE 51135.dta
+-rw-r--r--  2.0 unx   198259 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/130803 Lahore Assign Treatment Transfers Randomization Output 2100.dta
+-rw-r--r--  2.0 unx   292957 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/140804 Excluded Circles Ballot.dta
+-rw-r--r--  2.0 unx   296172 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/130829 Other Divisions Assign Treatment Transfers Randomization Output 17921.dta
+-rw-r--r--  2.0 unx     8358 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/130726 Lahore PILOT Transfers Randomization Output MERGE 150.dta
+-rw-r--r--  2.0 unx   155767 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/130726 Lahore Transfers Main Randomization 1170000.dta
+-rw-r--r--  2.0 unx    25776 b- defN 21-May-17 16:10 data/data/Data/Randomization/Output/Year 1/140804 New Groups Ballot.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/mg_returns_e_0/
+-rw-r--r--  2.0 unx    66385 b- defN 21-May-17 16:10 data/data/Matlab simulations/Pseudocode_effortupdater.docx
+-rw-r--r--  2.0 unx    17190 b- defN 21-May-17 16:10 data/data/Matlab simulations/readme_simulation_eqeffort.docx
+-rw-r--r--  2.0 unx     2129 b- defN 21-May-17 16:10 data/data/Matlab simulations/mg_returns_e_0/csv2mat_numeric.m
+-rw-r--r--  2.0 unx     1030 b- defN 21-May-17 16:10 data/data/Matlab simulations/mg_returns_e_0/run_simulation_helper.m
+-rw-r--r--  2.0 unx     2439 b- defN 21-May-17 16:10 data/data/Matlab simulations/mg_returns_e_0/find_pref_ranks.m
+-rw-r--r--  2.0 unx    10006 b- defN 21-May-17 16:10 data/data/Matlab simulations/mg_returns_e_0/run_simulation.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/
+-rw-r--r--  2.0 unx    11458 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/moment_calculatorr_nopar.m
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/efforts_fullknoy_lneqalpha_cubic_100100finaleffort.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/efforts_idp_lneqalpha_cubic_100100finaleffort.csv
+-rw-r--r--  2.0 unx      282 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/momentvaly1_randp_u1_cubicc.csv
+-rw-r--r--  2.0 unx      296 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/momentvaly1_noy_u1_cubicc.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/efforts_randp_lneqalpha_cubic_100100finaleffort.csv
+-rw-r--r--  2.0 unx     2657 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/min_fullknoy_y1_u1_cubicc.m
+-rw-r--r--  2.0 unx     2659 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/min_fullk_y1_u1_cubicc.m
+-rw-r--r--  2.0 unx    11028 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/run_simulation_lneffort_1aug_trial2_100.m
+-rw-r--r--  2.0 unx     2659 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/min_idpref_y1_u1_cubicc.m
+-rw-r--r--  2.0 unx     2648 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/min_randp_y1_u1_cubicc.m
+-rw-r--r--  2.0 unx      584 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/master_eqfinder.m
+-rw-r--r--  2.0 unx      287 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/momentvaly1_fullk_u1_cubicc.csv
+-rw-r--r--  2.0 unx      386 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/master_cubicc.m
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/efforts_fullky_lneqalpha_cubic_100100finaleffort.csv
+-rw-r--r--  2.0 unx      286 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_cubicc/momentvaly1_idpref_u1_cubicc.csv
+-rw-r--r--  2.0 unx      283 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/momentvaly1_randp_u1_ucubic.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/efforts_randp_lneqalpha_ucubic_100100finaleffort.csv
+-rw-r--r--  2.0 unx     2659 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/min_idpref_y1_u1_ucubic.m
+-rw-r--r--  2.0 unx     2657 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/min_fullknoy_y1_u1_ucubic.m
+-rw-r--r--  2.0 unx   520706 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/efforts_fullknoy_lneqalpha_ucubic_100100finaleffort.csv
+-rw-r--r--  2.0 unx    10991 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/run_simulation_lneffort_1aug_trial2_100.m
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/efforts_idp_lneqalpha_ucubic_100100finaleffort.csv
+-rw-r--r--  2.0 unx      587 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/master_eqfinder.m
+-rw-r--r--  2.0 unx      292 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/momentvaly1_noy_u1_ucubic.csv
+-rw-r--r--  2.0 unx      283 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/momentvaly1_idpref_u1_ucubic.csv
+-rw-r--r--  2.0 unx      372 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/master_ucubic.m
+-rw-r--r--  2.0 unx   520805 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/efforts_fullky_lneqalpha_ucubic_100100finaleffort.csv
+-rw-r--r--  2.0 unx     2659 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/min_fullk_y1_u1_ucubic.m
+-rw-r--r--  2.0 unx     2648 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/min_randp_y1_u1_ucubic.m
+-rw-r--r--  2.0 unx      284 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/momentvaly1_fullk_u1_ucubic.csv
+-rw-r--r--  2.0 unx    11399 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_ucubic/moment_calculatorr_nopar.m
+-rw-r--r--  2.0 unx    11460 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/moment_calculatorr_nopar.m
+-rw-r--r--  2.0 unx     2497 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/min_idpref_y1_u1_newcostf_3.m
+-rw-r--r--  2.0 unx     2130 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/csv2mat_numeric2.m
+-rw-r--r--  2.0 unx      401 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/master_newcostf.m
+-rw-r--r--  2.0 unx      282 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/momentvaly1_fullk_u1_newcostf.csv
+-rw-r--r--  2.0 unx    63026 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/output_for_matlab.csv
+-rw-r--r--  2.0 unx     2494 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/min_idpref_y1_u1_newcostf_2.m
+-rw-r--r--  2.0 unx     2665 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/min_fullknoy_y1_u1_newcostf.m
+-rw-r--r--  2.0 unx     2656 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/min_randp_y1_u1_newcostf.m
+-rw-r--r--  2.0 unx      286 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/momentvaly1_randp_u1_newcostf.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/efforts_fullknoy_lneqalpha_newcostf_100100finaleffort.csv
+-rw-r--r--  2.0 unx     2667 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/min_fullk_y1_u1_newcostf.m
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/efforts_fullky_lneqalpha_newcostf_100100finaleffort.csv
+-rw-r--r--  2.0 unx      273 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/momentvaly1_idpref_u1_newcostf.csv
+-rw-r--r--  2.0 unx      598 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/master_eqfinder.m
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/efforts_randp_lneqalpha_newcostf_100100finaleffort.csv
+-rw-r--r--  2.0 unx     2667 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/min_idpref_y1_u1_newcostf.m
+-rw-r--r--  2.0 unx    11028 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/run_simulation_lneffort_1aug_trial2_100.m
+-rw-r--r--  2.0 unx      298 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/momentvaly1_noy_u1_newcostf.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_newcostf/efforts_idp_lneqalpha_newcostf_100100finaleffort.csv
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/
+-rw-r--r--  2.0 unx      157 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/ln_fullk_eqalpha.m
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/efforts_randp_lneqalpha_100100finaleffort.csv
+-rw-r--r--  2.0 unx    10973 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/run_simulation_lneffort_1aug_trial2_100.m
+-rw-r--r--  2.0 unx      284 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/momentvaly1_fullk_u1.csv
+-rw-r--r--  2.0 unx   520761 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/efforts_fullky_lneqalpha_100100finaleffort.csv
+-rw-r--r--  2.0 unx      156 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/ln_idpref_eqalpha.m
+-rw-r--r--  2.0 unx     2631 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/min_idpref_y1_u1.m
+-rw-r--r--  2.0 unx     2643 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/min_idpnoy_y1_u1.m
+-rw-r--r--  2.0 unx      298 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/momentvaly1_noy_u1.csv
+-rw-r--r--  2.0 unx   520783 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/efforts_fullknoy_lneqalpha_100100finaleffort.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/efforts_idp_lneqalpha_100100finaleffort.csv
+-rw-r--r--  2.0 unx     2620 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/min_randp_y1_u1.m
+-rw-r--r--  2.0 unx      157 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/ln_fullknoy_eqalpha.m
+-rw-r--r--  2.0 unx      283 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/momentvaly1_randp_u1.csv
+-rw-r--r--  2.0 unx      286 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/momentvaly1_idpref_u1.csv
+-rw-r--r--  2.0 unx     2629 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/min_fullknoy_y1_u1.m
+-rw-r--r--  2.0 unx      566 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/master_eqfinder.m
+-rw-r--r--  2.0 unx      158 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/ln_randp_eqalpha.m
+-rw-r--r--  2.0 unx      316 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/master.m
+-rw-r--r--  2.0 unx     2631 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/min_fullk_y1_u1.m
+-rw-r--r--  2.0 unx      961 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/drawalpha_plot_close_randp.m
+-rw-r--r--  2.0 unx     2080 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_randpref_noy_y1.csv
+-rw-r--r--  2.0 unx     2118 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_idpref_noy_y1.csv
+-rw-r--r--  2.0 unx     6449 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_idpref_noy_y1.gph
+-rw-r--r--  2.0 unx     6440 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_randpref_noy_y1.gph
+-rw-r--r--  2.0 unx     2107 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_fullk_noy_y1.csv
+-rw-r--r--  2.0 unx     6455 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_idpref_fully_y1.gph
+-rw-r--r--  2.0 unx     6451 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_fullk_noy_y1.gph
+-rw-r--r--  2.0 unx     2116 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_idpref_fully_y1.csv
+-rw-r--r--  2.0 unx      955 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/drawalpha_plot_close_fullk.m
+-rw-r--r--  2.0 unx     2121 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_fullk_fully_y1.csv
+-rw-r--r--  2.0 unx     6459 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_fullk_fully_y1.gph
+-rw-r--r--  2.0 unx      957 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/drawalpha_plot_close_idpref.m
+-rw-r--r--  2.0 unx     2118 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_randpref_fully_y1.csv
+-rw-r--r--  2.0 unx     6447 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/alphas_plots/plot_randpref_fully_y1.gph
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/efforts_randp_lneqalpha_100down100finaleffort.csv
+-rw-r--r--  2.0 unx   520750 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/efforts_fullknoy_lneqalpha_100down100finaleffort.csv
+-rw-r--r--  2.0 unx   520750 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/efforts_fullknoy_lneqalpha_100up100finaleffort.csv
+-rw-r--r--  2.0 unx   520717 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/efforts_fullky_lneqalpha_100down100finaleffort.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/efforts_randp_lneqalpha_100up100finaleffort.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/efforts_idp_lneqalpha_100down100finaleffort.csv
+-rw-r--r--  2.0 unx   520750 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/efforts_fullky_lneqalpha_100up100finaleffort.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/stddev/efforts_idp_lneqalpha_100up100finaleffort.csv
+-rw-r--r--  2.0 unx      822 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/numder_idprefy1_u1.csv
+-rw-r--r--  2.0 unx      822 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/numder_randpy1_u1.csv
+-rw-r--r--  2.0 unx      822 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/numder_fullky1_u1.csv
+-rw-r--r--  2.0 unx      822 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/numder_idp_noy_y1_u1.csv
+-rw-r--r--  2.0 unx      822 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/numder_randp_noy_y1_u1.csv
+-rw-r--r--  2.0 unx    11065 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/alphas_se_0_049.xlsx
+-rw-r--r--  2.0 unx     1251 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/num_derivative.m
+-rw-r--r--  2.0 unx    10662 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/return_average_effort.m
+-rw-r--r--  2.0 unx      822 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/numder_noyy1_u1.csv
+-rw-r--r--  2.0 unx     1830 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master/numerical_derivative/num_derivative_helper.m
+-rw-r--r--  2.0 unx      287 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/momentvaly1_randp_u1_usq.csv
+-rw-r--r--  2.0 unx    10991 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/run_simulation_lneffort_1aug_trial2_100.m
+-rw-r--r--  2.0 unx     2647 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/min_idpref_y1_u1_usq.m
+-rw-r--r--  2.0 unx      576 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/master_eqfinder.m
+-rw-r--r--  2.0 unx    11399 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/moment_calculatorr_nopar.m
+-rw-r--r--  2.0 unx   520761 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/efforts_fullknoy_lneqalpha_usq_100100finaleffort.csv
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/efforts_randp_lneqalpha_usq_100100finaleffort.csv
+-rw-r--r--  2.0 unx   520750 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/efforts_fullky_lneqalpha_usq_100100finaleffort.csv
+-rw-r--r--  2.0 unx     2647 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/min_fullk_y1_u1_usq.m
+-rw-r--r--  2.0 unx     2645 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/min_fullknoy_y1_u1_usq.m
+-rw-r--r--  2.0 unx      285 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/momentvaly1_fullk_u1_usq.csv
+-rw-r--r--  2.0 unx      294 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/momentvaly1_noy_u1_usq.csv
+-rw-r--r--  2.0 unx      286 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/momentvaly1_idpref_u1_usq.csv
+-rw-r--r--  2.0 unx     2636 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/min_randp_y1_u1_usq.m
+-rw-r--r--  2.0 unx   520915 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/efforts_idp_lneqalpha_usq_100100finaleffort.csv
+-rw-r--r--  2.0 unx      348 b- defN 21-May-17 16:10 data/data/Matlab simulations/eq_effort/master_usq/master_usq.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/Coded Data/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/Do Files/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/output/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/Coded Data/RI/
+-rw-r--r--  2.0 unx  1004483 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/TP Y2 Analysis Data w Y1 Treatment.dta
+-rw-r--r--  2.0 unx    93476 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/150610 Y2 Treatment Data.dta
+-rw-r--r--  2.0 unx    61089 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Y3 Q1 Demand.dta
+-rw-r--r--  2.0 unx    45468 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Basic simulation results.dta
+-rw-r--r--  2.0 unx    18428 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Baseline Preferences analysis data.dta
+-rw-r--r--  2.0 unx     7747 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/ins_begin_q3.dta
+-rw-r--r--  2.0 unx    12263 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Time in Circle as of Y2 Q3.dta
+-rw-r--r--  2.0 unx    10085 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Randomization Year 1.dta
+-rw-r--r--  2.0 unx   186504 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Cleaned baseline preferences.dta
+-rw-r--r--  2.0 unx    26901 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Implement.dta
+-rw-r--r--  2.0 unx  1120385 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Analysis Data with Lags.dta
+-rw-r--r--  2.0 unx    31897 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/FY14 Q4 RECOVERY Ranks control inspectors.dta
+-rw-r--r--  2.0 unx   186504 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Cleaned baseline preferences for simulation.dta
+-rw-r--r--  2.0 unx   746123 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/150525 TP Analysis Data.dta
+-rw-r--r--  2.0 unx    60754 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Y1 Movement Dummies.dta
+-rw-r--r--  2.0 unx     7731 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/ins_begin_q2.dta
+-rw-r--r--  2.0 unx   179724 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Treatment Baseline Preferences for Analysis complete OLD.dta
+-rw-r--r--  2.0 unx    13288 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Treatment Baseline Preferences for Analysis.dta
+-rw-r--r--  2.0 unx   932163 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/TP Y2 Analysis Data.dta
+-rw-r--r--  2.0 unx   767705 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/150525 TP Analysis Data w Y2 Treatment.dta
+-rw-r--r--  2.0 unx     7747 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/ins_end_q3.dta
+-rw-r--r--  2.0 unx    59872 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Preferences data - treatment.dta
+-rw-r--r--  2.0 unx    22049 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/base_growth_predictions_new.dta
+-rw-r--r--  2.0 unx  2250403 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Posting simulation.dta
+-rw-r--r--  2.0 unx    72259 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Treatment Baseline Preferences for Analysis complete.dta
+-rw-r--r--  2.0 unx    30421 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/FY14 Q4 DEMAND Ranks control inspectors.dta
+-rw-r--r--  2.0 unx    21752 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/base_growth_predictions_old.dta
+-rw-r--r--  2.0 unx   177262 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Cleaned baseline preferences for simulation OLD.dta
+-rw-r--r--  2.0 unx    68083 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Y1 Preferences analysis data.dta
+-rw-r--r--  2.0 unx    27035 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/transfer_file.dta
+-rw-r--r--  2.0 unx    60754 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Y2 Q1 Demand.dta
+-rw-r--r--  2.0 unx     7731 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/ins_end_q2.dta
+-rw-r--r--  2.0 unx    22581 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Implement Y2.dta
+-rw-r--r--  2.0 unx    22832 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Q4 Ranks.dta
+-rw-r--r--  2.0 unx    30019 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/Baseline competitiveness.dta
+-rw-r--r--  2.0 unx  1005584 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/150525 TP Analysis Data FULL SAMPLE.dta
+-rw-r--r--  2.0 unx 16349447 b- defN 21-May-17 16:10 data/data/TP Analysis/Coded Data/RI/rand_code_iter.dta
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/
+-rw-r--r--  2.0 unx     3656 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/esttab_programs.do
+-rw-r--r--  2.0 unx      801 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/columns_rows.do
+-rw-r--r--  2.0 unx      598 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/int2strdate.do
+-rw-r--r--  2.0 unx      594 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/add_estimates3.do
+-rw-r--r--  2.0 unx      754 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/add_estimates2.do
+-rw-r--r--  2.0 unx      589 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/add_estimates.do
+-rw-r--r--  2.0 unx      302 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/date_global.do
+-rw-r--r--  2.0 unx     2704 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/compiletex.do
+-rw-r--r--  2.0 unx     4480 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/dolatest.do
+-rw-r--r--  2.0 unx      812 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/columns_rows2.do
+-rw-r--r--  2.0 unx    13200 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/texout.do
+-rw-r--r--  2.0 unx      219 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/programs/all_programs.do
+-rw-r--r--  2.0 unx     7141 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/y1_preferences_rand_inference.do
+-rw-r--r--  2.0 unx     1213 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/plotalpha_paper.do
+-rw-r--r--  2.0 unx    15030 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/hetero_competitiveness_eqeffort_paper_ROBUSTNESS.do
+-rw-r--r--  2.0 unx    22140 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/balance_table_rand_pooled.do
+-rw-r--r--  2.0 unx    11618 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/switching_cost.do
+-rw-r--r--  2.0 unx    13222 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/time_in_circle_rand_inference.do
+-rw-r--r--  2.0 unx     9636 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/interaction_complete_rand_inference.do
+-rw-r--r--  2.0 unx     2821 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/correlation_analysis_paper.do
+-rw-r--r--  2.0 unx     3921 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/summary_stats.do
+-rw-r--r--  2.0 unx     2944 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/baseline_preferences_histograms.do
+-rw-r--r--  2.0 unx     4242 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/basic_treatment_effect_graphs.do
+-rw-r--r--  2.0 unx     2140 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/uniqueness_eqalpha_paper.do
+-rw-r--r--  2.0 unx     3386 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/simulation_histograms.do
+-rw-r--r--  2.0 unx     6768 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/margins_of_impact_paper.do
+-rw-r--r--  2.0 unx     2004 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/simulation_histograms_avgeffort.do
+-rw-r--r--  2.0 unx    17233 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/basic_treatment_effect_rand_inference_controls.do
+-rw-r--r--  2.0 unx    19496 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/basic_treatment_effect_rand_inference.do
+-rw-r--r--  2.0 unx    11207 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/inspector_happiness_paper.do
+-rw-r--r--  2.0 unx    15206 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/hetero_competitiveness_eqeffort_paper.do
+-rw-r--r--  2.0 unx    10869 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/hetero_competitiveness_eqeffort_paper_UP_DOWN_ROB.do
+-rw-r--r--  2.0 unx    20772 b- defN 21-May-17 16:10 data/data/TP Analysis/Do Files/Paper/allocation_preferences_tables_paper.do
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/output/Paper/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/
+-rw-r--r--  2.0 unx     8282 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffortdn_avg_100iter_y1m_randk.csv
+-rw-r--r--  2.0 unx     8352 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffortup_avg_100iter_y1m_fullk.csv
+-rw-r--r--  2.0 unx     8278 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/usq_idp.csv
+-rw-r--r--  2.0 unx    34559 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/sim_i10000_y1m_zerok.csv
+-rw-r--r--  2.0 unx     8282 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffort_avg_100iter_y1m_randk.csv
+-rw-r--r--  2.0 unx     8348 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/cubicc_fullknoy.csv
+-rw-r--r--  2.0 unx     8280 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/newcostf_idp.csv
+-rw-r--r--  2.0 unx     8269 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/usq_randp.csv
+-rw-r--r--  2.0 unx    34559 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/sim_i10000_zerom_zerok.csv
+-rw-r--r--  2.0 unx     8390 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/newcostf_fullky.csv
+-rw-r--r--  2.0 unx     8375 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/newcostf_fullknoy.csv
+-rw-r--r--  2.0 unx    34559 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/sim_i10000_y1m_randk.csv
+-rw-r--r--  2.0 unx     8351 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffort_avg_100iter_zerom_fullk.csv
+-rw-r--r--  2.0 unx     8274 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffortdn_avg_100iter_y1m_zerok.csv
+-rw-r--r--  2.0 unx     8363 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/ucubic_fullknoy.csv
+-rw-r--r--  2.0 unx    34559 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/sim_i10000_zerom_randk.csv
+-rw-r--r--  2.0 unx     8292 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/newcostf_randp.csv
+-rw-r--r--  2.0 unx     8283 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffort_avg_100iter_y1m_zerok.csv
+-rw-r--r--  2.0 unx    63124 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/output_for_matlab_old.csv
+-rw-r--r--  2.0 unx     8278 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/ucubic_randp.csv
+-rw-r--r--  2.0 unx     8277 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffortup_avg_100iter_y1m_randk.csv
+-rw-r--r--  2.0 unx     8352 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffortdn_avg_100iter_y1m_fullk.csv
+-rw-r--r--  2.0 unx     8360 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/usq_fullky.csv
+-rw-r--r--  2.0 unx     8360 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffortdn_avg_100iter_zerom_fullk.csv
+-rw-r--r--  2.0 unx     8366 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffort_avg_100iter_y1m_fullk.csv
+-rw-r--r--  2.0 unx     8352 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/cubicc_fullky.csv
+-rw-r--r--  2.0 unx     8278 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/cubicc_idp.csv
+-rw-r--r--  2.0 unx    34372 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/sim_i10000_y1m_fullk.csv
+-rw-r--r--  2.0 unx    35889 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/base_growth_predictions_old.dta
+-rw-r--r--  2.0 unx     8267 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/cubicc_randp.csv
+-rw-r--r--  2.0 unx     8266 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffortup_avg_100iter_y1m_zerok.csv
+-rw-r--r--  2.0 unx     8362 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/ucubic_fullky.csv
+-rw-r--r--  2.0 unx    63025 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/output_for_matlab.csv
+-rw-r--r--  2.0 unx     8289 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/ucubic_idp.csv
+-rw-r--r--  2.0 unx     8361 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/eqeffortup_avg_100iter_zerom_fullk.csv
+-rw-r--r--  2.0 unx    34360 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/sim_i10000_zerom_fullk.csv
+-rw-r--r--  2.0 unx    36186 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/base_growth_predictions_new.dta
+-rw-r--r--  2.0 unx     8354 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Transfer simulations/usq_fullknoy.csv
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/
+-rw-r--r--  2.0 unx   234153 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/ranking_correlations_paper.pdf
+-rw-r--r--  2.0 unx    29607 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/basic_treatment_effect_recov_tot_rand.pdf
+-rw-r--r--  2.0 unx    27816 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/switching_cost_any_move_first.pdf
+-rw-r--r--  2.0 unx    45003 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/interaction_complete_recov_tot_simple_rand.pdf
+-rw-r--r--  2.0 unx   234439 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/y0_distribution_paper.pdf
+-rw-r--r--  2.0 unx    37946 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/balance_table_nofe_rand_pooled.pdf
+-rw-r--r--  2.0 unx    30818 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/allocation_preferences_top3_paper.pdf
+-rw-r--r--  2.0 unx   265299 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/PDFCDF_y2.pdf
+-rw-r--r--  2.0 unx    30860 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/allocation_preferences_top1_paper.pdf
+-rw-r--r--  2.0 unx    28980 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/basic_treatment_effect_recov_tot_rand_controls.pdf
+-rw-r--r--  2.0 unx    34772 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/heterogeneity_fe_paper_Y2.pdf
+-rw-r--r--  2.0 unx    31323 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/margins_of_impact_paper.pdf
+-rw-r--r--  2.0 unx   252357 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/uniqueness_eqalpha_paper.pdf
+-rw-r--r--  2.0 unx    27197 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/happiness_paper_fe.pdf
+-rw-r--r--  2.0 unx    27910 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/summary_stats.pdf
+-rw-r--r--  2.0 unx    33404 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/switching_cost_any_move.pdf
+-rw-r--r--  2.0 unx    42349 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/heterogeneity_fe_robustness_utility_Y2.pdf
+-rw-r--r--  2.0 unx    29592 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/basic_treatment_effect_recov_tot_rand_include_more_y2.pdf
+-rw-r--r--  2.0 unx   272347 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/PDFCDF_y1.pdf
+-rw-r--r--  2.0 unx    50568 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/heterogeneity_fe_robustness_alpha_Y2.pdf
+-rw-r--r--  2.0 unx    26911 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/y1_preferences_rand.pdf
+-rw-r--r--  2.0 unx   272685 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/y0_distribution_by_group_paper.pdf
+-rw-r--r--  2.0 unx    57804 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/heterogeneity_fe_robustness_cost_Y2.pdf
+-rw-r--r--  2.0 unx    14023 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/baseline_rank_distribution.eps
+-rw-r--r--  2.0 unx    28560 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/time_in_circle_rand.pdf
+-rw-r--r--  2.0 unx    13309 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/circle_popularity.eps
+-rw-r--r--  2.0 unx    42307 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/base_growth_predictions_betas_paper.pdf
+-rw-r--r--  2.0 unx   330120 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/uniqueness_alpha_plot_paper.pdf
+-rw-r--r--  2.0 unx   232124 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_y1m_fullk_i10000.pdf
+-rw-r--r--  2.0 unx     6523 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/plot_randpref_fully_y1.gph
+-rw-r--r--  2.0 unx   226239 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_y1m_fullk_i10000_long_axis.pdf
+-rw-r--r--  2.0 unx   234520 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_y1m_fullk_eqeffort_avg.pdf
+-rw-r--r--  2.0 unx   234570 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_zerom_zerok_i10000.pdf
+-rw-r--r--  2.0 unx   234610 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_y1m_randk_i10000.pdf
+-rw-r--r--  2.0 unx     6535 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/plot_fullk_fully_y1.gph
+-rw-r--r--  2.0 unx     6522 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/plot_idpref_noy_y1.gph
+-rw-r--r--  2.0 unx   233382 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_y1m_zerok_i10000.pdf
+-rw-r--r--  2.0 unx   235798 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_y1m_zerok_eqeffort_avg.pdf
+-rw-r--r--  2.0 unx   235067 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_zerom_fullk_eqeffort_avg.pdf
+-rw-r--r--  2.0 unx     6531 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/plot_idpref_fully_y1.gph
+-rw-r--r--  2.0 unx     6516 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/plot_randpref_noy_y1.gph
+-rw-r--r--  2.0 unx     6527 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/plot_fullk_noy_y1.gph
+-rw-r--r--  2.0 unx   234656 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_zerom_randk_i10000.pdf
+-rw-r--r--  2.0 unx   236299 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_y1m_randk_eqeffort_avg.pdf
+-rw-r--r--  2.0 unx   232676 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/graphs/histogram_u1_zerom_fullk_i10000.pdf
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/
+-rw-r--r--  2.0 unx     3287 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/heterogeneity_fe_robustness_utility_Y2.tex
+-rw-r--r--  2.0 unx     3284 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/basic_treatment_effect_recov_tot_rand_include_more_y2.tex
+-rw-r--r--  2.0 unx     3083 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/happiness_paper_fe.tex
+-rw-r--r--  2.0 unx     3268 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/basic_treatment_effect_recov_tot_rand.tex
+-rw-r--r--  2.0 unx     2920 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/switching_cost_any_move.tex
+-rw-r--r--  2.0 unx     2905 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/switching_cost_any_move_first.tex
+-rw-r--r--  2.0 unx     2910 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/y1_preferences_rand.tex
+-rw-r--r--  2.0 unx     3080 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/interaction_complete_recov_tot_simple_rand.tex
+-rw-r--r--  2.0 unx     3220 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/time_in_circle_rand.tex
+-rw-r--r--  2.0 unx     3275 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/heterogeneity_fe_robustness_alpha_Y2.tex
+-rw-r--r--  2.0 unx     3027 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/basic_treatment_effect_recov_tot_rand_controls.tex
+-rw-r--r--  2.0 unx     3395 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/allocation_preferences_top3_paper.tex
+-rw-r--r--  2.0 unx     2969 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/base_growth_predictions_betas_paper.tex
+-rw-r--r--  2.0 unx     3395 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/allocation_preferences_top1_paper.tex
+-rw-r--r--  2.0 unx     3298 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/heterogeneity_fe_robustness_cost_Y2.tex
+-rw-r--r--  2.0 unx     3239 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/heterogeneity_fe_paper_Y2.tex
+-rw-r--r--  2.0 unx     3104 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/margins_of_impact_paper.tex
+-rw-r--r--  2.0 unx     3193 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/balance_table_nofe_rand_pooled.tex
+-rw-r--r--  2.0 unx     2842 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/summary_stats.tex
+-rw-r--r--  2.0 unx     9461 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/switching_cost_any_move.log
+-rw-r--r--  2.0 unx    12377 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/heterogeneity_fe_robustness_cost_Y2.log
+-rw-r--r--  2.0 unx    10345 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/base_growth_predictions_betas_paper.log
+-rw-r--r--  2.0 unx     9352 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/y1_preferences_rand.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/switching_cost_any_move_first.aux
+-rw-r--r--  2.0 unx     9605 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/basic_treatment_effect_recov_tot_rand_controls.log
+-rw-r--r--  2.0 unx    11408 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/heterogeneity_fe_robustness_utility_Y2.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/balance_table_nofe_rand_pooled.aux
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/basic_treatment_effect_recov_tot_rand_include_more_y2.aux
+-rw-r--r--  2.0 unx     9653 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/interaction_complete_recov_tot_simple_rand.log
+-rw-r--r--  2.0 unx        0 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/allocation_preferences_top3_paper.aux
+-rw-r--r--  2.0 unx     9435 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/time_in_circle_rand.log
+-rw-r--r--  2.0 unx     9551 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/basic_treatment_effect_recov_tot_rand.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/allocation_preferences_top1_paper.aux
+-rw-r--r--  2.0 unx     9390 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/heterogeneity_fe_paper_Y2.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/happiness_paper_fe.aux
+-rw-r--r--  2.0 unx    12226 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/heterogeneity_fe_robustness_alpha_Y2.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/summary_stats.aux
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/margins_of_impact_paper.aux
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/switching_cost_any_move.aux
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/heterogeneity_fe_robustness_cost_Y2.aux
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/basic_treatment_effect_recov_tot_rand_controls.aux
+-rw-r--r--  2.0 unx     9416 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/switching_cost_any_move_first.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/base_growth_predictions_betas_paper.aux
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/y1_preferences_rand.aux
+-rw-r--r--  2.0 unx     9584 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/balance_table_nofe_rand_pooled.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/heterogeneity_fe_robustness_utility_Y2.aux
+-rw-r--r--  2.0 unx     9647 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/basic_treatment_effect_recov_tot_rand_include_more_y2.log
+-rw-r--r--  2.0 unx     4199 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/allocation_preferences_top3_paper.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/interaction_complete_recov_tot_simple_rand.aux
+-rw-r--r--  2.0 unx    10659 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/allocation_preferences_top1_paper.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/basic_treatment_effect_recov_tot_rand.aux
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/time_in_circle_rand.aux
+-rw-r--r--  2.0 unx     9854 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/happiness_paper_fe.log
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/heterogeneity_fe_paper_Y2.aux
+-rw-r--r--  2.0 unx        9 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/heterogeneity_fe_robustness_alpha_Y2.aux
+-rw-r--r--  2.0 unx     9316 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/summary_stats.log
+-rw-r--r--  2.0 unx     9378 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/auxdir/margins_of_impact_paper.log
+-rw-r--r--  2.0 unx      576 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/basic_treatment_effect_recov_tot_rand_notes.txt
+-rw-r--r--  2.0 unx      426 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/margins_of_impact_paper_notes.txt
+-rw-r--r--  2.0 unx      584 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/heterogeneity_fe_robustness_alpha_Y2_notes.txt
+-rw-r--r--  2.0 unx      236 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/y1_preferences_rand_notes.txt
+-rw-r--r--  2.0 unx      410 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/happiness_paper_fe_notes.txt
+-rw-r--r--  2.0 unx      383 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/interaction_complete_recov_tot_simple_rand_notes.txt
+-rw-r--r--  2.0 unx      706 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/allocation_preferences_top1_paper_notes.txt
+-rw-r--r--  2.0 unx      242 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/switching_cost_any_move_notes.txt
+-rw-r--r--  2.0 unx      576 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/basic_treatment_effect_recov_tot_rand_include_more_y2_notes.txt
+-rw-r--r--  2.0 unx      594 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/heterogeneity_fe_robustness_utility_Y2_notes.txt
+-rw-r--r--  2.0 unx      507 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/balance_table_nofe_rand_pooled_notes.txt
+-rw-r--r--  2.0 unx      279 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/base_growth_predictions_betas_paper_notes.txt
+-rw-r--r--  2.0 unx      559 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/heterogeneity_fe_paper_Y2_notes.txt
+-rw-r--r--  2.0 unx      706 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/allocation_preferences_top3_paper_notes.txt
+-rw-r--r--  2.0 unx      221 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/switching_cost_any_move_first_notes.txt
+-rw-r--r--  2.0 unx      326 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/basic_treatment_effect_recov_tot_rand_controls_notes.txt
+-rw-r--r--  2.0 unx      546 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/time_in_circle_rand_notes.txt
+-rw-r--r--  2.0 unx      174 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/summary_stats_notes.txt
+-rw-r--r--  2.0 unx      608 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/notes/heterogeneity_fe_robustness_cost_Y2_notes.txt
+-rw-r--r--  2.0 unx     1136 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/summary_stats_input.tex
+-rw-r--r--  2.0 unx     4306 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/switching_cost_any_move_input.tex
+-rw-r--r--  2.0 unx     1857 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/basic_treatment_effect_recov_tot_rand_include_more_y2_input.tex
+-rw-r--r--  2.0 unx     7525 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/allocation_preferences_top1_paper_input.tex
+-rw-r--r--  2.0 unx     4092 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/heterogeneity_fe_paper_Y2_input.tex
+-rw-r--r--  2.0 unx     1857 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/basic_treatment_effect_recov_tot_rand_controls_input.tex
+-rw-r--r--  2.0 unx     1654 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/time_in_circle_rand_input.tex
+-rw-r--r--  2.0 unx     7525 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/allocation_preferences_top3_paper_input.tex
+-rw-r--r--  2.0 unx     3753 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/heterogeneity_fe_robustness_alpha_Y2_input.tex
+-rw-r--r--  2.0 unx     1054 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/switching_cost_any_move_first_input.tex
+-rw-r--r--  2.0 unx     1527 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/happiness_paper_fe_input.tex
+-rw-r--r--  2.0 unx     1417 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/interaction_complete_recov_tot_simple_rand_input.tex
+-rw-r--r--  2.0 unx     3777 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/heterogeneity_fe_robustness_cost_Y2_input.tex
+-rw-r--r--  2.0 unx     1272 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/margins_of_impact_paper_input.tex
+-rw-r--r--  2.0 unx     1383 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/y1_preferences_rand_input.tex
+-rw-r--r--  2.0 unx     1857 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/basic_treatment_effect_recov_tot_rand_input.tex
+-rw-r--r--  2.0 unx     3325 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/balance_table_nofe_rand_pooled_input.tex
+-rw-r--r--  2.0 unx     1288 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/base_growth_predictions_betas_paper_input.tex
+-rw-r--r--  2.0 unx     3777 b- defN 21-May-17 16:10 data/data/TP Analysis/output/Paper/tex/input/heterogeneity_fe_robustness_utility_Y2_input.tex
+-rw-r--r--  2.0 unx      375 b- defN 21-May-17 16:10 citations/AER_109_1_237_70.ris
+1162 files, 213344991 bytes uncompressed, 54133185 bytes compressed:  74.6%

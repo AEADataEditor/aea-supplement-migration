@@ -1,0 +1,1055 @@
+Archive:  mac_3_3_53_data.zip
+Zip file size: 15101395 bytes, number of entries: 1052
+drwxrwxr--  2.0 unx        0 b- stor 21-May-17 15:23 citations/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/
+-rw-r--r--  2.0 unx    14974 b- defN 21-May-17 15:23 LICENSE.txt
+-rw-r--r--  2.0 unx   358912 b- defN 21-May-17 15:23 metadata.rdf
+-rw-r--r--  2.0 unx      317 b- defN 21-May-17 15:23 citations/MAC_3_3_53_91.ris
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/
+-rw-r--r--  2.0 unx     1835 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/readme.txt
+-rw-r--r--  2.0 unx   873227 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/AEJMacro-2009-0200_Data.xlsm
+-rw-r--r--  2.0 unx     6799 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/ReadMe.pdf
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx  4112765 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/results
+-rw-r--r--  2.0 unx      541 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx    14147 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     5325 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     3929 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/main.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx      557 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx     1333 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Compute CONDI/csminwel.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx     2702 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     3683 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     2519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx  6245842 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx  1389958 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     8119 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     2056 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx      536 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/g1.mat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     6580 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/main_welfare.asv
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1140 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/H.dat
+-rw-r--r--  2.0 unx    13360 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     6244 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/16_sectors_split_housing/Column 9/Welfare and consumption volatility/main_welfare.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx     2469 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     3683 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx  6236358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     8115 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx  1313017 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     2677 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     1189 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx     3872 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/main.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx      516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx  3034303 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/results
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx    12987 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     6580 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/main_welfare.asv
+-rw-r--r--  2.0 unx     2011 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx      536 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/g1.mat
+-rw-r--r--  2.0 unx     6219 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx     1140 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/H.dat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 8/Welfare and consumption volatility/vcv.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     3745 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/main.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx      545 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx     1217 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx     2011 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     6070 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Welfare and consumption volatility/param_natural_target_opt_cs.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     3683 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     2469 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     8115 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     2539 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 2/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     2562 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     3683 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     2469 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx  1312743 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     8115 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     3813 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/main.m
+-rw-r--r--  2.0 unx     1193 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx   897044 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/results
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx    12025 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     2011 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx     6090 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 5/Welfare and consumption volatility/main_welfare.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     2469 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     2473 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     8115 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     2480 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     3635 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/main.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     2011 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx     5895 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx     1865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 1/Welfare and consumption volatility/sylvester.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx  6233042 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     2647 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx  1312855 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     8115 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     2469 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx     3683 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     2011 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      536 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/g1.mat
+-rw-r--r--  2.0 unx     1140 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/H.dat
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx     6580 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/main_welfare.asv
+-rw-r--r--  2.0 unx     6141 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx      539 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx     1148 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     3787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/main.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx  1788177 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/results
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx    12838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 6/Compute CONDI/g2.mat
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     6024 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     2011 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Welfare and consumption volatility/Loss_fun_opt.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     2469 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     3683 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx     2539 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     8115 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     3722 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/main.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     1191 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 4/Compute CONDI/g2.mat
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     1182 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx      512 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     3709 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/main.m
+-rw-r--r--  2.0 unx   635393 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/results
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Compute CONDI/csminwel.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx     2474 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     3683 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     2469 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     8115 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     2011 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     5929 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 3/Welfare and consumption volatility/main_welfare.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     6159 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx      536 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/g1.mat
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     1140 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/H.dat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     6580 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/main_welfare.asv
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     2011 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Welfare and consumption volatility/Loss_fun_opt.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx  1313017 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results.mat
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     2668 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     8115 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx  6236433 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/results
+-rw-r--r--  2.0 unx     2469 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     3683 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     4134 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Calibrate Shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     3774 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/main.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     1203 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx      525 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx    12945 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     1768 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx  2654898 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/15_sectors/Column 7/Compute CONDI/results
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     1140 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/H.dat
+-rw-r--r--  2.0 unx     6580 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/main_welfare.asv
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     2058 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx     6404 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx      536 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/g1.mat
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     1222 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx     1764 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx    12730 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     4099 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/main.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx   397349 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/results
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      518 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      833 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     5450 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     8125 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     4348 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      838 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     2761 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     3824 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     3597 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx      830 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/heterogeneous_shocks/Calibration_with_simulation_sector_shocks/rsnbrck.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/param_natural_target6_cs.asv
+-rw-r--r--  2.0 unx     1850 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     1996 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     3511 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx   131222 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/results
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     3735 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/main.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     1714 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     3230 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Compute CONDI/csminwel.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx      846 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     3516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx  1603219 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/results
+-rw-r--r--  2.0 unx      844 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      843 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     2345 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx     2405 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     5444 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     8119 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     2720 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 6/Calibrate Shocks/Calibration_sector_shocks/results.mat
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx   124693 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/results
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     3578 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/main.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx     1706 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     3210 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Compute CONDI/bfgsi.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx      844 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx  1539108 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/results
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     2370 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx      846 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     5444 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     2514 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     2347 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     8121 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     2707 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/results.mat
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      843 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     3528 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/main_welfare_calib_model.asv
+-rw-r--r--  2.0 unx     3575 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx    14344 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     2054 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     2538 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx    10552 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 1/Welfare and consumption volatility/param_natural_target6_cs.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     3212 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     1704 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx   129574 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/results
+-rw-r--r--  2.0 unx     4179 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/main.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Compute CONDI/csolve.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/
+-rw-r--r--  2.0 unx      846 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     3516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      844 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     2401 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     2359 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     2718 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     8123 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx  1569418 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/results
+-rw-r--r--  2.0 unx      843 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     5444 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Calibrate Shocks/Calibration_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     1992 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 5/Welfare and consumption volatility/param_natural_target6_cs.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     1708 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     3223 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx   134516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/results
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     3682 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/main.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Compute CONDI/csminit.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      846 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     2351 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     2725 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/results.mat
+-rw-r--r--  2.0 unx      844 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     8119 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     5444 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/sim.m
+-rw-r--r--  2.0 unx      843 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx  1613707 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/results
+-rw-r--r--  2.0 unx     3516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     2408 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Calibrate Shocks/Calibration_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1852 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     1989 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx     3518 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx    13360 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 8/Welfare and consumption volatility/vcv.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     8121 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx     2475 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     3516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx      843 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/sim.m
+-rw-r--r--  2.0 unx      844 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     5444 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     2498 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx  1543951 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/results
+-rw-r--r--  2.0 unx      846 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     2713 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Calibrate Shocks/Calibration_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx     3235 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     9564 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     3634 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/main.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx   124753 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/results
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx     1708 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     2000 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     3590 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx    13358 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     1854 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 2/Welfare and consumption volatility/redsf.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     1982 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx    10552 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     1852 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     3515 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx    13360 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     1710 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     3552 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/main.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     3240 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Compute CONDI/drsnbrck.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx     5444 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     2398 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx     3516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     8121 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      843 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx      844 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     2394 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx      846 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     2719 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 7/Calibrate Shocks/Calibration_sector_shocks/sim.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     3482 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx    13360 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     1850 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx     1992 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/Loss_fun_opt.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Welfare and consumption volatility/redsf.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     2353 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      844 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx     2406 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx  1550299 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/results
+-rw-r--r--  2.0 unx     5444 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/H.dat
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx      846 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     2711 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     3516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx     8121 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx      843 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Calibrate Shocks/Calibration_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx   126400 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/results
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     3561 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/main.m
+-rw-r--r--  2.0 unx     1702 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/sylvester.m
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     3192 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 3/Compute CONDI/csminwel.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/
+-rw-r--r--  2.0 unx     3467 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/main_welfare.m
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/sylvester.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/soldsf.m
+-rw-r--r--  2.0 unx      787 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/vcv.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/redsf.m
+-rw-r--r--  2.0 unx     1850 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx    13360 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/param_natural_target_opt_cs.m
+-rw-r--r--  2.0 unx     1989 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Welfare and consumption volatility/Loss_fun_opt.m
+drwxr-xr-x  2.0 unx        0 b- stor 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/
+-rw-r--r--  2.0 unx      843 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/g1.mat
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/vcv.m
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/bfgsi.m
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/csminit.m
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/redsf.m
+-rw-r--r--  2.0 unx     8121 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/soldsf.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/rsnbrck.m
+-rw-r--r--  2.0 unx     5444 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/H.dat
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/csminwel.m
+-rw-r--r--  2.0 unx     2711 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/results.mat
+-rw-r--r--  2.0 unx     3484 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/main_calib.asv
+-rw-r--r--  2.0 unx     1688 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/sim.m
+-rw-r--r--  2.0 unx     3516 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.asv
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/sylvester.m
+-rw-r--r--  2.0 unx     2305 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/main_calib.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/csolve.m
+-rw-r--r--  2.0 unx     9094 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/param_natural_target7_cs.asv
+-rw-r--r--  2.0 unx      846 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/g3.mat
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/numgrad.m
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/drsnbrck.m
+-rw-r--r--  2.0 unx      844 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/g2.mat
+-rw-r--r--  2.0 unx     2411 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/Loss_fun_calibration.m
+-rw-r--r--  2.0 unx  1555797 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Calibrate Shocks/Calibration_sector_shocks/results
+-rw-r--r--  2.0 unx    11847 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/redsf.m
+-rw-r--r--  2.0 unx     2856 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/numgrad.m
+-rw-r--r--  2.0 unx     1190 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/H.dat
+-rw-r--r--  2.0 unx      685 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/bfgsi.m
+-rw-r--r--  2.0 unx      530 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/g2.mat
+-rw-r--r--  2.0 unx     1709 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/Loss_fun_cs.m
+-rw-r--r--  2.0 unx     7207 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/soldsf.m
+-rw-r--r--  2.0 unx      836 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/vcv.m
+-rw-r--r--  2.0 unx     9773 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/csminwel.m
+-rw-r--r--  2.0 unx     9566 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/param_natural_target6_cs.m
+-rw-r--r--  2.0 unx     4352 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/csolve.m
+-rw-r--r--  2.0 unx     3698 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/main.m
+-rw-r--r--  2.0 unx      136 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/rsnbrck.m
+-rw-r--r--  2.0 unx     4378 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/main.asv
+-rw-r--r--  2.0 unx     5865 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/csminit.m
+-rw-r--r--  2.0 unx     3224 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/results.mat
+-rw-r--r--  2.0 unx   127987 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/results
+-rw-r--r--  2.0 unx      164 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/drsnbrck.m
+-rw-r--r--  2.0 unx      519 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/g1.mat
+-rw-r--r--  2.0 unx     1015 b- defN 21-May-17 15:23 data/AEJMacro-2009-020_ReplicationFilesSept2011/2_sectors/Column 4/Compute CONDI/sylvester.m
+1052 files, 62082028 bytes uncompressed, 14788175 bytes compressed:  76.2%

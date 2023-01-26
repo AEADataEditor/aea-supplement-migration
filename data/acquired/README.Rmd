@@ -1,13 +1,13 @@
 ---
 title: "Data Description"
 author: "Lars Vilhuber"
-date: "2/21/2020"
+date: "2020-02-21"
 output: 
-  pdf_document: 
-    toc: yes
-  html_document:
+  html_document: 
     keep_md: yes
     theme: journal
+    toc: yes
+  pdf_document: 
     toc: yes
 editor_options: 
   chunk_output_type: console
