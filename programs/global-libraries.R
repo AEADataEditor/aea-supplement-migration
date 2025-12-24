@@ -2,8 +2,8 @@
 # global libraries used everywhere #
 ####################################
 
-mran.date <- "2019-10-01"
-options(repos=paste0("https://cran.microsoft.com/snapshot/",mran.date,"/"))
+#mran.date <- "2019-10-01"
+#options(repos=paste0("https://cran.microsoft.com/snapshot/",mran.date,"/"))
 
 
 
@@ -17,6 +17,10 @@ pkgTest <- function(x)
 	return("OK")
 }
 
-global.libraries <- c("data.table","dplyr","devtools","rprojroot","tictoc","knitr","kableExtra","stringr","rcrossref","RefManageR","ggplot2","ggpubr","tools","forcats","DT")
+global.libraries <- c("data.table","dplyr","devtools","rprojroot","tictoc",
+                      "knitr","kableExtra","stringr","rcrossref","RefManageR",
+                      "ggplot2","ggpubr","tools","forcats","DT",
+                      "rdatacite","tidyr",
+					  "RSQLite","skimr","tidylog")
 
 results <- sapply(as.list(global.libraries), pkgTest)

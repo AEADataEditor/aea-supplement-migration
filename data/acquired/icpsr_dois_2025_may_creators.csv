@@ -1,0 +1,588 @@
+"","doi","name","nameType","givenName","familyName","affiliation","nameIdentifiers"
+"1","10.3886/e229601v1","Maccini, Louis J.","Personal","Louis J.","Maccini",<list>,<list>
+"2","10.3886/e229601v1","Moore, Bartholomew J.","Personal","Bartholomew J.","Moore",<list>,<list>
+"3","10.3886/e229601v1","Schaller, Huntley","Personal","Huntley","Schaller",<list>,<list>
+"4","10.3886/e229581v1","Engelmann, Dirk","Personal","Dirk","Engelmann",<list>,<list>
+"5","10.3886/e229581v1","Strobel, Martin","Personal","Martin","Strobel",<list>,<list>
+"6","10.3886/e231606v1","Sinai, Todd","Personal","Todd","Sinai",<list>,<list>
+"7","10.3886/e231606v1","Souleles, Nicholas","Personal","Nicholas","Souleles",<list>,<list>
+"8","10.3886/e231605v1","Owens, Raymond, III","Personal","Raymond, III","Owens",<list>,<list>
+"9","10.3886/e231605v1","Rossi-Hansberg, Esteban","Personal","Esteban","Rossi-Hansberg",<list>,<list>
+"10","10.3886/e231605v1","Sarte, Pierre-Daniel","Personal","Pierre-Daniel","Sarte",<list>,<list>
+"11","10.3886/e231604v1","Park, R. Jisung","Personal","R. Jisung","Park",<list>,<list>
+"12","10.3886/e231604v1","Goodman, Joshua","Personal","Joshua","Goodman",<list>,<list>
+"13","10.3886/e231604v1","Hurwitz, Michael","Personal","Michael","Hurwitz",<list>,<list>
+"14","10.3886/e231604v1","Smith, Jonathan","Personal","Jonathan","Smith",<list>,<list>
+"15","10.3886/e231603v1","Bubb, Ryan","Personal","Ryan","Bubb",<list>,<list>
+"16","10.3886/e231603v1","Warren, Patrick L.","Personal","Patrick L.","Warren",<list>,<list>
+"17","10.3886/e231602v1","Liu, Li","Personal","Li","Liu",<list>,<list>
+"18","10.3886/e231601v1","Jin, Ginger Zhe","Personal","Ginger Zhe","Jin",<list>,<list>
+"19","10.3886/e231601v1","Leslie, Phillip","Personal","Phillip","Leslie",<list>,<list>
+"20","10.3886/e231598v1","Figlio, David","Personal","David","Figlio",<list>,<list>
+"21","10.3886/e231598v1","Giuliano, Paola","Personal","Paola","Giuliano",<list>,<list>
+"22","10.3886/e231598v1","Özek, Umut","Personal","Umut","Özek",<list>,<list>
+"23","10.3886/e231598v1","Sapienza, Paola","Personal","Paola","Sapienza",<list>,<list>
+"24","10.3886/e231597v1","Kuka, Elira","Personal","Elira","Kuka",<list>,<list>
+"25","10.3886/e231597v1","Shenhav, Na'ama","Personal","Na'ama","Shenhav",<list>,<list>
+"26","10.3886/e231597v1","Shih, Kevin","Personal","Kevin","Shih",<list>,<list>
+"27","10.3886/e231596v1","Cellini, Stephanie R.","Personal","Stephanie R.","Cellini",<list>,<list>
+"28","10.3886/e231596v1","Darolia, Rajeev","Personal","Rajeev","Darolia",<list>,<list>
+"29","10.3886/e231596v1","Turner, Lesley J.","Personal","Lesley J.","Turner",<list>,<list>
+"30","10.3886/e231595v1","Ho, Daniel E.","Personal","Daniel E.","Ho",<list>,<list>
+"31","10.3886/e231595v1","Ashwood, Zoe C.","Personal","Zoe C.","Ashwood",<list>,<list>
+"32","10.3886/e231595v1","Handan-Nader, Cassandra","Personal","Cassandra","Handan-Nader",<list>,<list>
+"33","10.3886/e231594v1","Londoño-Vélez, Juliana","Personal","Juliana","Londoño-Vélez",<list>,<list>
+"34","10.3886/e231594v1","Rodríguez, Catherine","Personal","Catherine","Rodríguez",<list>,<list>
+"35","10.3886/e231594v1","Sánchez, Fabio","Personal","Fabio","Sánchez",<list>,<list>
+"36","10.3886/e231593v1","Deshpande, Manasi","Personal","Manasi","Deshpande",<list>,<list>
+"37","10.3886/e231593v1","Li, Yue","Personal","Yue","Li",<list>,<list>
+"38","10.3886/e231592v1","Kroft, Kory","Personal","Kory","Kroft",<list>,<list>
+"39","10.3886/e231592v1","Kucko, Kavan","Personal","Kavan","Kucko",<list>,<list>
+"40","10.3886/e231592v1","Lehmann, Etienne","Personal","Etienne","Lehmann",<list>,<list>
+"41","10.3886/e231592v1","Schmieder, Johannes","Personal","Johannes","Schmieder",<list>,<list>
+"42","10.3886/e231591v1","Daubanes, Julien","Personal","Julien","Daubanes",<list>,<list>
+"43","10.3886/e231591v1","Rochet, Jean-Charles","Personal","Jean-Charles","Rochet",<list>,<list>
+"44","10.3886/e231590v1","Papay, John P.","Personal","John P.","Papay",<list>,<list>
+"45","10.3886/e231590v1","Taylor, Eric S.","Personal","Eric S.","Taylor",<list>,<list>
+"46","10.3886/e231590v1","Tyler, John H.","Personal","John H.","Tyler",<list>,<list>
+"47","10.3886/e231590v1","Laski, Mary E.","Personal","Mary E.","Laski",<list>,<list>
+"48","10.3886/e231589v1","Barfort, Sebastian","Personal","Sebastian","Barfort",<list>,<list>
+"49","10.3886/e231589v1","Harmon, Nikolaj A.","Personal","Nikolaj A.","Harmon",<list>,<list>
+"50","10.3886/e231589v1","Hjorth, Frederik","Personal","Frederik","Hjorth",<list>,<list>
+"51","10.3886/e231589v1","Olsen, Asmus Leth","Personal","Asmus Leth","Olsen",<list>,<list>
+"52","10.3886/e231588v1","Bound, John","Personal","John","Bound",<list>,<list>
+"53","10.3886/e231588v1","Braga, Breno","Personal","Breno","Braga",<list>,<list>
+"54","10.3886/e231588v1","Khanna, Gaurav","Personal","Gaurav","Khanna",<list>,<list>
+"55","10.3886/e231588v1","Turner, Sarah","Personal","Sarah","Turner",<list>,<list>
+"56","10.3886/e231587v1","Mele, Angelo","Personal","Angelo","Mele",<list>,<list>
+"57","10.3886/e231586v1","Angelucci, Manuela","Personal","Manuela","Angelucci",<list>,<list>
+"58","10.3886/e231586v1","Prina, Silvia","Personal","Silvia","Prina",<list>,<list>
+"59","10.3886/e231586v1","Royer, Heather","Personal","Heather","Royer",<list>,<list>
+"60","10.3886/e231586v1","Samek, Anya","Personal","Anya","Samek",<list>,<list>
+"61","10.3886/e231585v1","Grosz, Michel","Personal","Michel","Grosz",<list>,<list>
+"62","10.3886/e231584v1","Goodman, Joshua","Personal","Joshua","Goodman",<list>,<list>
+"63","10.3886/e231584v1","Gurantz, Oded","Personal","Oded","Gurantz",<list>,<list>
+"64","10.3886/e231584v1","Smith, Jonathan","Personal","Jonathan","Smith",<list>,<list>
+"65","10.3886/e231583v1","Richards, Michael R.","Personal","Michael R.","Richards",<list>,<list>
+"66","10.3886/e231583v1","Tello-Trillo, D. Sebastian","Personal","D. Sebastian","Tello-Trillo",<list>,<list>
+"67","10.3886/e231582v1","Andrews, Rodney J.","Personal","Rodney J.","Andrews",<list>,<list>
+"68","10.3886/e231582v1","Stange, Kevin M.","Personal","Kevin M.","Stange",<list>,<list>
+"69","10.3886/e231581v1","Bau, Natalie","Personal","Natalie","Bau",<list>,<list>
+"70","10.3886/e231581v1","Das, Jishnu","Personal","Jishnu","Das",<list>,<list>
+"71","10.3886/e231580v1","Yang, Jun","Personal","Jun","Yang",<list>,<list>
+"72","10.3886/e231580v1","Purevjav, Avralt-Od","Personal","Avralt-Od","Purevjav",<list>,<list>
+"73","10.3886/e231580v1","Li, Shanjun","Personal","Shanjun","Li",<list>,<list>
+"74","10.3886/e231579v1","Andersson, Julius J.","Personal","Julius J.","Andersson",<list>,<list>
+"75","10.3886/e231578v1","Carrell, Scott E.","Personal","Scott E.","Carrell",<list>,<list>
+"76","10.3886/e231578v1","Hoekstra, Mark","Personal","Mark","Hoekstra",<list>,<list>
+"77","10.3886/e231578v1","West, James E.","Personal","James E.","West",<list>,<list>
+"78","10.3886/e231577v1","Dranove, David","Personal","David","Dranove",<list>,<list>
+"79","10.3886/e231577v1","Ody, Christopher","Personal","Christopher","Ody",<list>,<list>
+"80","10.3886/e231576v1","Wettstein, Gal","Personal","Gal","Wettstein",<list>,<list>
+"81","10.3886/e231575v1","Barrage, Lint","Personal","Lint","Barrage",<list>,<list>
+"82","10.3886/e231575v1","Chyn, Eric","Personal","Eric","Chyn",<list>,<list>
+"83","10.3886/e231575v1","Hastings, Justine","Personal","Justine","Hastings",<list>,<list>
+"84","10.3886/e231574v1","Dieterle, Steven","Personal","Steven","Dieterle",<list>,<list>
+"85","10.3886/e231574v1","Bartalotti, Otávio","Personal","Otávio","Bartalotti",<list>,<list>
+"86","10.3886/e231574v1","Brummet, Quentin","Personal","Quentin","Brummet",<list>,<list>
+"87","10.3886/e231573v1","Lewis, Eric","Personal","Eric","Lewis",<list>,<list>
+"88","10.3886/e231572v1","Gerarden, Todd D.","Personal","Todd D.","Gerarden",<list>,<list>
+"89","10.3886/e231572v1","Reeder, W. Spencer","Personal","W. Spencer","Reeder",<list>,<list>
+"90","10.3886/e231572v1","Stock, James H.","Personal","James H.","Stock",<list>,<list>
+"91","10.3886/e231571v1","Greenstone, Michael","Personal","Michael","Greenstone",<list>,<list>
+"92","10.3886/e231571v1","Mas, Alexandre","Personal","Alexandre","Mas",<list>,<list>
+"93","10.3886/e231571v1","Nguyen, Hoai-Luu","Personal","Hoai-Luu","Nguyen",<list>,<list>
+"94","10.3886/e231570v1","Agarwal, Sumit","Personal","Sumit","Agarwal",<list>,<list>
+"95","10.3886/e231570v1","Amromin, Gene","Personal","Gene","Amromin",<list>,<list>
+"96","10.3886/e231570v1","Ben-David, Itzhak","Personal","Itzhak","Ben-David",<list>,<list>
+"97","10.3886/e231570v1","Chomsisengphet, Souphala","Personal","Souphala","Chomsisengphet",<list>,<list>
+"98","10.3886/e231570v1","Evanoff, Douglas D.","Personal","Douglas D.","Evanoff",<list>,<list>
+"99","10.3886/e231569v1","Lee, Jonathan M.","Personal","Jonathan M.","Lee",<list>,<list>
+"100","10.3886/e231569v1","Taylor, Laura O.","Personal","Laura O.","Taylor",<list>,<list>
+"101","10.3886/e231568v1","Agrawal, Ajay","Personal","Ajay","Agrawal",<list>,<list>
+"102","10.3886/e231568v1","Rosell, Carlos","Personal","Carlos","Rosell",<list>,<list>
+"103","10.3886/e231568v1","Simcoe, Timothy","Personal","Timothy","Simcoe",<list>,<list>
+"104","10.3886/e231567v1","Goulder, Lawrence H.","Personal","Lawrence H.","Goulder",<list>,<list>
+"105","10.3886/e231567v1","Hafstead, Marc A. C.","Personal","Marc A. C.","Hafstead",<list>,<list>
+"106","10.3886/e231567v1","Williams, Roberton C., III","Personal","Roberton C., III","Williams",<list>,<list>
+"107","10.3886/e231566v1","Alvaredo, Facundo","Personal","Facundo","Alvaredo",<list>,<list>
+"108","10.3886/e231566v1","Chancel, Lucas","Personal","Lucas","Chancel",<list>,<list>
+"109","10.3886/e231566v1","Piketty, Thomas","Personal","Thomas","Piketty",<list>,<list>
+"110","10.3886/e231566v1","Saez, Emmanuel","Personal","Emmanuel","Saez",<list>,<list>
+"111","10.3886/e231566v1","Zucman, Gabriel","Personal","Gabriel","Zucman",<list>,<list>
+"112","10.3886/e231565v1","Alesina, Alberto","Personal","Alberto","Alesina",<list>,<list>
+"113","10.3886/e231565v1","Favero, Carlo A.","Personal","Carlo A.","Favero",<list>,<list>
+"114","10.3886/e231565v1","Giavazzi, Francesco","Personal","Francesco","Giavazzi",<list>,<list>
+"115","10.3886/e231564v1","Smith, Alec","Personal","Alec","Smith",<list>,<list>
+"116","10.3886/e231564v1","Bernheim, B. Douglas","Personal","B. Douglas","Bernheim",<list>,<list>
+"117","10.3886/e231564v1","Camerer, Colin F.","Personal","Colin F.","Camerer",<list>,<list>
+"118","10.3886/e231564v1","Rangel, Antonio","Personal","Antonio","Rangel",<list>,<list>
+"119","10.3886/e231563v1","Fudenberg, Drew","Personal","Drew","Fudenberg",<list>,<list>
+"120","10.3886/e231563v1","Vespa, Emanuel","Personal","Emanuel","Vespa",<list>,<list>
+"121","10.3886/e231562v1","Boik, Andre","Personal","Andre","Boik",<list>,<list>
+"122","10.3886/e231562v1","Takahashi, Hidenori","Personal","Hidenori","Takahashi",<list>,<list>
+"123","10.3886/e231561v1","Dai, Weijia","Personal","Weijia","Dai",<list>,<list>
+"124","10.3886/e231561v1","Luca, Michael","Personal","Michael","Luca",<list>,<list>
+"125","10.3886/e231560v1","Fan, Ying","Personal","Ying","Fan",<list>,<list>
+"126","10.3886/e231560v1","Yang, Chenyu","Personal","Chenyu","Yang",<list>,<list>
+"127","10.3886/e231559v1","Miravete, Eugenio J.","Personal","Eugenio J.","Miravete",<list>,<list>
+"128","10.3886/e231559v1","Seim, Katja","Personal","Katja","Seim",<list>,<list>
+"129","10.3886/e231559v1","Thurk, Jeff","Personal","Jeff","Thurk",<list>,<list>
+"130","10.3886/e231558v1","Eldar, Ofer","Personal","Ofer","Eldar",<list>,<list>
+"131","10.3886/e231558v1","Magnolfi, Lorenzo","Personal","Lorenzo","Magnolfi",<list>,<list>
+"132","10.3886/e231557v1","Hubbard, Thomas N.","Personal","Thomas N.","Hubbard",<list>,<list>
+"133","10.3886/e231557v1","Mazzeo, Michael J.","Personal","Michael J.","Mazzeo",<list>,<list>
+"134","10.3886/e231556v1","Friebel, Guido","Personal","Guido","Friebel",<list>,<list>
+"135","10.3886/e231556v1","Kosfeld, Michael","Personal","Michael","Kosfeld",<list>,<list>
+"136","10.3886/e231556v1","Thielmann, Gerd","Personal","Gerd","Thielmann",<list>,<list>
+"137","10.3886/e231555v1","Lashkaripour, Ahmad","Personal","Ahmad","Lashkaripour",<list>,<list>
+"138","10.3886/e231554v1","Khalmetski, Kiryl","Personal","Kiryl","Khalmetski",<list>,<list>
+"139","10.3886/e231554v1","Sliwka, Dirk","Personal","Dirk","Sliwka",<list>,<list>
+"140","10.3886/e231553v1","Chung, Hui-Kuan","Personal","Hui-Kuan","Chung",<list>,<list>
+"141","10.3886/e231553v1","Glimcher, Paul","Personal","Paul","Glimcher",<list>,<list>
+"142","10.3886/e231553v1","Tymula, Agnieszka","Personal","Agnieszka","Tymula",<list>,<list>
+"143","10.3886/e231551v1","Osborne, Matthew","Personal","Matthew","Osborne",<list>,<list>
+"144","10.3886/e231550v1","Eusepi, Stefano","Personal","Stefano","Eusepi",<list>,<list>
+"145","10.3886/e231550v1","Hobijn, Bart","Personal","Bart","Hobijn",<list>,<list>
+"146","10.3886/e231550v1","Tambalotti, Andrea","Personal","Andrea","Tambalotti",<list>,<list>
+"147","10.3886/e231552v1","Adams, Abi","Personal","Abi","Adams",<list>,<list>
+"148","10.3886/e231549v1","McGrattan, Ellen R.","Personal","Ellen R.","McGrattan",<list>,<list>
+"149","10.3886/e231549v1","Prescott, Edward C.","Personal","Edward C.","Prescott",<list>,<list>
+"150","10.3886/e231548v1","Davis, Steven J.","Personal","Steven J.","Davis",<list>,<list>
+"151","10.3886/e231548v1","Faberman, R. Jason","Personal","R. Jason","Faberman",<list>,<list>
+"152","10.3886/e231548v1","Haltiwanger, John","Personal","John","Haltiwanger",<list>,<list>
+"153","10.3886/e231548v1","Jarmin, Ron","Personal","Ron","Jarmin",<list>,<list>
+"154","10.3886/e231548v1","Miranda, Javier","Personal","Javier","Miranda",<list>,<list>
+"155","10.3886/e231547v1","Acharya, Sushant","Personal","Sushant","Acharya",<list>,<list>
+"156","10.3886/e231547v1","Wee, Shu Lin","Personal","Shu Lin","Wee",<list>,<list>
+"157","10.3886/e231546v1","Alvarez, Fernando","Personal","Fernando","Alvarez",<list>,<list>
+"158","10.3886/e231546v1","Lippi, Francesco","Personal","Francesco","Lippi",<list>,<list>
+"159","10.3886/e231545v1","de Silva, Tiloka","Personal","Tiloka","de Silva",<list>,<list>
+"160","10.3886/e231545v1","Tenreyro, Silvana","Personal","Silvana","Tenreyro",<list>,<list>
+"161","10.3886/e231544v1","Huo, Zhen","Personal","Zhen","Huo",<list>,<list>
+"162","10.3886/e231544v1","Ríos-Rull, José-Víctor","Personal","José-Víctor","Ríos-Rull",<list>,<list>
+"163","10.3886/e231543v1","Carroll, Christopher D.","Personal","Christopher D.","Carroll",<list>,<list>
+"164","10.3886/e231543v1","Crawley, Edmund","Personal","Edmund","Crawley",<list>,<list>
+"165","10.3886/e231543v1","Slacalek, Jiri","Personal","Jiri","Slacalek",<list>,<list>
+"166","10.3886/e231543v1","Tokuoka, Kiichi","Personal","Kiichi","Tokuoka",<list>,<list>
+"167","10.3886/e231543v1","White, Matthew N.","Personal","Matthew N.","White",<list>,<list>
+"168","10.3886/e231542v1","Ellison, Martin","Personal","Martin","Ellison",<list>,<list>
+"169","10.3886/e231542v1","Scott, Andrew","Personal","Andrew","Scott",<list>,<list>
+"170","10.3886/e231541v1","Giacomini, Raffaella","Personal","Raffaella","Giacomini",<list>,<list>
+"171","10.3886/e231541v1","Skreta, Vasiliki","Personal","Vasiliki","Skreta",<list>,<list>
+"172","10.3886/e231541v1","Turen, Javier","Personal","Javier","Turen",<list>,<list>
+"173","10.3886/e231540v1","Challe, Edouard","Personal","Edouard","Challe",<list>,<list>
+"174","10.3886/e231539v1","Acconcia, Antonio","Personal","Antonio","Acconcia",<list>,<list>
+"175","10.3886/e231539v1","Corsetti, Giancarlo","Personal","Giancarlo","Corsetti",<list>,<list>
+"176","10.3886/e231539v1","Simonelli, Saverio","Personal","Saverio","Simonelli",<list>,<list>
+"177","10.3886/e231538v1","Jarociński, Marek","Personal","Marek","Jarociński",<list>,<list>
+"178","10.3886/e231538v1","Karadi, Peter","Personal","Peter","Karadi",<list>,<list>
+"179","10.3886/e231537v1","Swanson, Eric T.","Personal","Eric T.","Swanson",<list>,<list>
+"180","10.3886/e231536v1","Alvarez, Jorge A.","Personal","Jorge A.","Alvarez",<list>,<list>
+"181","10.3886/e231535v1","Ameriks, John","Personal","John","Ameriks",<list>,<list>
+"182","10.3886/e231535v1","Briggs, Joseph","Personal","Joseph","Briggs",<list>,<list>
+"183","10.3886/e231535v1","Caplin, Andrew","Personal","Andrew","Caplin",<list>,<list>
+"184","10.3886/e231535v1","Lee, Minjoon","Personal","Minjoon","Lee",<list>,<list>
+"185","10.3886/e231535v1","Shapiro, Matthew D.","Personal","Matthew D.","Shapiro",<list>,<list>
+"186","10.3886/e231535v1","Tonetti, Christopher","Personal","Christopher","Tonetti",<list>,<list>
+"187","10.3886/e231534v1","Baley, Isaac","Personal","Isaac","Baley",<list>,<list>
+"188","10.3886/e231534v1","Blanco, Andrés","Personal","Andrés","Blanco",<list>,<list>
+"189","10.3886/e231533v1","McGrattan, Ellen R.","Personal","Ellen R.","McGrattan",<list>,<list>
+"190","10.3886/e231533v1","Waddle, Andrea","Personal","Andrea","Waddle",<list>,<list>
+"191","10.3886/e231532v1","Valchev, Rosen","Personal","Rosen","Valchev",<list>,<list>
+"192","10.3886/e231531v1","Jensen, Henrik","Personal","Henrik","Jensen",<list>,<list>
+"193","10.3886/e231531v1","Petrella, Ivan","Personal","Ivan","Petrella",<list>,<list>
+"194","10.3886/e231531v1","Ravn, Søren Hove","Personal","Søren Hove","Ravn",<list>,<list>
+"195","10.3886/e231531v1","Santoro, Emiliano","Personal","Emiliano","Santoro",<list>,<list>
+"196","10.3886/e231530v1","Jedwab, Remi","Personal","Remi","Jedwab",<list>,<list>
+"197","10.3886/e231530v1","Vollrath, Dietrich","Personal","Dietrich","Vollrath",<list>,<list>
+"198","10.3886/e231529v1","Leduc, Sylvain","Personal","Sylvain","Leduc",<list>,<list>
+"199","10.3886/e231529v1","Liu, Zheng","Personal","Zheng","Liu",<list>,<list>
+"200","10.3886/e231528v1","Aksoy, Yunus","Personal","Yunus","Aksoy",<list>,<list>
+"201","10.3886/e231528v1","Basso, Henrique S.","Personal","Henrique S.","Basso",<list>,<list>
+"202","10.3886/e231528v1","Smith, Ron P.","Personal","Ron P.","Smith",<list>,<list>
+"203","10.3886/e231528v1","Grasl, Tobias","Personal","Tobias","Grasl",<list>,<list>
+"204","10.3886/e231527v1","Boissay, Frédéric","Personal","Frédéric","Boissay",<list>,<list>
+"205","10.3886/e231527v1","Cooper, Russell","Personal","Russell","Cooper",<list>,<list>
+"206","10.3886/e231526v1","Hall, Robert E.","Personal","Robert E.","Hall",<list>,<list>
+"207","10.3886/e231526v1","Schulhofer-Wohl, Sam","Personal","Sam","Schulhofer-Wohl",<list>,<list>
+"208","10.3886/e231525v1","Buera, Francisco J.","Personal","Francisco J.","Buera",<list>,<list>
+"209","10.3886/e231525v1","Nicolini, Juan Pablo","Personal","Juan Pablo","Nicolini",<list>,<list>
+"210","10.3886/e231524v1","Ferraro, Domenico","Personal","Domenico","Ferraro",<list>,<list>
+"211","10.3886/e231524v1","Fiori, Giuseppe","Personal","Giuseppe","Fiori",<list>,<list>
+"212","10.3886/e231523v1","Hedlund, Aaron","Personal","Aaron","Hedlund",<list>,<list>
+"213","10.3886/e231510v1","Guvenen, Fatih","Personal","Fatih","Guvenen",<list>,<list>
+"214","10.3886/e231510v1","Kuruscu, Burhan","Personal","Burhan","Kuruscu",<list>,<list>
+"215","10.3886/e231510v1","Tanaka, Satoshi","Personal","Satoshi","Tanaka",<list>,<list>
+"216","10.3886/e231510v1","Wiczer, David","Personal","David","Wiczer",<list>,<list>
+"217","10.3886/e231507v1","Herrendorf, Berthold","Personal","Berthold","Herrendorf",<list>,<list>
+"218","10.3886/e231507v1","Schoellman, Todd","Personal","Todd","Schoellman",<list>,<list>
+"219","10.3886/e231506v1","Mukoyama, Toshihiko","Personal","Toshihiko","Mukoyama",<list>,<list>
+"220","10.3886/e231506v1","Patterson, Christina","Personal","Christina","Patterson",<list>,<list>
+"221","10.3886/e231506v1","Şahin, Ayşegül","Personal","Ayşegül","Şahin",<list>,<list>
+"222","10.3886/e231505v1","Trew, Alex","Personal","Alex","Trew",<list>,<list>
+"223","10.3886/e231504v1","Benigno, Pierpaolo","Personal","Pierpaolo","Benigno",<list>,<list>
+"224","10.3886/e231504v1","Eggertsson, Gauti B.","Personal","Gauti B.","Eggertsson",<list>,<list>
+"225","10.3886/e231504v1","Romei, Federica","Personal","Federica","Romei",<list>,<list>
+"226","10.3886/e231503v1","Ferriere, Axelle","Personal","Axelle","Ferriere",<list>,<list>
+"227","10.3886/e231503v1","Karantounias, Anastasios G.","Personal","Anastasios G.","Karantounias",<list>,<list>
+"228","10.3886/e231501v1","Tong, Hui","Personal","Hui","Tong",<list>,<list>
+"229","10.3886/e231501v1","Wei, Shang-Jin","Personal","Shang-Jin","Wei",<list>,<list>
+"230","10.3886/e231500v1","Song, Zheng","Personal","Zheng","Song",<list>,<list>
+"231","10.3886/e231500v1","Storesletten, Kjetil","Personal","Kjetil","Storesletten",<list>,<list>
+"232","10.3886/e231500v1","Wang, Yikai","Personal","Yikai","Wang",<list>,<list>
+"233","10.3886/e231500v1","Zilibotti, Fabrizio","Personal","Fabrizio","Zilibotti",<list>,<list>
+"234","10.3886/e231498v1","Kapur, Devesh","Personal","Devesh","Kapur",<list>,<list>
+"235","10.3886/e231499v1","Brell, Courtney","Personal","Courtney","Brell",<list>,<list>
+"236","10.3886/e231499v1","Dustmann, Christian","Personal","Christian","Dustmann",<list>,<list>
+"237","10.3886/e231499v1","Preston, Ian","Personal","Ian","Preston",<list>,<list>
+"238","10.3886/e231497v1","Boeri, Tito","Personal","Tito","Boeri",<list>,<list>
+"239","10.3886/e231497v1","Giupponi, Giulia","Personal","Giulia","Giupponi",<list>,<list>
+"240","10.3886/e231497v1","Krueger, Alan B.","Personal","Alan B.","Krueger",<list>,<list>
+"241","10.3886/e231497v1","Machin, Stephen","Personal","Stephen","Machin",<list>,<list>
+"242","10.3886/e231496v1","Burgess, Robin","Personal","Robin","Burgess",<list>,<list>
+"243","10.3886/e231496v1","Greenstone, Michael","Personal","Michael","Greenstone",<list>,<list>
+"244","10.3886/e231496v1","Ryan, Nicholas","Personal","Nicholas","Ryan",<list>,<list>
+"245","10.3886/e231496v1","Sudarshan, Anant","Personal","Anant","Sudarshan",<list>,<list>
+"246","10.3886/e231495v1","Lee, Kenneth","Personal","Kenneth","Lee",<list>,<list>
+"247","10.3886/e231495v1","Miguel, Edward","Personal","Edward","Miguel",<list>,<list>
+"248","10.3886/e231495v1","Wolfram, Catherine","Personal","Catherine","Wolfram",<list>,<list>
+"249","10.3886/e231494v1","Keiser, David A.","Personal","David A.","Keiser",<list>,<list>
+"250","10.3886/e231494v1","Shapiro, Joseph S.","Personal","Joseph S.","Shapiro",<list>,<list>
+"251","10.3886/e231491v1","Amiti, Mary","Personal","Mary","Amiti",<list>,<list>
+"252","10.3886/e231491v1","Redding, Stephen J.","Personal","Stephen J.","Redding",<list>,<list>
+"253","10.3886/e231491v1","Weinstein, David E.","Personal","David E.","Weinstein",<list>,<list>
+"254","10.3886/e231488v1","Guriev, Sergei","Personal","Sergei","Guriev",<list>,<list>
+"255","10.3886/e231488v1","Treisman, Daniel","Personal","Daniel","Treisman",<list>,<list>
+"256","10.3886/e231487v1","Bauer, Michal","Personal","Michal","Bauer",<list>,<list>
+"257","10.3886/e231487v1","Blattman, Christopher","Personal","Christopher","Blattman",<list>,<list>
+"258","10.3886/e231487v1","Chytilová, Julie","Personal","Julie","Chytilová",<list>,<list>
+"259","10.3886/e231487v1","Henrich, Joseph","Personal","Joseph","Henrich",<list>,<list>
+"260","10.3886/e231487v1","Miguel, Edward","Personal","Edward","Miguel",<list>,<list>
+"261","10.3886/e231487v1","Mitts, Tamar","Personal","Tamar","Mitts",<list>,<list>
+"262","10.3886/e231486v1","Jackson, Matthew O.","Personal","Matthew O.","Jackson",<list>,<list>
+"263","10.3886/e231485v1","Ellison, Glenn","Personal","Glenn","Ellison",<list>,<list>
+"264","10.3886/e231484v1","Atalay, Enghin","Personal","Enghin","Atalay",<list>,<list>
+"265","10.3886/e231484v1","Phongthiengtham, Phai","Personal","Phai","Phongthiengtham",<list>,<list>
+"266","10.3886/e231484v1","Sotelo, Sebastian","Personal","Sebastian","Sotelo",<list>,<list>
+"267","10.3886/e231484v1","Tannenbaum, Daniel","Personal","Daniel","Tannenbaum",<list>,<list>
+"268","10.3886/e231483v1","Rossin-Slater, Maya","Personal","Maya","Rossin-Slater",<list>,<list>
+"269","10.3886/e231483v1","Wüst, Miriam","Personal","Miriam","Wüst",<list>,<list>
+"270","10.3886/e231482v1","Abel, Martin","Personal","Martin","Abel",<list>,<list>
+"271","10.3886/e231482v1","Burger, Rulof","Personal","Rulof","Burger",<list>,<list>
+"272","10.3886/e231482v1","Piraino, Patrizio","Personal","Patrizio","Piraino",<list>,<list>
+"273","10.3886/e231481v1","Gerber, Alan","Personal","Alan","Gerber",<list>,<list>
+"274","10.3886/e231481v1","Hoffman, Mitchell","Personal","Mitchell","Hoffman",<list>,<list>
+"275","10.3886/e231481v1","Morgan, John","Personal","John","Morgan",<list>,<list>
+"276","10.3886/e231481v1","Raymond, Collin","Personal","Collin","Raymond",<list>,<list>
+"277","10.3886/e231480v1","Myers, Kyle","Personal","Kyle","Myers",<list>,<list>
+"278","10.3886/e231479v1","Mahajan, Parag","Personal","Parag","Mahajan",<list>,<list>
+"279","10.3886/e231479v1","Yang, Dean","Personal","Dean","Yang",<list>,<list>
+"280","10.3886/e231478v1","Folke, Olle","Personal","Olle","Folke",<list>,<list>
+"281","10.3886/e231478v1","Rickne, Johanna","Personal","Johanna","Rickne",<list>,<list>
+"282","10.3886/e231477v1","Porter, Catherine","Personal","Catherine","Porter",<list>,<list>
+"283","10.3886/e231477v1","Serra, Danila","Personal","Danila","Serra",<list>,<list>
+"284","10.3886/e231476v1","Bloom, Nicholas","Personal","Nicholas","Bloom",<list>,<list>
+"285","10.3886/e231476v1","Mahajan, Aprajit","Personal","Aprajit","Mahajan",<list>,<list>
+"286","10.3886/e231476v1","McKenzie, David","Personal","David","McKenzie",<list>,<list>
+"287","10.3886/e231476v1","Roberts, John","Personal","John","Roberts",<list>,<list>
+"288","10.3886/e231475v1","Feng, Josh","Personal","Josh","Feng",<list>,<list>
+"289","10.3886/e231475v1","Jaravel, Xavier","Personal","Xavier","Jaravel",<list>,<list>
+"290","10.3886/e231474v1","Deutscher, Nathan","Personal","Nathan","Deutscher",<list>,<list>
+"291","10.3886/e231473v1","Cantoni, Enrico","Personal","Enrico","Cantoni",<list>,<list>
+"292","10.3886/e231472v1","Banerjee, Abhijit","Personal","Abhijit","Banerjee",<list>,<list>
+"293","10.3886/e231472v1","Duflo, Esther","Personal","Esther","Duflo",<list>,<list>
+"294","10.3886/e231472v1","Imbert, Clément","Personal","Clément","Imbert",<list>,<list>
+"295","10.3886/e231472v1","Mathew, Santhosh","Personal","Santhosh","Mathew",<list>,<list>
+"296","10.3886/e231472v1","Pande, Rohini","Personal","Rohini","Pande",<list>,<list>
+"297","10.3886/e231471v1","Deryugina, Tatyana","Personal","Tatyana","Deryugina",<list>,<list>
+"298","10.3886/e231471v1","MacKay, Alexander","Personal","Alexander","MacKay",<list>,<list>
+"299","10.3886/e231471v1","Reif, Julian","Personal","Julian","Reif",<list>,<list>
+"300","10.3886/e231470v1","Zeltzer, Dan","Personal","Dan","Zeltzer",<list>,<list>
+"301","10.3886/e231469v1","Kaplan, Ethan","Personal","Ethan","Kaplan",<list>,<list>
+"302","10.3886/e231469v1","Yuan, Haishan","Personal","Haishan","Yuan",<list>,<list>
+"303","10.3886/e231468v1","Jack, Kelsey","Personal","Kelsey","Jack",<list>,<list>
+"304","10.3886/e231468v1","Smith, Grant","Personal","Grant","Smith",<list>,<list>
+"305","10.3886/e231467v1","Lindner, Attila","Personal","Attila","Lindner",<list>,<list>
+"306","10.3886/e231467v1","Reizer, Balázs","Personal","Balázs","Reizer",<list>,<list>
+"307","10.3886/e231466v1","Arcidiacono, Peter","Personal","Peter","Arcidiacono",<list>,<list>
+"308","10.3886/e231466v1","Ellickson, Paul B.","Personal","Paul B.","Ellickson",<list>,<list>
+"309","10.3886/e231466v1","Mela, Carl F.","Personal","Carl F.","Mela",<list>,<list>
+"310","10.3886/e231466v1","Singleton, John D.","Personal","John D.","Singleton",<list>,<list>
+"311","10.3886/e231465v1","Adukia, Anjali","Personal","Anjali","Adukia",<list>,<list>
+"312","10.3886/e231465v1","Asher, Sam","Personal","Sam","Asher",<list>,<list>
+"313","10.3886/e231465v1","Novosad, Paul","Personal","Paul","Novosad",<list>,<list>
+"314","10.3886/e231464v1","Ganguli, Ina","Personal","Ina","Ganguli",<list>,<list>
+"315","10.3886/e231464v1","Lin, Jeffrey","Personal","Jeffrey","Lin",<list>,<list>
+"316","10.3886/e231464v1","Reynolds, Nicholas","Personal","Nicholas","Reynolds",<list>,<list>
+"317","10.3886/e231463v1","Gagliarducci, Stefano","Personal","Stefano","Gagliarducci",<list>,<list>
+"318","10.3886/e231463v1","Manacorda, Marco","Personal","Marco","Manacorda",<list>,<list>
+"319","10.3886/e231462v1","Gelber, Alexander M.","Personal","Alexander M.","Gelber",<list>,<list>
+"320","10.3886/e231462v1","Jones, Damon","Personal","Damon","Jones",<list>,<list>
+"321","10.3886/e231462v1","Sacks, Daniel W.","Personal","Daniel W.","Sacks",<list>,<list>
+"322","10.3886/e231461v1","Drago, Francesco","Personal","Francesco","Drago",<list>,<list>
+"323","10.3886/e231461v1","Mengel, Friederike","Personal","Friederike","Mengel",<list>,<list>
+"324","10.3886/e231461v1","Traxler, Christian","Personal","Christian","Traxler",<list>,<list>
+"325","10.3886/e231460v1","Arrow, Kenneth J.","Personal","Kenneth J.","Arrow",<list>,<list>
+"326","10.3886/e231460v1","Bilir, L. Kamran","Personal","L. Kamran","Bilir",<list>,<list>
+"327","10.3886/e231460v1","Sorensen, Alan","Personal","Alan","Sorensen",<list>,<list>
+"328","10.3886/e231459v1","Barrow, Lisa","Personal","Lisa","Barrow",<list>,<list>
+"329","10.3886/e231459v1","Sartain, Lauren","Personal","Lauren","Sartain",<list>,<list>
+"330","10.3886/e231459v1","de la Torre, Marisa","Personal","Marisa","de la Torre",<list>,<list>
+"331","10.3886/e231458v1","Böhlmark, Anders","Personal","Anders","Böhlmark",<list>,<list>
+"332","10.3886/e231458v1","Willén, Alexander","Personal","Alexander","Willén",<list>,<list>
+"333","10.3886/e231457v1","Bagwell, Kyle","Personal","Kyle","Bagwell",<list>,<list>
+"334","10.3886/e231457v1","Staiger, Robert W.","Personal","Robert W.","Staiger",<list>,<list>
+"335","10.3886/e231457v1","Yurukoglu, Ali","Personal","Ali","Yurukoglu",<list>,<list>
+"336","10.3886/e231456v1","Mast, Evan","Personal","Evan","Mast",<list>,<list>
+"337","10.3886/e231455v1","Boomhower, Judson","Personal","Judson","Boomhower",<list>,<list>
+"338","10.3886/e231455v1","Davis, Lucas","Personal","Lucas","Davis",<list>,<list>
+"339","10.3886/e231454v1","Bartik, Alexander W.","Personal","Alexander W.","Bartik",<list>,<list>
+"340","10.3886/e231454v1","Currie, Janet","Personal","Janet","Currie",<list>,<list>
+"341","10.3886/e231454v1","Greenstone, Michael","Personal","Michael","Greenstone",<list>,<list>
+"342","10.3886/e231454v1","Knittel, Christopher R.","Personal","Christopher R.","Knittel",<list>,<list>
+"343","10.3886/e231447v1","Song, Jaehee","Personal","Jaehee","Song",<list>,<list>
+"344","10.3886/e231453v1","Goodman, Sarena","Personal","Sarena","Goodman",<list>,<list>
+"345","10.3886/e231453v1","Isen, Adam","Personal","Adam","Isen",<list>,<list>
+"346","10.3886/e231452v1","Schaner, Simone","Personal","Simone","Schaner",<list>,<list>
+"347","10.3886/e231451v1","Bandiera, Oriana","Personal","Oriana","Bandiera",<list>,<list>
+"348","10.3886/e231451v1","Buehren, Niklas","Personal","Niklas","Buehren",<list>,<list>
+"349","10.3886/e231451v1","Burgess, Robin","Personal","Robin","Burgess",<list>,<list>
+"350","10.3886/e231451v1","Goldstein, Markus","Personal","Markus","Goldstein",<list>,<list>
+"351","10.3886/e231451v1","Gulesci, Selim","Personal","Selim","Gulesci",<list>,<list>
+"352","10.3886/e231451v1","Rasul, Imran","Personal","Imran","Rasul",<list>,<list>
+"353","10.3886/e231451v1","Sulaiman, Munshi","Personal","Munshi","Sulaiman",<list>,<list>
+"354","10.3886/e231450v1","Ward, Zachary","Personal","Zachary","Ward",<list>,<list>
+"355","10.3886/e231449v1","Feigenberg, Benjamin","Personal","Benjamin","Feigenberg",<list>,<list>
+"356","10.3886/e231448v1","Kocornik-Mina, Adriana","Personal","Adriana","Kocornik-Mina",<list>,<list>
+"357","10.3886/e231448v1","McDermott, Thomas K. J.","Personal","Thomas K. J.","McDermott",<list>,<list>
+"358","10.3886/e231448v1","Michaels, Guy","Personal","Guy","Michaels",<list>,<list>
+"359","10.3886/e231448v1","Rauch, Ferdinand","Personal","Ferdinand","Rauch",<list>,<list>
+"360","10.3886/e231446v1","Davis, Lucas","Personal","Lucas","Davis",<list>,<list>
+"361","10.3886/e231446v1","Hausman, Catherine","Personal","Catherine","Hausman",<list>,<list>
+"362","10.3886/e231445v1","Sekhri, Sheetal","Personal","Sheetal","Sekhri",<list>,<list>
+"363","10.3886/e231444v1","Benzarti, Youssef","Personal","Youssef","Benzarti",<list>,<list>
+"364","10.3886/e231444v1","Harju, Jarkko","Personal","Jarkko","Harju",<list>,<list>
+"365","10.3886/e231444v1","Matikka, Tuomas","Personal","Tuomas","Matikka",<list>,<list>
+"366","10.3886/e231443v1","Pruitt, Seth","Personal","Seth","Pruitt",<list>,<list>
+"367","10.3886/e231443v1","Turner, Nicholas","Personal","Nicholas","Turner",<list>,<list>
+"368","10.3886/e231442v1","Abramitzky, Ran","Personal","Ran","Abramitzky",<list>,<list>
+"369","10.3886/e231442v1","Boustan, Leah","Personal","Leah","Boustan",<list>,<list>
+"370","10.3886/e231442v1","Eriksson, Katherine","Personal","Katherine","Eriksson",<list>,<list>
+"371","10.3886/e231441v1","Garrett, Daniel G.","Personal","Daniel G.","Garrett",<list>,<list>
+"372","10.3886/e231441v1","Ohrn, Eric","Personal","Eric","Ohrn",<list>,<list>
+"373","10.3886/e231441v1","Suárez Serrato, Juan Carlos","Personal","Juan Carlos","Suárez Serrato",<list>,<list>
+"374","10.3886/e231440v1","Mercan, Yusuf","Personal","Yusuf","Mercan",<list>,<list>
+"375","10.3886/e231440v1","Schoefer, Benjamin","Personal","Benjamin","Schoefer",<list>,<list>
+"376","10.3886/e231439v1","Gneezy, Uri","Personal","Uri","Gneezy",<list>,<list>
+"377","10.3886/e231439v1","List, John A.","Personal","John A.","List",<list>,<list>
+"378","10.3886/e231439v1","Livingston, Jeffrey A.","Personal","Jeffrey A.","Livingston",<list>,<list>
+"379","10.3886/e231439v1","Qin, Xiangdong","Personal","Xiangdong","Qin",<list>,<list>
+"380","10.3886/e231439v1","Sadoff, Sally","Personal","Sally","Sadoff",<list>,<list>
+"381","10.3886/e231439v1","Xu, Yang","Personal","Yang","Xu",<list>,<list>
+"382","10.3886/e231438v1","Azoulay, Pierre","Personal","Pierre","Azoulay",<list>,<list>
+"383","10.3886/e231438v1","Jones, Benjamin F.","Personal","Benjamin F.","Jones",<list>,<list>
+"384","10.3886/e231438v1","Kim, J. Daniel","Personal","J. Daniel","Kim",<list>,<list>
+"385","10.3886/e231438v1","Miranda, Javier","Personal","Javier","Miranda",<list>,<list>
+"386","10.3886/e231437v1","Autor, David","Personal","David","Autor",<list>,<list>
+"387","10.3886/e231437v1","Dorn, David","Personal","David","Dorn",<list>,<list>
+"388","10.3886/e231437v1","Hanson, Gordon H.","Personal","Gordon H.","Hanson",<list>,<list>
+"389","10.3886/e231437v1","Pisano, Gary","Personal","Gary","Pisano",<list>,<list>
+"390","10.3886/e231437v1","Shu, Pian","Personal","Pian","Shu",<list>,<list>
+"391","10.3886/e231435v1","Wilson, Daniel J.","Personal","Daniel J.","Wilson",<list>,<list>
+"392","10.3886/e231431v1","Parker, Jonathan A.","Personal","Jonathan A.","Parker",<list>,<list>
+"393","10.3886/e231431v1","Souleles, Nicholas S.","Personal","Nicholas S.","Souleles",<list>,<list>
+"394","10.3886/e231432v1","Eggertsson, Gauti B.","Personal","Gauti B.","Eggertsson",<list>,<list>
+"395","10.3886/e231432v1","Lancastre, Manuel","Personal","Manuel","Lancastre",<list>,<list>
+"396","10.3886/e231432v1","Summers, Lawrence H.","Personal","Lawrence H.","Summers",<list>,<list>
+"397","10.3886/e231434v1","Fisman, Raymond","Personal","Raymond","Fisman",<list>,<list>
+"398","10.3886/e231434v1","Zitzewitz, Eric","Personal","Eric","Zitzewitz",<list>,<list>
+"399","10.3886/e231433v1","Pierce, Justin R.","Personal","Justin R.","Pierce",<list>,<list>
+"400","10.3886/e231433v1","Schott, Peter K.","Personal","Peter K.","Schott",<list>,<list>
+"401","10.3886/e231430v1","Dube, Arindrajit","Personal","Arindrajit","Dube",<list>,<list>
+"402","10.3886/e231430v1","Jacobs, Jeff","Personal","Jeff","Jacobs",<list>,<list>
+"403","10.3886/e231430v1","Naidu, Suresh","Personal","Suresh","Naidu",<list>,<list>
+"404","10.3886/e231430v1","Suri, Siddharth","Personal","Siddharth","Suri",<list>,<list>
+"405","10.3886/e231428v1","Baez, Javier","Personal","Javier","Baez",<list>,<list>
+"406","10.3886/e231428v1","Caruso, German","Personal","German","Caruso",<list>,<list>
+"407","10.3886/e231428v1","Mueller, Valerie","Personal","Valerie","Mueller",<list>,<list>
+"408","10.3886/e231428v1","Niu, Chiyu","Personal","Chiyu","Niu",<list>,<list>
+"409","10.3886/e231429v1","Angrist, Joshua D.","Personal","Joshua D.","Angrist",<list>,<list>
+"410","10.3886/e231429v1","Lavy, Victor","Personal","Victor","Lavy",<list>,<list>
+"411","10.3886/e231429v1","Leder-Luis, Jetson","Personal","Jetson","Leder-Luis",<list>,<list>
+"412","10.3886/e231429v1","Shany, Adi","Personal","Adi","Shany",<list>,<list>
+"413","10.3886/e231427v1","Lozano, Fernando","Personal","Fernando","Lozano",<list>,<list>
+"414","10.3886/e231427v1","Cheng, Jessica Shiwen","Personal","Jessica Shiwen","Cheng",<list>,<list>
+"415","10.3886/e231426v1","Foster, Lucia","Personal","Lucia","Foster",<list>,<list>
+"416","10.3886/e231426v1","Haltiwanger, John","Personal","John","Haltiwanger",<list>,<list>
+"417","10.3886/e231426v1","Syverson, Chad","Personal","Chad","Syverson",<list>,<list>
+"418","10.3886/e231425v1","Healy, Paul J.","Personal","Paul J.","Healy",<list>,<list>
+"419","10.3886/e231424v1","Gabaix, Xavier","Personal","Xavier","Gabaix",<list>,<list>
+"420","10.3886/e231424v1","Laibson, David","Personal","David","Laibson",<list>,<list>
+"421","10.3886/e231424v1","Moloche, Guillermo","Personal","Guillermo","Moloche",<list>,<list>
+"422","10.3886/e231424v1","Weinberg, Stephen","Personal","Stephen","Weinberg",<list>,<list>
+"423","10.3886/e231421v1","Dal Bó, Pedro","Personal","Pedro","Dal Bó",<list>,<list>
+"424","10.3886/e231421v1","Fréchette, Guillaume R.","Personal","Guillaume R.","Fréchette",<list>,<list>
+"425","10.3886/e231423v1","Beaudry, Paul","Personal","Paul","Beaudry",<list>,<list>
+"426","10.3886/e231423v1","Galizia, Dana","Personal","Dana","Galizia",<list>,<list>
+"427","10.3886/e231423v1","Portier, Franck","Personal","Franck","Portier",<list>,<list>
+"428","10.3886/e231422v1","Kessler, Judd B.","Personal","Judd B.","Kessler",<list>,<list>
+"429","10.3886/e231422v1","Low, Corinne","Personal","Corinne","Low",<list>,<list>
+"430","10.3886/e231422v1","Sullivan, Colin D.","Personal","Colin D.","Sullivan",<list>,<list>
+"431","10.3886/e231420v1","Alsan, Marcella","Personal","Marcella","Alsan",<list>,<list>
+"432","10.3886/e231420v1","Garrick, Owen","Personal","Owen","Garrick",<list>,<list>
+"433","10.3886/e231420v1","Graziani, Grant","Personal","Grant","Graziani",<list>,<list>
+"434","10.3886/e231419v1","Fetzer, Thiemo","Personal","Thiemo","Fetzer",<list>,<list>
+"435","10.3886/e231418v1","Blakeslee, David","Personal","David","Blakeslee",<list>,<list>
+"436","10.3886/e231418v1","Fishman, Ram","Personal","Ram","Fishman",<list>,<list>
+"437","10.3886/e231418v1","Srinivasan, Veena","Personal","Veena","Srinivasan",<list>,<list>
+"438","10.3886/e231417v1","Grennan, Matthew","Personal","Matthew","Grennan",<list>,<list>
+"439","10.3886/e231417v1","Town, Robert J.","Personal","Robert J.","Town",<list>,<list>
+"440","10.3886/e231416v1","James, Alexander G.","Personal","Alexander G.","James",<list>,<list>
+"441","10.3886/e231416v1","Smith, Brock","Personal","Brock","Smith",<list>,<list>
+"442","10.3886/e231415v1","Agarwal, Nikhil","Personal","Nikhil","Agarwal",<list>,<list>
+"443","10.3886/e231415v1","Ashlagi, Itai","Personal","Itai","Ashlagi",<list>,<list>
+"444","10.3886/e231415v1","Azevedo, Eduardo","Personal","Eduardo","Azevedo",<list>,<list>
+"445","10.3886/e231415v1","Featherstone, Clayton R.","Personal","Clayton R.","Featherstone",<list>,<list>
+"446","10.3886/e231415v1","Karaduman, Ömer","Personal","Ömer","Karaduman",<list>,<list>
+"447","10.3886/e231414v1","Zimmermann, Florian","Personal","Florian","Zimmermann",<list>,<list>
+"448","10.3886/e231413v1","Fudenberg, Drew","Personal","Drew","Fudenberg",<list>,<list>
+"449","10.3886/e231413v1","Liang, Annie","Personal","Annie","Liang",<list>,<list>
+"450","10.3886/e231412v1","Fornaro, Luca","Personal","Luca","Fornaro",<list>,<list>
+"451","10.3886/e231412v1","Romei, Federica","Personal","Federica","Romei",<list>,<list>
+"452","10.3886/e231411v1","Deryugina, Tatyana","Personal","Tatyana","Deryugina",<list>,<list>
+"453","10.3886/e231411v1","Heutel, Garth","Personal","Garth","Heutel",<list>,<list>
+"454","10.3886/e231411v1","Miller, Nolan H.","Personal","Nolan H.","Miller",<list>,<list>
+"455","10.3886/e231411v1","Molitor, David","Personal","David","Molitor",<list>,<list>
+"456","10.3886/e231411v1","Reif, Julian","Personal","Julian","Reif",<list>,<list>
+"457","10.3886/e231410v1","Khan, Adnan Q.","Personal","Adnan Q.","Khan",<list>,<list>
+"458","10.3886/e231410v1","Khwaja, Asim Ijaz","Personal","Asim Ijaz","Khwaja",<list>,<list>
+"459","10.3886/e231410v1","Olken, Benjamin A.","Personal","Benjamin A.","Olken",<list>,<list>
+"460","10.3886/e231409v1","Bazzi, Samuel","Personal","Samuel","Bazzi",<list>,<list>
+"461","10.3886/e231409v1","Gaduh, Arya","Personal","Arya","Gaduh",<list>,<list>
+"462","10.3886/e231409v1","Rothenberg, Alexander D.","Personal","Alexander D.","Rothenberg",<list>,<list>
+"463","10.3886/e231409v1","Wong, Maisy","Personal","Maisy","Wong",<list>,<list>
+"464","10.3886/e231408v1","Lustig, Hanno","Personal","Hanno","Lustig",<list>,<list>
+"465","10.3886/e231408v1","Stathopoulos, Andreas","Personal","Andreas","Stathopoulos",<list>,<list>
+"466","10.3886/e231408v1","Verdelhan, Adrien","Personal","Adrien","Verdelhan",<list>,<list>
+"467","10.3886/e231407v1","Hortaçsu, Ali","Personal","Ali","Hortaçsu",<list>,<list>
+"468","10.3886/e231407v1","Luco, Fernando","Personal","Fernando","Luco",<list>,<list>
+"469","10.3886/e231407v1","Puller, Steven L.","Personal","Steven L.","Puller",<list>,<list>
+"470","10.3886/e231407v1","Zhu, Dongni","Personal","Dongni","Zhu",<list>,<list>
+"471","10.3886/e231406v1","Farhi, Emmanuel","Personal","Emmanuel","Farhi",<list>,<list>
+"472","10.3886/e231406v1","Werning, Iván","Personal","Iván","Werning",<list>,<list>
+"473","10.3886/e231405v1","Hastings, Justine","Personal","Justine","Hastings",<list>,<list>
+"474","10.3886/e231405v1","Shapiro, Jesse M.","Personal","Jesse M.","Shapiro",<list>,<list>
+"475","10.3886/e231404v1","Ho, Christine","Personal","Christine","Ho",<list>,<list>
+"476","10.3886/e231404v1","Pavoni, Nicola","Personal","Nicola","Pavoni",<list>,<list>
+"477","10.3886/e231403v1","Couttenier, Mathieu","Personal","Mathieu","Couttenier",<list>,<list>
+"478","10.3886/e231403v1","Petrencu, Veronica","Personal","Veronica","Petrencu",<list>,<list>
+"479","10.3886/e231403v1","Rohner, Dominic","Personal","Dominic","Rohner",<list>,<list>
+"480","10.3886/e231403v1","Thoenig, Mathias","Personal","Mathias","Thoenig",<list>,<list>
+"481","10.3886/e231402v1","Favilukis, Jack","Personal","Jack","Favilukis",<list>,<list>
+"482","10.3886/e231402v1","Lin, Xiaoji","Personal","Xiaoji","Lin",<list>,<list>
+"483","10.3886/e231402v1","Zhao, Xiaofei","Personal","Xiaofei","Zhao",<list>,<list>
+"484","10.3886/e231388v1","Lagos, Ricardo","Personal","Ricardo","Lagos",<list>,<list>
+"485","10.3886/e231388v1","Zhang, Shengxing","Personal","Shengxing","Zhang",<list>,<list>
+"486","10.3886/e231387v1","Traiberman, Sharon","Personal","Sharon","Traiberman",<list>,<list>
+"487","10.3886/e231386v1","Fréchette, Guillaume R.","Personal","Guillaume R.","Fréchette",<list>,<list>
+"488","10.3886/e231386v1","Lizzeri, Alessandro","Personal","Alessandro","Lizzeri",<list>,<list>
+"489","10.3886/e231386v1","Salz, Tobias","Personal","Tobias","Salz",<list>,<list>
+"490","10.3886/e231385v1","Bocola, Luigi","Personal","Luigi","Bocola",<list>,<list>
+"491","10.3886/e231385v1","Dovis, Alessandro","Personal","Alessandro","Dovis",<list>,<list>
+"492","10.3886/e231384v1","Müller, Andreas","Personal","Andreas","Müller",<list>,<list>
+"493","10.3886/e231384v1","Storesletten, Kjetil","Personal","Kjetil","Storesletten",<list>,<list>
+"494","10.3886/e231384v1","Zilibotti, Fabrizio","Personal","Fabrizio","Zilibotti",<list>,<list>
+"495","10.3886/e231383v1","Borenstein, Severin","Personal","Severin","Borenstein",<list>,<list>
+"496","10.3886/e231383v1","Bushnell, James","Personal","James","Bushnell",<list>,<list>
+"497","10.3886/e231383v1","Wolak, Frank A.","Personal","Frank A.","Wolak",<list>,<list>
+"498","10.3886/e231383v1","Zaragoza-Watkins, Matthew","Personal","Matthew","Zaragoza-Watkins",<list>,<list>
+"499","10.3886/e231381v1","Dix-Carneiro, Rafael","Personal","Rafael","Dix-Carneiro",<list>,<list>
+"500","10.3886/e231381v1","Kovak, Brian K.","Personal","Brian K.","Kovak",<list>,<list>
+"501","10.3886/e231376v1","Kaplan, Greg","Personal","Greg","Kaplan",<list>,<list>
+"502","10.3886/e231376v1","Moll, Benjamin","Personal","Benjamin","Moll",<list>,<list>
+"503","10.3886/e231376v1","Violante, Giovanni L.","Personal","Giovanni L.","Violante",<list>,<list>
+"504","10.3886/e231375v1","Hendren, Nathaniel","Personal","Nathaniel","Hendren",<list>,<list>
+"505","10.3886/e231374v1","Monte, Ferdinando","Personal","Ferdinando","Monte",<list>,<list>
+"506","10.3886/e231374v1","Redding, Stephen J.","Personal","Stephen J.","Redding",<list>,<list>
+"507","10.3886/e231374v1","Rossi-Hansberg, Esteban","Personal","Esteban","Rossi-Hansberg",<list>,<list>
+"508","10.3886/e231373v1","Fieler, Ana Cecília","Personal","Ana Cecília","Fieler",<list>,<list>
+"509","10.3886/e231373v1","Eslava, Marcela","Personal","Marcela","Eslava",<list>,<list>
+"510","10.3886/e231373v1","Xu, Daniel Yi","Personal","Daniel Yi","Xu",<list>,<list>
+"511","10.3886/e231372v1","Halpern, László","Personal","László","Halpern",<list>,<list>
+"512","10.3886/e231372v1","Koren, Miklós","Personal","Miklós","Koren",<list>,<list>
+"513","10.3886/e231372v1","Szeidl, Adam","Personal","Adam","Szeidl",<list>,<list>
+"514","10.3886/e231371v1","Egan, Mark","Personal","Mark","Egan",<list>,<list>
+"515","10.3886/e231371v1","Hortaçsu, Ali","Personal","Ali","Hortaçsu",<list>,<list>
+"516","10.3886/e231371v1","Matvos, Gregor","Personal","Gregor","Matvos",<list>,<list>
+"517","10.3886/e231370v1","Akcigit, Ufuk","Personal","Ufuk","Akcigit",<list>,<list>
+"518","10.3886/e231370v1","Baslandze, Salomé","Personal","Salomé","Baslandze",<list>,<list>
+"519","10.3886/e231370v1","Stantcheva, Stefanie","Personal","Stefanie","Stantcheva",<list>,<list>
+"520","10.3886/e231369v1","Straub, Ludwig","Personal","Ludwig","Straub",<list>,<list>
+"521","10.3886/e231369v1","Werning, Iván","Personal","Iván","Werning",<list>,<list>
+"522","10.3886/e231368v1","Attanasio, Orazio","Personal","Orazio","Attanasio",<list>,<list>
+"523","10.3886/e231368v1","Cattan, Sarah","Personal","Sarah","Cattan",<list>,<list>
+"524","10.3886/e231368v1","Fitzsimons, Emla","Personal","Emla","Fitzsimons",<list>,<list>
+"525","10.3886/e231368v1","Meghir, Costas","Personal","Costas","Meghir",<list>,<list>
+"526","10.3886/e231368v1","Rubio-Codina, Marta","Personal","Marta","Rubio-Codina",<list>,<list>
+"527","10.3886/e231367v1","Piazzesi, Monika","Personal","Monika","Piazzesi",<list>,<list>
+"528","10.3886/e231367v1","Schneider, Martin","Personal","Martin","Schneider",<list>,<list>
+"529","10.3886/e231367v1","Stroebel, Johannes","Personal","Johannes","Stroebel",<list>,<list>
+"530","10.3886/e231366v1","Ito, Koichiro","Personal","Koichiro","Ito",<list>,<list>
+"531","10.3886/e231366v1","Reguant, Mar","Personal","Mar","Reguant",<list>,<list>
+"532","10.3886/e231365v1","Hausman, Joshua K.","Personal","Joshua K.","Hausman",<list>,<list>
+"533","10.3886/e231364v1","Acemoglu, Daron","Personal","Daron","Acemoglu",<list>,<list>
+"534","10.3886/e231364v1","Akcigit, Ufuk","Personal","Ufuk","Akcigit",<list>,<list>
+"535","10.3886/e231364v1","Alp, Harun","Personal","Harun","Alp",<list>,<list>
+"536","10.3886/e231364v1","Bloom, Nicholas","Personal","Nicholas","Bloom",<list>,<list>
+"537","10.3886/e231364v1","Kerr, William","Personal","William","Kerr",<list>,<list>
+"538","10.3886/e231363v1","Mueller, Andreas I.","Personal","Andreas I.","Mueller",<list>,<list>
+"539","10.3886/e231362v1","Edmond, Chris","Personal","Chris","Edmond",<list>,<list>
+"540","10.3886/e231362v1","Midrigan, Virgiliu","Personal","Virgiliu","Midrigan",<list>,<list>
+"541","10.3886/e231362v1","Xu, Daniel Yi","Personal","Daniel Yi","Xu",<list>,<list>
+"542","10.3886/e231361v1","Kumhof, Michael","Personal","Michael","Kumhof",<list>,<list>
+"543","10.3886/e231361v1","Rancière, Romain","Personal","Romain","Rancière",<list>,<list>
+"544","10.3886/e231361v1","Winant, Pablo","Personal","Pablo","Winant",<list>,<list>
+"545","10.3886/e231356v1","Bigio, Saki","Personal","Saki","Bigio",<list>,<list>
+"546","10.3886/e231355v1","Donaldson, Dave","Personal","Dave","Donaldson",<list>,<list>
+"547","10.3886/e231354v1","Heathcote, Jonathan","Personal","Jonathan","Heathcote",<list>,<list>
+"548","10.3886/e231354v1","Storesletten, Kjetil","Personal","Kjetil","Storesletten",<list>,<list>
+"549","10.3886/e231354v1","Violante, Giovanni L.","Personal","Giovanni L.","Violante",<list>,<list>
+"550","10.3886/e231353v1","Goldman, Dana P.","Personal","Dana P.","Goldman",<list>,<list>
+"551","10.3886/e231353v1","Orszag, Peter R.","Personal","Peter R.","Orszag",<list>,<list>
+"552","10.3886/e231352v1","Carroll, Christopher D.","Personal","Christopher D.","Carroll",<list>,<list>
+"553","10.3886/e231352v1","Slacalek, Jiri","Personal","Jiri","Slacalek",<list>,<list>
+"554","10.3886/e231352v1","Tokuoka, Kiichi","Personal","Kiichi","Tokuoka",<list>,<list>
+"555","10.3886/e231351v1","Bertrand, Marianne","Personal","Marianne","Bertrand",<list>,<list>
+"556","10.3886/e231351v1","Bombardini, Matilde","Personal","Matilde","Bombardini",<list>,<list>
+"557","10.3886/e231351v1","Trebbi, Francesco","Personal","Francesco","Trebbi",<list>,<list>
+"558","10.3886/e231350v1","Gentzkow, Matthew","Personal","Matthew","Gentzkow",<list>,<list>
+"559","10.3886/e231350v1","Shapiro, Jesse M.","Personal","Jesse M.","Shapiro",<list>,<list>
+"560","10.3886/e231350v1","Sinkinson, Michael","Personal","Michael","Sinkinson",<list>,<list>
+"561","10.3886/e231349v1","Meyer, Bruce D.","Personal","Bruce D.","Meyer",<list>,<list>
+"562","10.3886/e231349v1","Sullivan, James X.","Personal","James X.","Sullivan",<list>,<list>
+"563","10.3886/e231348v1","Houde, Jean-François","Personal","Jean-François","Houde",<list>,<list>
+"564","10.3886/e231347v1","Jackson, Matthew O.","Personal","Matthew O.","Jackson",<list>,<list>
+"565","10.3886/e231347v1","Rodriguez-Barraquer, Tomas","Personal","Tomas","Rodriguez-Barraquer",<list>,<list>
+"566","10.3886/e231347v1","Tan, Xu","Personal","Xu","Tan",<list>,<list>
+"567","10.3886/e231346v1","von Wachter, Till","Personal","Till","von Wachter",<list>,<list>
+"568","10.3886/e231346v1","Song, Jae","Personal","Jae","Song",<list>,<list>
+"569","10.3886/e231346v1","Manchester, Joyce","Personal","Joyce","Manchester",<list>,<list>
+"570","10.3886/e231345v1","Campbell, John Y.","Personal","John Y.","Campbell",<list>,<list>
+"571","10.3886/e231345v1","Giglio, Stefano","Personal","Stefano","Giglio",<list>,<list>
+"572","10.3886/e231345v1","Pathak, Parag","Personal","Parag","Pathak",<list>,<list>
+"573","10.3886/e231344v1","von Gaudecker, Hans-Martin","Personal","Hans-Martin","von Gaudecker",<list>,<list>
+"574","10.3886/e231344v1","van Soest, Arthur","Personal","Arthur","van Soest",<list>,<list>
+"575","10.3886/e231344v1","Wengstrom, Erik","Personal","Erik","Wengstrom",<list>,<list>
+"576","10.3886/e231343v1","McCrary, Justin","Personal","Justin","McCrary",<list>,<list>
+"577","10.3886/e231343v1","Royer, Heather","Personal","Heather","Royer",<list>,<list>
+"578","10.3886/e231342v1","Comin, Diego","Personal","Diego","Comin",<list>,<list>
+"579","10.3886/e231342v1","Hobijn, Bart","Personal","Bart","Hobijn",<list>,<list>
+"580","10.3886/e231341v1","McGrattan, Ellen R.","Personal","Ellen R.","McGrattan",<list>,<list>
+"581","10.3886/e231341v1","Prescott, Edward C.","Personal","Edward C.","Prescott",<list>,<list>
+"582","10.3886/e231304v1","Saint-Paul, Gilles","Personal","Gilles","Saint-Paul",<list>,<list>
+"583","10.3886/e112796v2","Mazzocco, Maurizio","Personal","Maurizio","Mazzocco",<list>,<list>
+"584","10.3886/e112796v2","Ruiz, Claudia","Personal","Claudia","Ruiz",<list>,<list>
+"585","10.3886/e112796v2","Yamaguchi, Shintaro","Personal","Shintaro","Yamaguchi",<list>,<list>
+"586","10.3886/e112767v2","Hokayem, Charles","Personal","Charles","Hokayem",<list>,<list>
+"587","10.3886/e112767v2","Ziliak, James P.","Personal","James P.","Ziliak",<list>,<list>
