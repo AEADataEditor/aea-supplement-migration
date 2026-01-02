@@ -1,0 +1,612 @@
+
+R version 4.5.1 (2025-06-13) -- "Great Square Root"
+Copyright (C) 2025 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> # This file will get the migrated files from 2025
+> #
+> # General config
+> 
+> source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"pathconfig.R"),echo=FALSE)
+> source(file.path(programs,"config.R"), echo=FALSE)
+> source(file.path(programs,"global-libraries.R"), echo=FALSE)
+Loading required package: data.table
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: devtools
+Loading required package: usethis
+Loading required package: rprojroot
+Loading required package: tictoc
+
+Attaching package: ‘tictoc’
+
+The following object is masked from ‘package:data.table’:
+
+    shift
+
+Loading required package: knitr
+Loading required package: kableExtra
+
+Attaching package: ‘kableExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    group_rows
+
+Loading required package: stringr
+Loading required package: rcrossref
+Loading required package: RefManageR
+Loading required package: ggplot2
+Loading required package: ggpubr
+Loading required package: tools
+Loading required package: forcats
+Loading required package: DT
+Loading required package: rdatacite
+Loading required package: tidyr
+Loading required package: RSQLite
+Loading required package: skimr
+Loading required package: tidylog
+
+Attaching package: ‘tidylog’
+
+The following objects are masked from ‘package:tidyr’:
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    separate_wider_delim, separate_wider_position,
+    separate_wider_regex, spread, uncount
+
+The following objects are masked from ‘package:ggpubr’:
+
+    group_by, mutate
+
+The following objects are masked from ‘package:dplyr’:
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+> 
+> # Query DataCite for 2025 ICPSR DOIs that were registered between 2025-05-01 and 2025-05-31
+> # with the words "Replication data for:" in the title
+> 
+> # Load rdatacite package
+> pkgTest("rdatacite")
+[1] "OK"
+> pkgTest("purrr")
+Loading required package: purrr
+
+Attaching package: ‘purrr’
+
+The following object is masked from ‘package:data.table’:
+
+    transpose
+
+[1] "OK"
+> 
+> # Query parameters
+> start_date <- "2025-05-01"
+> end_date <- "2025-05-31"
+> title_query <- "Replication data for"
+> doi_prefix <- "10.3886"  # ICPSR DOI prefix
+> 
+> if (!file.exists(file.path(interwrk, "datacite_raw_2025.rds"))) {
++ 
++   cat("Querying DataCite API for ICPSR DOIs using rdatacite...\n")
++   cat(sprintf("Date range: %s to %s\n", start_date, end_date))
++   cat(sprintf("DOI prefix: %s\n", doi_prefix))
++   cat(sprintf("Title query: %s\n", title_query))
++ 
++   # Query DataCite using dc_dois
++   # The query parameter uses Lucene syntax
++   query_string <- paste0('prefix:', doi_prefix, ' AND titles.title:"', title_query, '*"')
++ 
++   cat(sprintf("\nQuery string: %s\n\n", query_string))
++ 
++   # Perform the query
++   results <- rdatacite::dc_dois(query = query_string, limit = 1000)
++ 
++   # Save the results in interwrk
++   saveRDS(results, file.path(interwrk, "datacite_raw_2025.rds"))
++   cat(sprintf("Raw DataCite results saved to: %s \n",
++         file.path(interwrk, "datacite_raw_2025.rds")))
++ }
+> 
+> 
+> cat("Loading existing DataCite results from interwrk...\n")
+Loading existing DataCite results from interwrk...
+> results <- readRDS(file.path(interwrk, "datacite_raw_2025.rds"))
+> 
+> 
+> 
+> 
+> # Check if we got results
+> if (!is.null(results) && length(results) > 0 && !is.null(results$data)) {
++   icpsr_dois_all <- results$data
++ 
++   cat(sprintf("Found %d DOIs total\n", nrow(icpsr_dois_all)))
++ 
++   # Unnest attributes to get all fields
++   if ("attributes" %in% names(icpsr_dois_all)) {
++     # Unnest the attributes column
++     attributes_df <- icpsr_dois_all %>%
++       unnest_wider(attributes) %>%
++       # Unnest titles to extract the title field
++       unnest_wider(titles, names_sep = "_") %>%
++       # Rename titles_title to just title
++       rename(en_title = titles_1) %>%
++       # unnest that!
++       unnest_wider(en_title) %>%
++       # Convert list columns to character strings using map_chr
++       mutate(
++         title = map_chr(title, ~if(length(.x) > 0) .x[[1]] else NA_character_),
++         lang = map_chr(lang, ~if(length(.x) > 0) .x[[1]] else NA_character_)
++       ) %>%
++       # Remove other titles fields if they exist
++       select(doi, title, everything())
++ 
++     cat(sprintf("Extracted attributes for %d DOIs\n", nrow(attributes_df)))
++ 
++     # Filter by registered date range and DOI patterns
++     icpsr_dois_2025_v1 <- attributes_df %>%
++       filter(!is.na(registered)) %>%
++       mutate(registered_date = as.Date(substr(registered, 1, 10))) %>%
++       filter(registered_date >= as.Date(start_date) & registered_date <= as.Date(end_date)) %>%
++       # Keep only canonical versioned DOIs (with V1, V2, etc.) - exclude unversioned
++       filter(grepl("V[0-9]+$", id, ignore.case = TRUE)) %>%
++       # Exclude hyper-specific DOIs with dashes in the suffix (e.g., -180515)
++       filter(!grepl("V[0-9]+-[0-9]+$", id, ignore.case = TRUE)) %>%
++       # remove updates of much earlier DOIs (starting with 'e1')
++       filter(!grepl("/e1", id, ignore.case = TRUE))
++ 
++     cat(sprintf("After filtering to registered dates %s to %s: %d DOIs\n",
++                 start_date, end_date, nrow(icpsr_dois_2025_v1)))
++ 
++     # for each of the filtered DOIs, check the API to see if there is a V2 of the same DOI, and if yes, append that to the datasets.
++ 
++     cat("\nChecking for V2 versions of filtered DOIs...\n")
++     additional_v2_versions <- list()
++ 
++     for (i in 1:nrow(icpsr_dois_2025_v1)) {
++       current_doi <- icpsr_dois_2025_v1$doi[i]
++ 
++       # Replace V1 with V2
++       v2_doi <- gsub("V1$", "V2", current_doi, ignore.case = TRUE)
++ 
++       # Only check if we actually replaced V1 (i.e., the DOI changed)
++       if (v2_doi != current_doi) {
++         cat(sprintf("Checking %d/%d: %s -> %s\n", i, nrow(icpsr_dois_2025_v1), current_doi, v2_doi))
++ 
++         # Query DataCite for this specific DOI
++         tryCatch({
++           v2_result <- rdatacite::dc_dois(query = paste0('doi:', v2_doi), limit = 1)
++ 
++           if (!is.null(v2_result$data) && nrow(v2_result$data) > 0) {
++             cat(sprintf("  Found V2 version: %s\n", v2_doi))
++             additional_v2_versions[[length(additional_v2_versions) + 1]] <- v2_result$data
++           }
++         }, error = function(e) {
++           # Silently continue if DOI doesn't exist
++         })
++       }
++     }
++ 
++     # Process and append V2 versions if found
++     if (length(additional_v2_versions) > 0) {
++       cat(sprintf("\nFound %d V2 version(s)\n", length(additional_v2_versions)))
++ 
++       # Combine all V2 versions into a single data frame
++       additional_v2_df <- bind_rows(additional_v2_versions)
++       # Save this file in interwrk
++       saveRDS(additional_v2_df, file.path(interwrk, "datacite_raw_v2_2025.rds"))
++       cat(sprintf("Additional V2 versions saved to: %s\n",
++             file.path(interwrk, "datacite_raw_v2_2025.rds")))
++ 
++       # Process the V2 versions with the same unnesting logic
++       icpsr_dois_2025_v2 <- additional_v2_df %>%
++         unnest_wider(attributes) %>%
++         unnest_wider(titles, names_sep = "_") %>%
++         rename(en_title = titles_1) %>%
++         unnest_wider(en_title) %>%
++         mutate(
++           title = map_chr(title, ~if(length(.x) > 0) .x[[1]] else NA_character_),
++           lang = map_chr(lang, ~if(length(.x) > 0) .x[[1]] else NA_character_)
++         ) %>%
++         select(doi, title, everything())
++ 
++       # Append to the main dataset
++       icpsr_dois_2025 <- bind_rows(icpsr_dois_2025_v1, icpsr_dois_2025_v2)
++ 
++       cat(sprintf("After adding V2 versions: %d DOIs total\n", nrow(icpsr_dois_2025)))
++     } else {
++       cat("\nNo V2 versions found\n")
++       icpsr_dois_2025 <- icpsr_dois_2025_v1
++     }
++ 
++ 
++     # Create a separate tibble for related identifiers 
++     if ("relatedIdentifiers" %in% names(icpsr_dois_2025)) {
++       related_identifiers_df <- icpsr_dois_2025 %>%
++         select(doi, relatedIdentifiers) %>%
++         unnest_wider(relatedIdentifiers, names_sep = "_") %>%
++         unnest_longer(relatedIdentifiers_1) %>%
++         unnest_wider(relatedIdentifiers_1) 
++       
++       # Tabulate all relationTypes
++       table(related_identifiers_df$relationType)
++ 
++       related_identifiers_df <- related_identifiers_df %>%
++         # keep only the "IsSupplementTo" relation type
++         filter(relationType == "IsSupplementTo")
++       
++       cat(sprintf("Extracted %d related identifier records\n", nrow(related_identifiers_df)))
++       
++       # Save creators as CSV and RDS
++       
++       write.csv(related_identifiers_df, related_identifiers.csv)
++       saveRDS(related_identifiers_df, related_identifiers.rds)
++       
++       cat(sprintf("Related identifiers saved to: %s\n", related_identifiers.csv))
++       cat(sprintf("Related identifiers saved to: %s\n", related_identifiers.rds))
++       
++       # Remove related identifiers from main tibble since we have it separately
++       icpsr_dois_2025 <- icpsr_dois_2025 %>%
++         select(-relatedIdentifiers)
++     }
++ 
++     
++     # Create a separate tibble for creators (authors/affiliations)
++     if ("creators" %in% names(icpsr_dois_2025)) {
++       creators_df <- icpsr_dois_2025 %>%
++         select(doi, creators) %>%
++         unnest_wider(creators, names_sep = "_") %>%
++         unnest_longer(creators_1) %>%
++         unnest_wider(creators_1)
++ 
++       cat(sprintf("Extracted %d creator records\n", nrow(creators_df)))
++ 
++       # Save creators as CSV and RDS
++ 
++       write.csv(creators_df, creators.csv)
++       saveRDS(creators_df, creators.rds)
++ 
++       cat(sprintf("Creators saved to: %s\n", creators.csv))
++       cat(sprintf("Creators saved to: %s\n", creators.rds))
++ 
++       # Remove creators from main tibble since we have it separately
++       icpsr_dois_2025 <- icpsr_dois_2025 %>%
++       select(-creators)
++     }
++ 
++     
++ 
++ 
++     if (nrow(icpsr_dois_2025) > 0) {
++       # Save the results as CSV and RDS
++       icpsr_dois_2025_pub <- icpsr_dois_2025 %>%
++         select(doi,title,publicationYear,version,created,registered,updated)
++       write.csv(icpsr_dois_2025_pub, finalbatch.csv)
++       saveRDS(icpsr_dois_2025_pub, finalbatch.rds)
++ 
++       cat(sprintf("\nResults saved to: %s\n", finalbatch.csv))
++       cat(sprintf("Results saved to: %s\n", finalbatch.rds))
++     } else {
++       cat("No DOIs found in the specified date range\n")
++     }
++   } else {
++     cat("No 'attributes' field found in the response\n")
++     cat("Available fields:\n")
++     print(names(icpsr_dois_all))
++   }
++ } else {
++   cat("No results found\n")
++ }
+Found 1000 DOIs total
+rename: renamed one variable (en_title)
+mutate: converted 'lang' from list to character (0 new NA)
+        converted 'title' from list to character (0 new NA)
+select: columns reordered (doi, title, id, type, identifiers, …)
+Extracted attributes for 1000 DOIs
+filter: no rows removed
+mutate: new variable 'registered_date' (Date) with 237 unique values and 0% NA
+filter: removed 538 rows (54%), 462 rows remaining
+filter: removed 235 rows (51%), 227 rows remaining
+filter: no rows removed
+filter: removed 2 rows (1%), 225 rows remaining
+After filtering to registered dates 2025-05-01 to 2025-05-31: 225 DOIs
+
+Checking for V2 versions of filtered DOIs...
+Checking 1/225: 10.3886/e229601v1 -> 10.3886/e229601V2
+  Found V2 version: 10.3886/e229601V2
+Checking 2/225: 10.3886/e229581v1 -> 10.3886/e229581V2
+  Found V2 version: 10.3886/e229581V2
+Checking 3/225: 10.3886/e231606v1 -> 10.3886/e231606V2
+Checking 4/225: 10.3886/e231605v1 -> 10.3886/e231605V2
+Checking 5/225: 10.3886/e231604v1 -> 10.3886/e231604V2
+Checking 6/225: 10.3886/e231603v1 -> 10.3886/e231603V2
+Checking 7/225: 10.3886/e231602v1 -> 10.3886/e231602V2
+Checking 8/225: 10.3886/e231601v1 -> 10.3886/e231601V2
+Checking 9/225: 10.3886/e231598v1 -> 10.3886/e231598V2
+Checking 10/225: 10.3886/e231597v1 -> 10.3886/e231597V2
+Checking 11/225: 10.3886/e231596v1 -> 10.3886/e231596V2
+Checking 12/225: 10.3886/e231595v1 -> 10.3886/e231595V2
+Checking 13/225: 10.3886/e231594v1 -> 10.3886/e231594V2
+Checking 14/225: 10.3886/e231593v1 -> 10.3886/e231593V2
+Checking 15/225: 10.3886/e231592v1 -> 10.3886/e231592V2
+Checking 16/225: 10.3886/e231591v1 -> 10.3886/e231591V2
+Checking 17/225: 10.3886/e231590v1 -> 10.3886/e231590V2
+Checking 18/225: 10.3886/e231589v1 -> 10.3886/e231589V2
+Checking 19/225: 10.3886/e231588v1 -> 10.3886/e231588V2
+Checking 20/225: 10.3886/e231587v1 -> 10.3886/e231587V2
+Checking 21/225: 10.3886/e231586v1 -> 10.3886/e231586V2
+Checking 22/225: 10.3886/e231585v1 -> 10.3886/e231585V2
+Checking 23/225: 10.3886/e231584v1 -> 10.3886/e231584V2
+Checking 24/225: 10.3886/e231583v1 -> 10.3886/e231583V2
+Checking 25/225: 10.3886/e231582v1 -> 10.3886/e231582V2
+Checking 26/225: 10.3886/e231581v1 -> 10.3886/e231581V2
+Checking 27/225: 10.3886/e231580v1 -> 10.3886/e231580V2
+Checking 28/225: 10.3886/e231579v1 -> 10.3886/e231579V2
+Checking 29/225: 10.3886/e231578v1 -> 10.3886/e231578V2
+Checking 30/225: 10.3886/e231577v1 -> 10.3886/e231577V2
+Checking 31/225: 10.3886/e231576v1 -> 10.3886/e231576V2
+Checking 32/225: 10.3886/e231575v1 -> 10.3886/e231575V2
+Checking 33/225: 10.3886/e231574v1 -> 10.3886/e231574V2
+Checking 34/225: 10.3886/e231573v1 -> 10.3886/e231573V2
+Checking 35/225: 10.3886/e231572v1 -> 10.3886/e231572V2
+Checking 36/225: 10.3886/e231571v1 -> 10.3886/e231571V2
+Checking 37/225: 10.3886/e231570v1 -> 10.3886/e231570V2
+Checking 38/225: 10.3886/e231569v1 -> 10.3886/e231569V2
+Checking 39/225: 10.3886/e231568v1 -> 10.3886/e231568V2
+Checking 40/225: 10.3886/e231567v1 -> 10.3886/e231567V2
+Checking 41/225: 10.3886/e231566v1 -> 10.3886/e231566V2
+Checking 42/225: 10.3886/e231565v1 -> 10.3886/e231565V2
+Checking 43/225: 10.3886/e231564v1 -> 10.3886/e231564V2
+Checking 44/225: 10.3886/e231563v1 -> 10.3886/e231563V2
+Checking 45/225: 10.3886/e231562v1 -> 10.3886/e231562V2
+Checking 46/225: 10.3886/e231561v1 -> 10.3886/e231561V2
+Checking 47/225: 10.3886/e231560v1 -> 10.3886/e231560V2
+Checking 48/225: 10.3886/e231559v1 -> 10.3886/e231559V2
+Checking 49/225: 10.3886/e231558v1 -> 10.3886/e231558V2
+Checking 50/225: 10.3886/e231557v1 -> 10.3886/e231557V2
+Checking 51/225: 10.3886/e231556v1 -> 10.3886/e231556V2
+Checking 52/225: 10.3886/e231555v1 -> 10.3886/e231555V2
+Checking 53/225: 10.3886/e231554v1 -> 10.3886/e231554V2
+Checking 54/225: 10.3886/e231553v1 -> 10.3886/e231553V2
+Checking 55/225: 10.3886/e231551v1 -> 10.3886/e231551V2
+Checking 56/225: 10.3886/e231550v1 -> 10.3886/e231550V2
+Checking 57/225: 10.3886/e231552v1 -> 10.3886/e231552V2
+Checking 58/225: 10.3886/e231549v1 -> 10.3886/e231549V2
+Checking 59/225: 10.3886/e231548v1 -> 10.3886/e231548V2
+Checking 60/225: 10.3886/e231547v1 -> 10.3886/e231547V2
+Checking 61/225: 10.3886/e231546v1 -> 10.3886/e231546V2
+Checking 62/225: 10.3886/e231545v1 -> 10.3886/e231545V2
+Checking 63/225: 10.3886/e231544v1 -> 10.3886/e231544V2
+Checking 64/225: 10.3886/e231543v1 -> 10.3886/e231543V2
+Checking 65/225: 10.3886/e231542v1 -> 10.3886/e231542V2
+Checking 66/225: 10.3886/e231541v1 -> 10.3886/e231541V2
+Checking 67/225: 10.3886/e231540v1 -> 10.3886/e231540V2
+Checking 68/225: 10.3886/e231539v1 -> 10.3886/e231539V2
+Checking 69/225: 10.3886/e231538v1 -> 10.3886/e231538V2
+Checking 70/225: 10.3886/e231537v1 -> 10.3886/e231537V2
+Checking 71/225: 10.3886/e231536v1 -> 10.3886/e231536V2
+Checking 72/225: 10.3886/e231535v1 -> 10.3886/e231535V2
+Checking 73/225: 10.3886/e231534v1 -> 10.3886/e231534V2
+Checking 74/225: 10.3886/e231533v1 -> 10.3886/e231533V2
+Checking 75/225: 10.3886/e231532v1 -> 10.3886/e231532V2
+Checking 76/225: 10.3886/e231531v1 -> 10.3886/e231531V2
+Checking 77/225: 10.3886/e231530v1 -> 10.3886/e231530V2
+Checking 78/225: 10.3886/e231529v1 -> 10.3886/e231529V2
+Checking 79/225: 10.3886/e231528v1 -> 10.3886/e231528V2
+Checking 80/225: 10.3886/e231527v1 -> 10.3886/e231527V2
+Checking 81/225: 10.3886/e231526v1 -> 10.3886/e231526V2
+Checking 82/225: 10.3886/e231525v1 -> 10.3886/e231525V2
+Checking 83/225: 10.3886/e231524v1 -> 10.3886/e231524V2
+Checking 84/225: 10.3886/e231523v1 -> 10.3886/e231523V2
+Checking 85/225: 10.3886/e231510v1 -> 10.3886/e231510V2
+Checking 86/225: 10.3886/e231507v1 -> 10.3886/e231507V2
+Checking 87/225: 10.3886/e231506v1 -> 10.3886/e231506V2
+Checking 88/225: 10.3886/e231505v1 -> 10.3886/e231505V2
+Checking 89/225: 10.3886/e231504v1 -> 10.3886/e231504V2
+Checking 90/225: 10.3886/e231503v1 -> 10.3886/e231503V2
+Checking 91/225: 10.3886/e231501v1 -> 10.3886/e231501V2
+Checking 92/225: 10.3886/e231500v1 -> 10.3886/e231500V2
+Checking 93/225: 10.3886/e231498v1 -> 10.3886/e231498V2
+Checking 94/225: 10.3886/e231499v1 -> 10.3886/e231499V2
+Checking 95/225: 10.3886/e231497v1 -> 10.3886/e231497V2
+Checking 96/225: 10.3886/e231496v1 -> 10.3886/e231496V2
+Checking 97/225: 10.3886/e231495v1 -> 10.3886/e231495V2
+Checking 98/225: 10.3886/e231494v1 -> 10.3886/e231494V2
+Checking 99/225: 10.3886/e231491v1 -> 10.3886/e231491V2
+Checking 100/225: 10.3886/e231488v1 -> 10.3886/e231488V2
+Checking 101/225: 10.3886/e231487v1 -> 10.3886/e231487V2
+Checking 102/225: 10.3886/e231486v1 -> 10.3886/e231486V2
+Checking 103/225: 10.3886/e231485v1 -> 10.3886/e231485V2
+Checking 104/225: 10.3886/e231484v1 -> 10.3886/e231484V2
+Checking 105/225: 10.3886/e231483v1 -> 10.3886/e231483V2
+Checking 106/225: 10.3886/e231482v1 -> 10.3886/e231482V2
+Checking 107/225: 10.3886/e231481v1 -> 10.3886/e231481V2
+Checking 108/225: 10.3886/e231480v1 -> 10.3886/e231480V2
+Checking 109/225: 10.3886/e231479v1 -> 10.3886/e231479V2
+Checking 110/225: 10.3886/e231478v1 -> 10.3886/e231478V2
+Checking 111/225: 10.3886/e231477v1 -> 10.3886/e231477V2
+Checking 112/225: 10.3886/e231476v1 -> 10.3886/e231476V2
+Checking 113/225: 10.3886/e231475v1 -> 10.3886/e231475V2
+Checking 114/225: 10.3886/e231474v1 -> 10.3886/e231474V2
+Checking 115/225: 10.3886/e231473v1 -> 10.3886/e231473V2
+Checking 116/225: 10.3886/e231472v1 -> 10.3886/e231472V2
+Checking 117/225: 10.3886/e231471v1 -> 10.3886/e231471V2
+Checking 118/225: 10.3886/e231470v1 -> 10.3886/e231470V2
+Checking 119/225: 10.3886/e231469v1 -> 10.3886/e231469V2
+Checking 120/225: 10.3886/e231468v1 -> 10.3886/e231468V2
+Checking 121/225: 10.3886/e231467v1 -> 10.3886/e231467V2
+Checking 122/225: 10.3886/e231466v1 -> 10.3886/e231466V2
+Checking 123/225: 10.3886/e231465v1 -> 10.3886/e231465V2
+Checking 124/225: 10.3886/e231464v1 -> 10.3886/e231464V2
+Checking 125/225: 10.3886/e231463v1 -> 10.3886/e231463V2
+Checking 126/225: 10.3886/e231462v1 -> 10.3886/e231462V2
+Checking 127/225: 10.3886/e231461v1 -> 10.3886/e231461V2
+Checking 128/225: 10.3886/e231460v1 -> 10.3886/e231460V2
+Checking 129/225: 10.3886/e231459v1 -> 10.3886/e231459V2
+Checking 130/225: 10.3886/e231458v1 -> 10.3886/e231458V2
+Checking 131/225: 10.3886/e231457v1 -> 10.3886/e231457V2
+Checking 132/225: 10.3886/e231456v1 -> 10.3886/e231456V2
+Checking 133/225: 10.3886/e231455v1 -> 10.3886/e231455V2
+Checking 134/225: 10.3886/e231454v1 -> 10.3886/e231454V2
+Checking 135/225: 10.3886/e231447v1 -> 10.3886/e231447V2
+Checking 136/225: 10.3886/e231453v1 -> 10.3886/e231453V2
+Checking 137/225: 10.3886/e231452v1 -> 10.3886/e231452V2
+Checking 138/225: 10.3886/e231451v1 -> 10.3886/e231451V2
+Checking 139/225: 10.3886/e231450v1 -> 10.3886/e231450V2
+Checking 140/225: 10.3886/e231449v1 -> 10.3886/e231449V2
+Checking 141/225: 10.3886/e231448v1 -> 10.3886/e231448V2
+Checking 142/225: 10.3886/e231446v1 -> 10.3886/e231446V2
+Checking 143/225: 10.3886/e231445v1 -> 10.3886/e231445V2
+Checking 144/225: 10.3886/e231444v1 -> 10.3886/e231444V2
+Checking 145/225: 10.3886/e231443v1 -> 10.3886/e231443V2
+Checking 146/225: 10.3886/e231442v1 -> 10.3886/e231442V2
+Checking 147/225: 10.3886/e231441v1 -> 10.3886/e231441V2
+Checking 148/225: 10.3886/e231440v1 -> 10.3886/e231440V2
+Checking 149/225: 10.3886/e231439v1 -> 10.3886/e231439V2
+Checking 150/225: 10.3886/e231438v1 -> 10.3886/e231438V2
+Checking 151/225: 10.3886/e231437v1 -> 10.3886/e231437V2
+Checking 152/225: 10.3886/e231435v1 -> 10.3886/e231435V2
+Checking 153/225: 10.3886/e231431v1 -> 10.3886/e231431V2
+Checking 154/225: 10.3886/e231434v1 -> 10.3886/e231434V2
+Checking 155/225: 10.3886/e231433v1 -> 10.3886/e231433V2
+Checking 156/225: 10.3886/e231432v1 -> 10.3886/e231432V2
+Checking 157/225: 10.3886/e231430v1 -> 10.3886/e231430V2
+Checking 158/225: 10.3886/e231428v1 -> 10.3886/e231428V2
+Checking 159/225: 10.3886/e231429v1 -> 10.3886/e231429V2
+Checking 160/225: 10.3886/e231427v1 -> 10.3886/e231427V2
+Checking 161/225: 10.3886/e231426v1 -> 10.3886/e231426V2
+Checking 162/225: 10.3886/e231425v1 -> 10.3886/e231425V2
+Checking 163/225: 10.3886/e231424v1 -> 10.3886/e231424V2
+Checking 164/225: 10.3886/e231421v1 -> 10.3886/e231421V2
+Checking 165/225: 10.3886/e231423v1 -> 10.3886/e231423V2
+Checking 166/225: 10.3886/e231422v1 -> 10.3886/e231422V2
+Checking 167/225: 10.3886/e231420v1 -> 10.3886/e231420V2
+Checking 168/225: 10.3886/e231419v1 -> 10.3886/e231419V2
+Checking 169/225: 10.3886/e231418v1 -> 10.3886/e231418V2
+Checking 170/225: 10.3886/e231417v1 -> 10.3886/e231417V2
+Checking 171/225: 10.3886/e231416v1 -> 10.3886/e231416V2
+Checking 172/225: 10.3886/e231415v1 -> 10.3886/e231415V2
+Checking 173/225: 10.3886/e231414v1 -> 10.3886/e231414V2
+Checking 174/225: 10.3886/e231413v1 -> 10.3886/e231413V2
+Checking 175/225: 10.3886/e231412v1 -> 10.3886/e231412V2
+Checking 176/225: 10.3886/e231411v1 -> 10.3886/e231411V2
+Checking 177/225: 10.3886/e231410v1 -> 10.3886/e231410V2
+Checking 178/225: 10.3886/e231409v1 -> 10.3886/e231409V2
+Checking 179/225: 10.3886/e231408v1 -> 10.3886/e231408V2
+Checking 180/225: 10.3886/e231407v1 -> 10.3886/e231407V2
+Checking 181/225: 10.3886/e231406v1 -> 10.3886/e231406V2
+Checking 182/225: 10.3886/e231405v1 -> 10.3886/e231405V2
+Checking 183/225: 10.3886/e231404v1 -> 10.3886/e231404V2
+Checking 184/225: 10.3886/e231403v1 -> 10.3886/e231403V2
+Checking 185/225: 10.3886/e231402v1 -> 10.3886/e231402V2
+Checking 186/225: 10.3886/e231388v1 -> 10.3886/e231388V2
+Checking 187/225: 10.3886/e231387v1 -> 10.3886/e231387V2
+Checking 188/225: 10.3886/e231386v1 -> 10.3886/e231386V2
+Checking 189/225: 10.3886/e231385v1 -> 10.3886/e231385V2
+Checking 190/225: 10.3886/e231384v1 -> 10.3886/e231384V2
+Checking 191/225: 10.3886/e231383v1 -> 10.3886/e231383V2
+Checking 192/225: 10.3886/e231381v1 -> 10.3886/e231381V2
+Checking 193/225: 10.3886/e231376v1 -> 10.3886/e231376V2
+Checking 194/225: 10.3886/e231375v1 -> 10.3886/e231375V2
+Checking 195/225: 10.3886/e231374v1 -> 10.3886/e231374V2
+Checking 196/225: 10.3886/e231373v1 -> 10.3886/e231373V2
+Checking 197/225: 10.3886/e231372v1 -> 10.3886/e231372V2
+Checking 198/225: 10.3886/e231371v1 -> 10.3886/e231371V2
+Checking 199/225: 10.3886/e231370v1 -> 10.3886/e231370V2
+Checking 200/225: 10.3886/e231369v1 -> 10.3886/e231369V2
+Checking 201/225: 10.3886/e231368v1 -> 10.3886/e231368V2
+Checking 202/225: 10.3886/e231367v1 -> 10.3886/e231367V2
+Checking 203/225: 10.3886/e231366v1 -> 10.3886/e231366V2
+Checking 204/225: 10.3886/e231365v1 -> 10.3886/e231365V2
+Checking 205/225: 10.3886/e231364v1 -> 10.3886/e231364V2
+Checking 206/225: 10.3886/e231363v1 -> 10.3886/e231363V2
+Checking 207/225: 10.3886/e231362v1 -> 10.3886/e231362V2
+Checking 208/225: 10.3886/e231361v1 -> 10.3886/e231361V2
+Checking 209/225: 10.3886/e231356v1 -> 10.3886/e231356V2
+Checking 210/225: 10.3886/e231355v1 -> 10.3886/e231355V2
+Checking 211/225: 10.3886/e231354v1 -> 10.3886/e231354V2
+Checking 212/225: 10.3886/e231353v1 -> 10.3886/e231353V2
+Checking 213/225: 10.3886/e231352v1 -> 10.3886/e231352V2
+Checking 214/225: 10.3886/e231351v1 -> 10.3886/e231351V2
+Checking 215/225: 10.3886/e231350v1 -> 10.3886/e231350V2
+Checking 216/225: 10.3886/e231349v1 -> 10.3886/e231349V2
+Checking 217/225: 10.3886/e231348v1 -> 10.3886/e231348V2
+Checking 218/225: 10.3886/e231347v1 -> 10.3886/e231347V2
+Checking 219/225: 10.3886/e231346v1 -> 10.3886/e231346V2
+Checking 220/225: 10.3886/e231345v1 -> 10.3886/e231345V2
+Checking 221/225: 10.3886/e231344v1 -> 10.3886/e231344V2
+Checking 222/225: 10.3886/e231343v1 -> 10.3886/e231343V2
+Checking 223/225: 10.3886/e231342v1 -> 10.3886/e231342V2
+Checking 224/225: 10.3886/e231341v1 -> 10.3886/e231341V2
+Checking 225/225: 10.3886/e231304v1 -> 10.3886/e231304V2
+
+Found 2 V2 version(s)
+Additional V2 versions saved to: /home/rstudio/aea-supplement-migration/data/interwrk/datacite_raw_v2_2025.rds
+rename: renamed one variable (en_title)
+mutate: no changes
+select: columns reordered (doi, title, id, type, identifiers, …)
+After adding V2 versions: 227 DOIs total
+select: dropped 45 variables (title, id, type, identifiers, creators, …)
+filter: removed 451 rows (67%), 226 rows remaining
+Extracted 226 related identifier records
+Related identifiers saved to: /home/rstudio/aea-supplement-migration/data/acquired/icpsr_dois_2025_may_related_identifiers.csv
+Related identifiers saved to: /home/rstudio/aea-supplement-migration/data/acquired/icpsr_dois_2025_may_related_identifiers.rds
+select: dropped one variable (relatedIdentifiers)
+select: dropped 44 variables (title, id, type, identifiers, lang, …)
+Extracted 587 creator records
+Creators saved to: /home/rstudio/aea-supplement-migration/data/acquired/icpsr_dois_2025_may_creators.csv
+Creators saved to: /home/rstudio/aea-supplement-migration/data/acquired/icpsr_dois_2025_may_creators.rds
+select: dropped one variable (creators)
+select: dropped 38 variables (id, type, identifiers, lang, titleType, …)
+
+Results saved to: /home/rstudio/aea-supplement-migration/data/acquired/icpsr_dois_2025_may.csv
+Results saved to: /home/rstudio/aea-supplement-migration/data/acquired/icpsr_dois_2025_may.rds
+> 
+> proc.time()
+   user  system elapsed 
+  7.420   1.893 397.533 

@@ -268,12 +268,39 @@ def main():
             for row in reader:
                 dois.append(row['doi'])
 
+    # Check if output file exists and determine write mode
+    output_exists = output_csv.exists()
+    write_mode = 'w'
+    write_header = True
+
+    if output_exists:
+        print(f"WARNING: Output file already exists: {output_csv}")
+        print()
+        try:
+            response = input("Append to existing file or overwrite? (a/o): ").strip().lower()
+            if response == 'a' or response == 'append':
+                write_mode = 'a'
+                write_header = False
+                print("Will append to existing file (no header will be written)")
+            elif response == 'o' or response == 'overwrite':
+                write_mode = 'w'
+                write_header = True
+                print("Will overwrite existing file")
+            else:
+                print("Invalid response. Aborted.")
+                return
+        except (KeyboardInterrupt, EOFError):
+            print("\nAborted by user.")
+            return
+        print()
+
     # Print configuration summary
     print("=" * 60)
     print("CONFIGURATION SUMMARY")
     print("=" * 60)
     print(f"Input file:          {input_csv}")
     print(f"Output file:         {output_csv}")
+    print(f"Output mode:         {'Append' if write_mode == 'a' else 'Overwrite'}")
     print(f"Number of DOIs:      {len(dois)}")
     print(f"Request delay:       {args.delay} seconds")
     print(f"Token configured:    {'Yes' if icpsr_token else 'No'}")
@@ -324,11 +351,15 @@ def main():
         print()
 
     # Write output CSV
-    print(f"Writing {len(all_files)} file records to {output_csv}")
+    if write_mode == 'a':
+        print(f"Appending {len(all_files)} file records to {output_csv}")
+    else:
+        print(f"Writing {len(all_files)} file records to {output_csv}")
 
-    with open(output_csv, 'w', encoding='utf-8', newline='') as f:
+    with open(output_csv, write_mode, encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['doi', 'filename', 'filesize'])
-        writer.writeheader()
+        if write_header:
+            writer.writeheader()
         writer.writerows(all_files)
 
     print("Done!")
