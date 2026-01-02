@@ -17,7 +17,7 @@ pkgTest <- function(x)
 	return("OK")
 }
 
-global.libraries <- c("data.table","dplyr","devtools","rprojroot","tictoc",
+global.libraries <- c("R.utils","data.table","dplyr","devtools","rprojroot","tictoc",
                       "knitr","kableExtra","stringr","rcrossref","RefManageR",
                       "ggplot2","ggpubr","tools","forcats","DT",
                       "rdatacite","tidyr",

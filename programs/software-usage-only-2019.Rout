@@ -1,0 +1,191 @@
+
+R version 4.5.1 (2025-06-13) -- "Great Square Root"
+Copyright (C) 2025 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> # Derived from aea201910-migration.Rmd
+> # Re-generate the software image with different layout, same input data
+> 
+> source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"pathconfig.R"),echo=FALSE)
+> source(file.path(programs,"config.R"), echo=FALSE)
+> source(file.path(programs,"global-libraries.R"), echo=FALSE)
+Loading required package: R.utils
+Loading required package: R.oo
+Loading required package: R.methodsS3
+R.methodsS3 v1.8.2 (2022-06-13 22:00:14 UTC) successfully loaded. See ?R.methodsS3 for help.
+R.oo v1.27.1 (2025-05-02 21:00:05 UTC) successfully loaded. See ?R.oo for help.
+
+Attaching package: ‘R.oo’
+
+The following object is masked from ‘package:R.methodsS3’:
+
+    throw
+
+The following objects are masked from ‘package:methods’:
+
+    getClasses, getMethods
+
+The following objects are masked from ‘package:base’:
+
+    attach, detach, load, save
+
+R.utils v2.13.0 (2025-02-24 21:20:02 UTC) successfully loaded. See ?R.utils for help.
+
+Attaching package: ‘R.utils’
+
+The following object is masked from ‘package:utils’:
+
+    timestamp
+
+The following objects are masked from ‘package:base’:
+
+    cat, commandArgs, getOption, isOpen, nullfile, parse, use, warnings
+
+Loading required package: data.table
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: devtools
+Loading required package: usethis
+
+Attaching package: ‘devtools’
+
+The following objects are masked from ‘package:R.oo’:
+
+    check, unload
+
+Loading required package: rprojroot
+Loading required package: tictoc
+
+Attaching package: ‘tictoc’
+
+The following object is masked from ‘package:data.table’:
+
+    shift
+
+Loading required package: knitr
+Loading required package: kableExtra
+
+Attaching package: ‘kableExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    group_rows
+
+Loading required package: stringr
+Loading required package: rcrossref
+Loading required package: RefManageR
+Loading required package: ggplot2
+Loading required package: ggpubr
+Loading required package: tools
+Loading required package: forcats
+Loading required package: DT
+Loading required package: rdatacite
+Loading required package: tidyr
+
+Attaching package: ‘tidyr’
+
+The following object is masked from ‘package:R.utils’:
+
+    extract
+
+Loading required package: RSQLite
+Loading required package: skimr
+Loading required package: tidylog
+
+Attaching package: ‘tidylog’
+
+The following objects are masked from ‘package:tidyr’:
+
+    drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    separate_wider_delim, separate_wider_position,
+    separate_wider_regex, spread, uncount
+
+The following objects are masked from ‘package:ggpubr’:
+
+    group_by, mutate
+
+The following objects are masked from ‘package:dplyr’:
+
+    add_count, add_tally, anti_join, count, distinct, distinct_all,
+    distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    full_join, group_by, group_by_all, group_by_at, group_by_if,
+    inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    right_join, sample_frac, sample_n, select, select_all, select_at,
+    select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    transmute_if, ungroup
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+> 
+> table.aea.software_by_year <- read.csv(file=file.path(generated,"table.aea.software_by_year.csv"))
+> 
+> # now graph it
+> 
+> 
+> # graph percent
+> table.aea.software_by_year %>%
++ 	filter(year>2009) %>%
++ 	rename(Software = Software_collapsed) %>%
++ 	ggplot(aes(year,Percent)) +
++ 		geom_line(aes(color=Software,linetype=Software), linewidth=1.2) +
++ 	    ylab(element_blank())+
++ 	    xlab("Software, Percentage of packages") +
++ 	    ylab(element_blank()) +
++ 	    theme_classic(base_size = 16) +
++ 	    scale_colour_brewer(palette = "Paired") +
++ 	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),1)) +
++ 	    theme(axis.line = element_line(linewidth=0),
++ 	    	  axis.title.y = element_text(angle=0),
++ 	    	  axis.text = element_text(size=12),
++ 	    	  axis.title = element_blank(),
++ 	    	  legend.text = element_text(size=11),
++ 	    	  legend.title = element_blank(),
++ 	    	  legend.key.width = unit(2, "cm"),
++ 	    	  legend.key.height = unit(0.8, "cm")) -> fig.software_by_year.pct
+filter: removed 31 rows (26%), 89 rows remaining
+rename: renamed one variable (Software)
+> ggsave(file.path(programs,"figure_software_years_pct.png"),fig.software_by_year.pct,
++        width=4.5, height=3.5, units="in", dpi=300)
+Warning message:
+`label` cannot be a <ggplot2::element_blank> object. 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  3.092   1.615   3.102 
