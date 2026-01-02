@@ -21,7 +21,7 @@ table.aea.software_by_year %>%
 	    ylab(element_blank()) +
 	    theme_classic(base_size = 16) +
 	    scale_colour_brewer(palette = "Paired") +
-	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),1)) +
+	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),2)) +
 	    theme(axis.line = element_line(linewidth=0),
 	    	  axis.title.y = element_text(angle=0),
 	    	  axis.text = element_text(size=12),
@@ -31,5 +31,5 @@ table.aea.software_by_year %>%
 	    	  legend.key.width = unit(2, "cm"),
 	    	  legend.key.height = unit(0.8, "cm")) -> fig.software_by_year.pct
 ggsave(file.path(programs,"figure_software_years_pct.png"),fig.software_by_year.pct,
-       width=4.5, height=3.5, units="in", dpi=300)
+       width=6.5, height=3.5, units="in", dpi=300)
 

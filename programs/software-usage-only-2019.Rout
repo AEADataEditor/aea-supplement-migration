@@ -169,7 +169,7 @@ The following object is masked from ‘package:stats’:
 + 	    ylab(element_blank()) +
 + 	    theme_classic(base_size = 16) +
 + 	    scale_colour_brewer(palette = "Paired") +
-+ 	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),1)) +
++ 	    scale_x_continuous(limits=c(2010,max(table.aea.software_by_year$year)),breaks=seq(2010,max(table.aea.software_by_year$year),2)) +
 + 	    theme(axis.line = element_line(linewidth=0),
 + 	    	  axis.title.y = element_text(angle=0),
 + 	    	  axis.text = element_text(size=12),
@@ -181,11 +181,11 @@ The following object is masked from ‘package:stats’:
 filter: removed 31 rows (26%), 89 rows remaining
 rename: renamed one variable (Software)
 > ggsave(file.path(programs,"figure_software_years_pct.png"),fig.software_by_year.pct,
-+        width=4.5, height=3.5, units="in", dpi=300)
++        width=6.5, height=3.5, units="in", dpi=300)
 Warning message:
 `label` cannot be a <ggplot2::element_blank> object. 
 > 
 > 
 > proc.time()
    user  system elapsed 
-  3.092   1.615   3.102 
+  3.143   1.631   3.184 
